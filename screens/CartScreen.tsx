@@ -7,7 +7,7 @@ import { StackNavigationProp } from '@react-navigation/stack';
 type CartItem = {
   id: string;
   name: string;
-  image: string;
+  image: string;  
   price: string;
 };
 
