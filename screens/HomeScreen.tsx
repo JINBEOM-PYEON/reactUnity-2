@@ -225,6 +225,7 @@ const HomeScreen = () => {
           ],
         };
         break;
+        
       case 'BrandName2':
         brandDetails = {
           brandName: 'BrandName2',
