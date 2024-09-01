@@ -5,6 +5,7 @@ import Icon from 'react-native-vector-icons/Ionicons';
 import { useNavigation } from '@react-navigation/native';
 import { StackNavigationProp } from '@react-navigation/stack';
 
+
 // 네비게이션 스택에 정의된 타입
 type RootStackParamList = {
   Home: undefined;
