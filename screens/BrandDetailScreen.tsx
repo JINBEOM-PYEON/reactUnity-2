@@ -14,6 +14,7 @@ type RootStackParamList = {
   CartScreen: undefined;
 };
 
+
 type BrandDetailScreenRouteProp = RouteProp<RootStackParamList, 'BrandDetailScreen'>;
 type BrandDetailScreenNavigationProp = StackNavigationProp<RootStackParamList, 'BrandDetailScreen'>;
 
