@@ -21,6 +21,7 @@ type RootStackParamList = {
   FashionShowScreen: undefined;
   Home: undefined;
   CartScreen: undefined;
+  UnityAvatarScreen: undefined;
 };
 
 type FashionShowScreenNavigationProp = StackNavigationProp<RootStackParamList, 'FashionShowScreen'>;
@@ -277,7 +278,7 @@ const FashionShowScreen = () => {
 
       {/* Footer Button */}
       <View style={styles.footerContainer}>
-        <TouchableOpacity style={styles.footerButton}>
+        <TouchableOpacity style={styles.footerButton} onPress={() => navigation.navigate('UnityAvatarScreen')}>
           <Text style={styles.footerButtonText}>아바타 설정하기</Text>
         </TouchableOpacity>
       </View>

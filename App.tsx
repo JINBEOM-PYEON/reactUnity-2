@@ -8,6 +8,8 @@ import MyPageScreen from './screens/MyPageScreen';
 import BrandDetailScreen from './screens/BrandDetailScreen';
 import ProductDetailScreen from './screens/ProductDetailScreen'; // ProductDetailScreen 추가
 import CartScreen from './screens/CartScreen';
+import UnityAvatarScreen from './screens/UnityAvatarScreen';
+import UnityWorldScreen from './screens/UnityWorldScreen';
 
 const Stack = createStackNavigator();
 
@@ -48,6 +50,16 @@ const App = () => {
         <Stack.Screen
           name="CartScreen"
           component={CartScreen}  // <-- 추가된 부분
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="UnityAvatarScreen"
+          component={UnityAvatarScreen}
+          options={{ headerShown: false }}
+        />
+        <Stack.Screen
+          name="UnityWorldScreen"
+          component={UnityWorldScreen}
           options={{ headerShown: false }}
         />
       </Stack.Navigator>

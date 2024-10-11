@@ -12,6 +12,7 @@ type RootStackParamList = {
     bestItems: Array<{ id: string; name: string; image: string }>;
   };
   CartScreen: undefined;
+  UnityWorldScreen: undefined;
 };
 
 
@@ -51,7 +52,7 @@ const BrandDetailScreen = () => {
         </View>
 
         <View style={styles.buttonContainer}>
-          <TouchableOpacity style={styles.button}>
+          <TouchableOpacity style={styles.button} onPress={() => navigation.navigate('UnityWorldScreen')}>
             <Text style={styles.buttonText}>입장하기</Text>
           </TouchableOpacity>
         </View>

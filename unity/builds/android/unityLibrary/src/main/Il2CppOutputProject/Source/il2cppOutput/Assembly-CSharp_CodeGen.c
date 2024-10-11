@@ -59,7 +59,6 @@ extern void MessageHandler_set_instance_m48DABDCFBDE09BC27E872C111775070693346D8
 extern void MessageHandler_get_petData_m3AA277EB56053F7A09A6197F823C4D827AAB2476 (void);
 extern void MessageHandler_set_petData_m775556B51B59294E3D1BD3719A190F7BDAF94486 (void);
 extern void MessageHandler_Awake_m1E3CD4DACAC8D251A68BA52B7F0837ABBA3D15F5 (void);
-extern void MessageHandler_Start_mA747DA141494D7FD4335E7E1568306ADECDF9EC7 (void);
 extern void MessageHandler_ReceiveMessage_m79E8E0FC356D113FB96D475C0CD71923E0A0F197 (void);
 extern void MessageHandler__ctor_mC5E72B78BC5A886E4DCE7E0C09859BCC796802A5 (void);
 extern void PIUConstants_ConvertFloatToPercentage_mBCE39E20695DE017BF21559BFBC074CF698F684B (void);
@@ -156,7 +155,7 @@ extern void SlowMoButton_Start_m8158DB0C8073E178AB571AD22AA6A23D567A3600 (void);
 extern void SlowMoButton_OnDestroy_m429AA1769292326B734AB5F9509661C48A1228B0 (void);
 extern void SlowMoButton_ChangeSpeed_mAD4AE2BEABE358DAAC9A3585CE4B060D345A2863 (void);
 extern void SlowMoButton__ctor_m9889D6F64C350F4BAE500E96007375994AE81056 (void);
-static Il2CppMethodPointer s_methodPointers[144] = 
+static Il2CppMethodPointer s_methodPointers[143] = 
 {
 	BillboardScript_Start_mFC5756A1CE1B4B4B0B69C6947E3019F72CB261F7,
 	BillboardScript_Update_m2899D2C60ADF3683038285F2B1231C7A25D3EEA3,
@@ -205,7 +204,6 @@ static Il2CppMethodPointer s_methodPointers[144] =
 	MessageHandler_get_petData_m3AA277EB56053F7A09A6197F823C4D827AAB2476,
 	MessageHandler_set_petData_m775556B51B59294E3D1BD3719A190F7BDAF94486,
 	MessageHandler_Awake_m1E3CD4DACAC8D251A68BA52B7F0837ABBA3D15F5,
-	MessageHandler_Start_mA747DA141494D7FD4335E7E1568306ADECDF9EC7,
 	MessageHandler_ReceiveMessage_m79E8E0FC356D113FB96D475C0CD71923E0A0F197,
 	MessageHandler__ctor_mC5E72B78BC5A886E4DCE7E0C09859BCC796802A5,
 	PIUConstants_ConvertFloatToPercentage_mBCE39E20695DE017BF21559BFBC074CF698F684B,
@@ -303,7 +301,7 @@ static Il2CppMethodPointer s_methodPointers[144] =
 	SlowMoButton_ChangeSpeed_mAD4AE2BEABE358DAAC9A3585CE4B060D345A2863,
 	SlowMoButton__ctor_m9889D6F64C350F4BAE500E96007375994AE81056,
 };
-static const int32_t s_InvokerIndices[144] = 
+static const int32_t s_InvokerIndices[143] = 
 {
 	7443,
 	7443,
@@ -351,7 +349,6 @@ static const int32_t s_InvokerIndices[144] =
 	13136,
 	7307,
 	5876,
-	7443,
 	7443,
 	5876,
 	7443,
@@ -454,7 +451,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	144,
+	143,
 	s_methodPointers,
 	0,
 	NULL,
