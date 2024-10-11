@@ -61,9 +61,6 @@ const Unity = () => {
         onUnityMessage={(result) => {
           console.log('onUnityMessage', result.nativeEvent.message);
           navigation.goBack();
-          if (unityRef.current) {
-            unityRef.current.unloadUnity();
-          }
         }}
       />
     </View>
