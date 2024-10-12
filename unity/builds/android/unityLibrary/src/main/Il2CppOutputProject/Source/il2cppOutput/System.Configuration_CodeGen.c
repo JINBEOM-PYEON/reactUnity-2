@@ -67,7 +67,7 @@ static const int32_t s_InvokerIndices[17] =
 	5876,
 	7443,
 	1363,
-	14000,
+	14001,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_System_Configuration_CodeGenModule;
 const Il2CppCodeGenModule g_System_Configuration_CodeGenModule = 

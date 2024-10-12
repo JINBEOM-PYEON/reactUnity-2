@@ -50,6 +50,8 @@ const Unity = () => {
         message.methodName,
         message.message
       );
+
+      console.log('message sent');
     }
   }, []);
 
