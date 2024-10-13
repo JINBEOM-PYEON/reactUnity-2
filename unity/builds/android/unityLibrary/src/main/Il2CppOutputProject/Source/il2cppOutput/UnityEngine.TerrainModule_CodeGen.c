@@ -15,9 +15,12 @@
 extern void Terrain_get_terrainData_m3B6C1D89471A4E1C60FC19C168DB37A011B924FD (void);
 extern void Terrain_get_allowAutoConnect_m4E9CB87D130BB118517C5504C8FB4A5CC3AA91D7 (void);
 extern void Terrain_get_groupingID_mE52E78018126A5D00F837081287BE076E7709C24 (void);
+extern void Terrain_SampleHeight_m460F9060BC4D5F05275391A6AC05570047EF3177 (void);
 extern void Terrain_SetNeighbors_m2FFA89D199120125D264EF7EE0BC749A35514C1E (void);
+extern void Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E (void);
 extern void Terrain_get_activeTerrains_mB90A9BC89764F626D13F3EF1420EA8D3E186B701 (void);
 extern void Terrain__ctor_m11F03EC6C1E68752DDCAE8EF2DED99CFD939FCDC (void);
+extern void Terrain_SampleHeight_Injected_m08851544EDBB88AFD061CD7E63E7995203BC7557 (void);
 extern void TerrainCallbacks_InvokeHeightmapChangedCallback_m731ED939CBD563CCCE503062602DF5908205AD04 (void);
 extern void TerrainCallbacks_InvokeTextureChangedCallback_mB508E8B7A884854AA01AE5B88AB33E1AE40F4318 (void);
 extern void HeightmapChangedCallback__ctor_m6A7E4189E0A7A1B70EE73818B93B0FC9F613648C (void);
@@ -28,7 +31,13 @@ extern void TerrainData_GetBoundaryValue_mA9217CC15BBC958C9F7071B96CE74769EFDC32
 extern void TerrainData__ctor_m1B68EB89248D5706C2528F47279812F824E27A2E (void);
 extern void TerrainData_Internal_Create_m79BF764CFF5F49D17E2BFC8B20F60B4CF70BE4E1 (void);
 extern void TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5 (void);
+extern void TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01 (void);
+extern void TerrainData_Internal_GetAlphamaps_m6891C19FF72B4394D6BAC3B098A3FCAC1FC6BF36 (void);
+extern void TerrainData_get_alphamapResolution_mC5D1C8FF4A5AFFCCFCF1382FED0D1AD46563D6F8 (void);
 extern void TerrainData_GetAlphamapResolutionInternal_m5C312434763B8F0BD8DE760ACF439DFEFAC2F3E5 (void);
+extern void TerrainData_get_Internal_alphamapResolution_mDA8EF6055A2022B3E1E4E6ECBF8DF4387DE8A930 (void);
+extern void TerrainData_get_alphamapWidth_m07E5B04B08E87AC9F66D766B363000F94C8612D4 (void);
+extern void TerrainData_get_alphamapHeight_m4A8273D6E0E3526A31E2669FBAB240353C086AED (void);
 extern void TerrainData_get_users_m0C569F1AD5853CEBF3C572723A1CAD04AC8433C4 (void);
 extern void TerrainData__cctor_m525F8AF6DEDDACF640BD2D24767502121ED6D9B0 (void);
 extern void TerrainData_get_size_Injected_m0F56E87C4D7EDD1D84F038E4AF0F273D328CF661 (void);
@@ -51,14 +60,17 @@ extern void TerrainUtility_AutoConnect_m3E435D139BE402DC495248EDD1FF2C1E9377A897
 extern void U3CU3Ec__DisplayClass2_0__ctor_m4C022C4675BA4CFC7E7AAA5692979CDE6CD8E611 (void);
 extern void U3CU3Ec__DisplayClass2_1__ctor_mA329ED5B221AE8787EAEA1124A2A95675FDD1695 (void);
 extern void U3CU3Ec__DisplayClass2_1_U3CCollectTerrainsU3Eb__0_m57E871EB2399E5FB7DF78B3C9EBFBF152116AC2C (void);
-static Il2CppMethodPointer s_methodPointers[39] = 
+static Il2CppMethodPointer s_methodPointers[48] = 
 {
 	Terrain_get_terrainData_m3B6C1D89471A4E1C60FC19C168DB37A011B924FD,
 	Terrain_get_allowAutoConnect_m4E9CB87D130BB118517C5504C8FB4A5CC3AA91D7,
 	Terrain_get_groupingID_mE52E78018126A5D00F837081287BE076E7709C24,
+	Terrain_SampleHeight_m460F9060BC4D5F05275391A6AC05570047EF3177,
 	Terrain_SetNeighbors_m2FFA89D199120125D264EF7EE0BC749A35514C1E,
+	Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E,
 	Terrain_get_activeTerrains_mB90A9BC89764F626D13F3EF1420EA8D3E186B701,
 	Terrain__ctor_m11F03EC6C1E68752DDCAE8EF2DED99CFD939FCDC,
+	Terrain_SampleHeight_Injected_m08851544EDBB88AFD061CD7E63E7995203BC7557,
 	TerrainCallbacks_InvokeHeightmapChangedCallback_m731ED939CBD563CCCE503062602DF5908205AD04,
 	TerrainCallbacks_InvokeTextureChangedCallback_mB508E8B7A884854AA01AE5B88AB33E1AE40F4318,
 	HeightmapChangedCallback__ctor_m6A7E4189E0A7A1B70EE73818B93B0FC9F613648C,
@@ -69,7 +81,13 @@ static Il2CppMethodPointer s_methodPointers[39] =
 	TerrainData__ctor_m1B68EB89248D5706C2528F47279812F824E27A2E,
 	TerrainData_Internal_Create_m79BF764CFF5F49D17E2BFC8B20F60B4CF70BE4E1,
 	TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5,
+	TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01,
+	TerrainData_Internal_GetAlphamaps_m6891C19FF72B4394D6BAC3B098A3FCAC1FC6BF36,
+	TerrainData_get_alphamapResolution_mC5D1C8FF4A5AFFCCFCF1382FED0D1AD46563D6F8,
 	TerrainData_GetAlphamapResolutionInternal_m5C312434763B8F0BD8DE760ACF439DFEFAC2F3E5,
+	TerrainData_get_Internal_alphamapResolution_mDA8EF6055A2022B3E1E4E6ECBF8DF4387DE8A930,
+	TerrainData_get_alphamapWidth_m07E5B04B08E87AC9F66D766B363000F94C8612D4,
+	TerrainData_get_alphamapHeight_m4A8273D6E0E3526A31E2669FBAB240353C086AED,
 	TerrainData_get_users_m0C569F1AD5853CEBF3C572723A1CAD04AC8433C4,
 	TerrainData__cctor_m525F8AF6DEDDACF640BD2D24767502121ED6D9B0,
 	TerrainData_get_size_Injected_m0F56E87C4D7EDD1D84F038E4AF0F273D328CF661,
@@ -96,55 +114,64 @@ static Il2CppMethodPointer s_methodPointers[39] =
 extern void TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[1] = 
 {
-	{ 0x06000015, TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk },
+	{ 0x0600001E, TerrainTileCoord__ctor_m6B6744655B9C3BA9B1A92076F07002B4B4EB899A_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[39] = 
+static const int32_t s_InvokerIndices[48] = 
 {
-	7307,
-	7207,
-	7273,
-	1086,
-	13956,
-	7443,
-	10433,
-	9461,
-	3217,
-	1682,
-	3217,
-	1089,
-	12731,
-	7443,
-	13137,
-	7432,
-	7366,
-	7307,
-	14001,
-	5748,
-	2958,
-	2452,
-	9999,
-	9310,
-	7307,
-	7443,
-	1598,
-	1203,
-	2958,
-	7273,
-	7443,
-	4207,
-	13930,
-	14001,
-	12840,
-	14001,
-	7443,
-	7443,
-	4207,
+	7381,
+	7281,
+	7347,
+	5339,
+	1116,
+	14067,
+	14067,
+	7517,
+	5331,
+	10539,
+	9566,
+	3271,
+	1721,
+	3271,
+	1119,
+	12841,
+	7517,
+	13248,
+	7506,
+	936,
+	936,
+	7347,
+	7440,
+	7347,
+	7347,
+	7347,
+	7381,
+	14113,
+	5810,
+	3009,
+	2503,
+	10105,
+	9410,
+	7381,
+	7517,
+	1637,
+	1238,
+	3009,
+	7347,
+	7517,
+	4261,
+	14041,
+	14113,
+	12950,
+	14113,
+	7517,
+	7517,
+	4261,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule = 
 {
 	"UnityEngine.TerrainModule.dll",
-	39,
+	48,
 	s_methodPointers,
 	1,
 	s_adjustorThunks,

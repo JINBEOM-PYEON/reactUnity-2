@@ -1,0 +1,13310 @@
+﻿#include "pch-cpp.hpp"
+
+#ifndef _MSC_VER
+# include <alloca.h>
+#else
+# include <malloc.h>
+#endif
+
+
+#include <limits>
+
+
+
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B;
+struct List_1_t6884A25D96900A79C80245FD94E9B8CC51456295;
+struct List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126;
+struct List_1_t6794C702EE2B941DBCD05D9C665A9ED37AC021BE;
+struct List_1_tFFEF982D1ACBD1DB0F295214F4ACA4F4CD2DD21E;
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73;
+struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B;
+struct List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930;
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D;
+struct List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523;
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918;
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD;
+struct List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4;
+struct List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D;
+struct List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B;
+struct List_1_tE434335824887B86A968D966C1A96C22131E0935;
+struct CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B;
+struct CharU5BU5D_t799905CF001DD5F13F7DBB310181FC4D8B7D0AAB;
+struct ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411;
+struct DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771;
+struct GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF;
+struct INfiniDyGrassFieldU5BU5D_t72E9FF63313ADDA99894999820EA21108B95C0FF;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832;
+struct MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191;
+struct TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488;
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07;
+struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA;
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184;
+struct CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B;
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76;
+struct Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0;
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3;
+struct ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686;
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B;
+struct DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E;
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F;
+struct GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A;
+struct IDictionary_t6D03155AF1FA9083817AA5B6AD7DEEACC26AB220;
+struct IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA;
+struct INfiniDyGrass_tBAD350116F0D93FB74866482CCD1B440041E59F9;
+struct INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A;
+struct InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677;
+struct InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6;
+struct InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A;
+struct InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95;
+struct InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F;
+struct InfiniGRASS_DemoRealTimev19_t4B5EFC4CCCB978F407C23EB7449CF4B4748C7CE0;
+struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3;
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3;
+struct MethodInfo_t;
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A;
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C;
+struct ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC;
+struct SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6;
+struct String_t;
+struct Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667;
+struct TerrainData_t615A68EAC648066681875D47FC641496D12F2E24;
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700;
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4;
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1;
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915;
+struct WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7;
+struct CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD;
+struct U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89;
+
+IL2CPP_EXTERN_C RuntimeClass* Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeClass* Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var;
+IL2CPP_EXTERN_C RuntimeField* U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4FE3DD04EB77E7DCEBC7F68197D88A425B98DF10EC9DFCE8ABD464282F2EC237_FieldInfo_var;
+IL2CPP_EXTERN_C String_t* _stringLiteral03CE15910E6C9D5BB5B9AA7F0F394602D3F296B8;
+IL2CPP_EXTERN_C String_t* _stringLiteral0941FB97C737F7BC2E6B9CE6B243A5691DF3B8F2;
+IL2CPP_EXTERN_C String_t* _stringLiteral09D4A21326120ADF38DCF9976C6A808E8A9C3D79;
+IL2CPP_EXTERN_C String_t* _stringLiteral0C08C695AEA0CD1061FB21DBE353D367595339B4;
+IL2CPP_EXTERN_C String_t* _stringLiteral14F71F91E4989486A39163AE76E4AD0C9CDE70EC;
+IL2CPP_EXTERN_C String_t* _stringLiteral1AC7969A60D1E58C97B6D20409CC46D822150C82;
+IL2CPP_EXTERN_C String_t* _stringLiteral1AD303814CFD70D0757B3FD9E70BE25519573995;
+IL2CPP_EXTERN_C String_t* _stringLiteral1EBF8EA74B861A903512C862872ACA852D5399D5;
+IL2CPP_EXTERN_C String_t* _stringLiteral22FF7F9C87F7F253735EF53299764A497F49B07E;
+IL2CPP_EXTERN_C String_t* _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748;
+IL2CPP_EXTERN_C String_t* _stringLiteral250D42E7647CB7A62827E3F93B41DF627EDA5937;
+IL2CPP_EXTERN_C String_t* _stringLiteral2F3E2BC5563715E5275AB7CC7BA2D37934CE20D9;
+IL2CPP_EXTERN_C String_t* _stringLiteral2FC0EF613300907019607E2257A0D3F14F991A88;
+IL2CPP_EXTERN_C String_t* _stringLiteral309B0D1BE9F1B329C03F1FFDCA61D0987ECB41D6;
+IL2CPP_EXTERN_C String_t* _stringLiteral338454C4EA466E9EE6637257CB9E997972C6D7D2;
+IL2CPP_EXTERN_C String_t* _stringLiteral405D63E13FC1621722674431C69647B1C788FA1A;
+IL2CPP_EXTERN_C String_t* _stringLiteral406CD22481DC546A7283309979C6C7519BE2AED5;
+IL2CPP_EXTERN_C String_t* _stringLiteral4256B1E0FEAF53DF93D977F5C91288DF48791C4C;
+IL2CPP_EXTERN_C String_t* _stringLiteral4609A84F1ACB567958428E7A9CC13F63591ED595;
+IL2CPP_EXTERN_C String_t* _stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306;
+IL2CPP_EXTERN_C String_t* _stringLiteral547A192F8F4D419FA8B3C08A9A817C1F3AA5EAAE;
+IL2CPP_EXTERN_C String_t* _stringLiteral66479690EE5D1EBF7B12FDE1A2DD9C8A7C6A9244;
+IL2CPP_EXTERN_C String_t* _stringLiteral6814ECD1050551E86D7A70265E5974A7D615E025;
+IL2CPP_EXTERN_C String_t* _stringLiteral6D6B8E94DC4D78B87209FFEA746EC4CC013AC83B;
+IL2CPP_EXTERN_C String_t* _stringLiteral6F1B04EEFD3DA9799B14CD45D53EFEF1C81BFE70;
+IL2CPP_EXTERN_C String_t* _stringLiteral72B46ECCDAC966E1450569C31DD118C1AAE4B3E7;
+IL2CPP_EXTERN_C String_t* _stringLiteral74736502E984A033724DEC229000A845E8036FDB;
+IL2CPP_EXTERN_C String_t* _stringLiteral7A61A19934FDD357D5A5CECEBB2E7E77DD0784CB;
+IL2CPP_EXTERN_C String_t* _stringLiteral85998D8C162D60EAF15D3DC2FD24CE8B9C8005CF;
+IL2CPP_EXTERN_C String_t* _stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE;
+IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D;
+IL2CPP_EXTERN_C String_t* _stringLiteralB71D47FE8F1691BD4C37787168CA0FA7D18E4F55;
+IL2CPP_EXTERN_C String_t* _stringLiteralBF96454C89E7953347814BFA97A67C8AC29F3ADD;
+IL2CPP_EXTERN_C String_t* _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391;
+IL2CPP_EXTERN_C String_t* _stringLiteralC9FB943EC47C5732ACF4C805F5EE7C1602A76F60;
+IL2CPP_EXTERN_C String_t* _stringLiteralCC79D02C02810DB5C3CAC11A420F2FC424A779C4;
+IL2CPP_EXTERN_C String_t* _stringLiteralCD1F7A682E15A49BF16D9BC358A5EE625772D888;
+IL2CPP_EXTERN_C String_t* _stringLiteralCF8B64C6D169EDF0C77BD30D3B6E3AE3808A75B1;
+IL2CPP_EXTERN_C String_t* _stringLiteralD5397619F822E94D936DDC71C80B6B87E5A6ADA5;
+IL2CPP_EXTERN_C String_t* _stringLiteralD674876B9515CA2450C6F5C440CB3639D10292A8;
+IL2CPP_EXTERN_C String_t* _stringLiteralD73128755FB54BE3885E11AA8BBBA589FA8C45A8;
+IL2CPP_EXTERN_C String_t* _stringLiteralD9C228937753BF3F00E12C45C4F9407626D2F295;
+IL2CPP_EXTERN_C String_t* _stringLiteralE6784AEFADE0BBC5FFBD83644C8E9725700929D3;
+IL2CPP_EXTERN_C String_t* _stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3;
+IL2CPP_EXTERN_C String_t* _stringLiteralF5CC6387CB86C9CCBB32FAFF2D55FC2A4CE1D2E1;
+IL2CPP_EXTERN_C String_t* _stringLiteralF5F14FE7B6A879FDD041B076D46B622B5BE87544;
+IL2CPP_EXTERN_C String_t* _stringLiteralFC98BE25D5901659336ADFDEE1817852C433429B;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686_mBCCA3D1841E5EB0217733A6707AD5900F222811A_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* InfiniGRASSPlanterPLANETS_MultiThread_U3CUpdateU3Eb__35_0_mB05DBC7937519F6112010946236CBB7C18ADD584_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m0303906D2E29080C32389BC92E3F60A437053437_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m18EDC05622FE00C5CF96D8E93E6CDD0F417295B2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m48BBB83C5F748E6E6FF0731C3682092DEA6A7173_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* U3CplantPlanetU3Ed__34_System_Collections_IEnumerator_Reset_mF5B5475115760443475274900360ED0B673D7BCA_RuntimeMethod_var;
+struct Delegate_t_marshaled_com;
+struct Delegate_t_marshaled_pinvoke;
+struct Exception_t_marshaled_com;
+struct Exception_t_marshaled_pinvoke;
+
+struct CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B;
+struct ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411;
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C;
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918;
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C;
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248;
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C;
+struct SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488;
+
+IL2CPP_EXTERN_C_BEGIN
+IL2CPP_EXTERN_C_END
+
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B  : public RuntimeObject
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126  : public RuntimeObject
+{
+	INfiniDyGrassFieldU5BU5D_t72E9FF63313ADDA99894999820EA21108B95C0FF* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73  : public RuntimeObject
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B  : public RuntimeObject
+{
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523  : public RuntimeObject
+{
+	QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918  : public RuntimeObject
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD  : public RuntimeObject
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4  : public RuntimeObject
+{
+	Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D  : public RuntimeObject
+{
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B  : public RuntimeObject
+{
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ____items;
+	int32_t ____size;
+	int32_t ____version;
+	RuntimeObject* ____syncRoot;
+};
+struct String_t  : public RuntimeObject
+{
+	int32_t ____stringLength;
+	Il2CppChar ____firstChar;
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_pinvoke
+{
+};
+struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D  : public RuntimeObject
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+};
+struct YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22 
+{
+	bool ___m_value;
+};
+struct Color_tD001788D726C3A7F1379BEED0260B9591F440C1F 
+{
+	float ___r;
+	float ___g;
+	float ___b;
+	float ___a;
+};
+struct Double_tE150EF3D1D43DEE85D533810AB4C742307EEDE5F 
+{
+	double ___m_value;
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2  : public ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_pinvoke
+{
+};
+struct Enum_t2A1A94B24E3B776EEF4E5E485E290BB9D4D072E2_marshaled_com
+{
+};
+struct Int32_t680FF22E76F6EFAD4375103CBBFFA0421349384C 
+{
+	int32_t ___m_value;
+};
+struct IntPtr_t 
+{
+	void* ___m_value;
+};
+struct LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB 
+{
+	int32_t ___m_Mask;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D 
+{
+	float ___m_XMin;
+	float ___m_YMin;
+	float ___m_Width;
+	float ___m_Height;
+};
+struct RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F 
+{
+	uint32_t ___numerator;
+	uint32_t ___denominator;
+};
+struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
+{
+	float ___m_value;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 
+{
+	float ___x;
+	float ___y;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 
+{
+	float ___x;
+	float ___y;
+	float ___z;
+	float ___w;
+};
+struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915 
+{
+	union
+	{
+		struct
+		{
+		};
+		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
+	};
+};
+struct CollisionPairEventFlags_t9DAB7B8F199928220E6ACA8E669F3B644650FBE6 
+{
+	uint16_t ___value__;
+};
+struct CollisionPairFlags_tD05FDF8CD2FA43B2AAC0078E19DB27DF01B2BA98 
+{
+	uint16_t ___value__;
+};
+struct CollisionPairHeaderFlags_tBA40F470BC1564B84C3093CEA5761804FA0650C3 
+{
+	uint16_t ___value__;
+};
+struct ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Impulse;
+	int32_t ___m_ThisColliderInstanceID;
+	int32_t ___m_OtherColliderInstanceID;
+	float ___m_Separation;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B  : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_pinvoke : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_pinvoke
+{
+	intptr_t ___m_Ptr;
+};
+struct Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B_marshaled_com : public YieldInstruction_tFCE35FD0907950EFEE9BC2890AC664E41C53728D_marshaled_com
+{
+	intptr_t ___m_Ptr;
+};
+struct Delegate_t  : public RuntimeObject
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	RuntimeObject* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	bool ___method_is_virtual;
+};
+struct Delegate_t_marshaled_pinvoke
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Delegate_t_marshaled_com
+{
+	intptr_t ___method_ptr;
+	intptr_t ___invoke_impl;
+	Il2CppIUnknown* ___m_target;
+	intptr_t ___method;
+	intptr_t ___delegate_trampoline;
+	intptr_t ___extra_arg;
+	intptr_t ___method_code;
+	intptr_t ___interp_method;
+	intptr_t ___interp_invoke_impl;
+	MethodInfo_t* ___method_info;
+	MethodInfo_t* ___original_method_info;
+	DelegateData_t9B286B493293CD2D23A5B2B5EF0E5B1324C2B77E* ___data;
+	int32_t ___method_is_virtual;
+};
+struct Exception_t  : public RuntimeObject
+{
+	String_t* ____className;
+	String_t* ____message;
+	RuntimeObject* ____data;
+	Exception_t* ____innerException;
+	String_t* ____helpURL;
+	RuntimeObject* ____stackTrace;
+	String_t* ____stackTraceString;
+	String_t* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	RuntimeObject* ____dynamicMethods;
+	int32_t ____HResult;
+	String_t* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	IntPtrU5BU5D_tFD177F8C806A6921AD7150264CCC62FA00CAD832* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_pinvoke
+{
+	char* ____className;
+	char* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_pinvoke* ____innerException;
+	char* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	char* ____stackTraceString;
+	char* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	char* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct Exception_t_marshaled_com
+{
+	Il2CppChar* ____className;
+	Il2CppChar* ____message;
+	RuntimeObject* ____data;
+	Exception_t_marshaled_com* ____innerException;
+	Il2CppChar* ____helpURL;
+	Il2CppIUnknown* ____stackTrace;
+	Il2CppChar* ____stackTraceString;
+	Il2CppChar* ____remoteStackTraceString;
+	int32_t ____remoteStackIndex;
+	Il2CppIUnknown* ____dynamicMethods;
+	int32_t ____HResult;
+	Il2CppChar* ____source;
+	SafeSerializationManager_tCBB85B95DFD1634237140CD892E82D06ECB3F5E6* ____safeSerializationManager;
+	StackTraceU5BU5D_t32FBCB20930EAF5BAE3F450FF75228E5450DA0DF* ___captured_traces;
+	Il2CppSafeArray* ___native_trace_ips;
+	int32_t ___caught_in_unmanaged;
+};
+struct KeyCode_t75B9ECCC26D858F55040DDFF9523681E996D17E9 
+{
+	int32_t ___value__;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_com
+{
+	intptr_t ___m_CachedPtr;
+};
+struct Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Origin;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Direction;
+};
+struct RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Point;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_Normal;
+	uint32_t ___m_FaceID;
+	float ___m_Distance;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___m_UV;
+	int32_t ___m_Collider;
+};
+struct Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 
+{
+	int32_t ___m_Width;
+	int32_t ___m_Height;
+	RefreshRate_t44FF0D3F256477CC8AB97FA49D08B636AFB4F68F ___m_RefreshRate;
+};
+struct RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 
+{
+	intptr_t ___value;
+};
+struct GrassAction_t6E5AFB4F3E522996A346BF73029247709B4545E0 
+{
+	int32_t ___value__;
+};
+struct U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89  : public RuntimeObject
+{
+	int32_t ___U3CU3E1__state;
+	RuntimeObject* ___U3CU3E2__current;
+	InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* ___U3CU3E4__this;
+	float ___planetScale;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___planetPos;
+	int32_t ___U3CadderU3E5__2;
+	int32_t ___U3CiU3E5__3;
+	int32_t ___U3CjU3E5__4;
+};
+struct Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD 
+{
+	int32_t ___m_ColliderID;
+	int32_t ___m_OtherColliderID;
+	intptr_t ___m_StartPtr;
+	uint32_t ___m_NbPoints;
+	uint16_t ___m_Flags;
+	uint16_t ___m_Events;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_ImpulseSum;
+};
+struct ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B 
+{
+	int32_t ___m_BodyID;
+	int32_t ___m_OtherBodyID;
+	intptr_t ___m_StartPtr;
+	uint32_t ___m_NbPairs;
+	uint16_t ___m_Flags;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___m_RelativeVelocity;
+};
+struct GameObject_t76FEDD663AB33C991A9C9A23129337651094216F  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct MulticastDelegate_t  : public Delegate_t
+{
+	DelegateU5BU5D_tC5AB7E8F745616680F337909D3A8E6C722CDF771* ___delegates;
+};
+struct MulticastDelegate_t_marshaled_pinvoke : public Delegate_t_marshaled_pinvoke
+{
+	Delegate_t_marshaled_pinvoke** ___delegates;
+};
+struct MulticastDelegate_t_marshaled_com : public Delegate_t_marshaled_com
+{
+	Delegate_t_marshaled_com** ___delegates;
+};
+struct SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295  : public Exception_t
+{
+};
+struct TerrainData_t615A68EAC648066681875D47FC641496D12F2E24  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700  : public Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C
+{
+};
+struct Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07  : public MulticastDelegate_t
+{
+};
+struct Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0  : public RuntimeObject
+{
+	ContactPairHeader_tA8C64AAEEF017149E77A6600B10A10F1A1C5648B ___m_Header;
+	ContactPair_t096319945A27108A2DA384393A9ED390BE4356FD ___m_Pair;
+	bool ___m_Flipped;
+	ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* ___m_LegacyContacts;
+};
+struct NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A  : public SystemException_tCC48D868298F4C0705279823E34B00F4FBDB7295
+{
+};
+struct Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4  : public Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700
+{
+};
+struct Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1  : public Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3
+{
+};
+struct AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	int32_t ___m_BakedIndex;
+};
+struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+	CancellationTokenSource_tAAE1E0033BCFC233801F8CB4CED5C852B350CB7B* ___m_CancellationTokenSource;
+};
+struct Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667  : public Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA
+{
+};
+struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299  : public AudioBehaviour_t2DC0BEF7B020C952F3D2DA5AAAC88501C7EEB941
+{
+};
+struct ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___changeLayer;
+	int32_t ___layerID;
+	bool ___enableAbove64KMesh;
+	bool ___noThreading;
+	bool ___realtime;
+	bool ___FollowObject;
+	bool ___ObjectPosInit;
+	bool ___look_at_direction;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___GrassManager;
+	float ___MinTranslation;
+	float ___MinRotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Prev_position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___Prev_rotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Prev_scale;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___thisTransf;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Registered_initial_position;
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___Registered_initial_rotation;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Registered_initial_scale;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Registered_paint_positions;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Updated_Registered_paint_positions;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Registered_paint_rotations;
+	bool ___got_LOD_dist;
+	bool ___Tag_based_player;
+	String_t* ___Player_tag;
+	int32_t ___Type;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PaintedOn;
+	List_1_tE434335824887B86A968D966C1A96C22131E0935* ___MeshList;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___MeshIDList;
+	String_t* ___Save_Name;
+	String_t* ___Save_Dir;
+	int32_t ___Added_item_count;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Added_items;
+	List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* ___Added_items_handles;
+	int32_t ___Max_items;
+	float ___Deactivate_hero_dist;
+	float ___Deactivate_hero_offset;
+	float ___Deactivate_hero_distCUT;
+	float ___Deactivate_hero_dist1;
+	float ___Deactivate_hero_dist2;
+	bool ___DeactivateLOD;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___LODMaterial;
+	bool ___generateTriangleStrips;
+	bool ___Auto_Disable;
+	int32_t ___skip_every_N_frame;
+	bool ___run_once;
+	bool ___Multithreaded;
+	bool ___MTmethod2;
+	bool ___mesh_initalized;
+	bool ___is_moving;
+	bool ___doing_batching;
+	bool ___MakeActive;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___Destroy_list;
+	List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* ___Destroy_list_MF;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___Destroy_list64;
+	List_1_tF38D1A45CF65189578ADAC12AED34802EB2B8930* ___Destroy_list_MF64;
+	int32_t ___count_frames;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Positions_list;
+	List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* ___Rotations_list;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Scale_list;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Children_list;
+	bool ___Self_dynamic_enable;
+	bool ___Self_dynamic_check_rot;
+	bool ___Self_dynamic_check_scale;
+	bool ___is_active;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___player;
+	float ___Min_dist;
+	int32_t ___previous_children_count;
+	float ___stop_self_dyn_after;
+	float ___self_dyn_enable_time;
+	bool ___Decombine;
+	bool ___Decombined;
+	bool ___Erase_tree;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___Erase_Tree_IDs;
+	int32_t ___threads_started;
+	int32_t ___threads_ended;
+	bool ___all_threads_started;
+	bool ___batching_initialized;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___Splits;
+	int32_t ___Material_count;
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___Material_list;
+	bool ___Hero_far;
+	bool ___LODed;
+	bool ___started;
+	int32_t ___LOD_Level;
+};
+struct GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* ___TreeHandler;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Chips;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___Chop;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___Bash;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___Basher;
+	float ___Remove_after;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___To_erase;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___To_erase_timing;
+	float ___timer;
+};
+struct INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___enableAbove64KMesh;
+	bool ___evenScaleGrass;
+	bool ___AddChopHandler;
+	bool ___customRot;
+	bool ___lerpRot;
+	float ___lerpRotAmount;
+	bool ___HorizontAligned;
+	bool ___RandomRotRight;
+	float ___RandomRotRightMin;
+	float ___RandomRotRightMax;
+	bool ___Disable_after_growth;
+	bool ___WhenCombinerFull;
+	bool ___Eliminate_original_mesh;
+	float ___ScaleMin_grabbed;
+	bool ___Restart;
+	bool ___RotTowards;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___RotVector;
+	bool ___RandomRot;
+	float ___RandRotMin;
+	float ___RandRotMax;
+	bool ___GroupByObject;
+	bool ___ParentToObject;
+	bool ___ParentWhileGrowing;
+	bool ___MoveWithObject;
+	LayerMask_t97CB6BDADEDC3D6423C7BCFEA7F86DA2EC6241DB ___RaycastLayers;
+	bool ___AvoidOwnColl;
+	bool ___Tag_based;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___GrassManager;
+	int32_t ___Type;
+	bool ___Tag_based_player;
+	String_t* ___Player_tag;
+	float ___LOD_distance;
+	float ___LOD_distance1;
+	float ___LOD_distance2;
+	float ___Cutoff_distance;
+	bool ___Init_rot;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Intial_Up_Vector;
+	float ___MinAvoidDist;
+	float ___MinScaleAvoidDist;
+	float ___InteractionSpeed;
+	float ___InteractSpeedThres;
+	bool ___enable_colliders_editor;
+	bool ___enable_colliders_playmode;
+	Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___GrassCollider;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___colliderScale;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___PosSpread;
+	bool ___ScaleWhole;
+	float ___max_ray_dist;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___PaintedOnOBJ;
+	bool ___GridOnNormal;
+	float ___Max_Health;
+	bool ___Chop;
+	float ___max_fall_ammount;
+	int32_t ___EnableAction;
+	bool ___no_shadows_on_dynamic;
+	bool ___removed_shadows;
+	int32_t ___Rm_shad_above_lvl;
+	bool ___no_leaf_shadows;
+	bool ___Rm_receive;
+	bool ___Rm_cast;
+	bool ___Range_leaf_scale;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Leaf_scale_range;
+	float ___fall_timer;
+	float ___fall_max_time;
+	float ___fall_speed;
+	bool ___Rot_toward_normal;
+	float ___Rot_speed;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___direction_normal;
+	float ___max_rot_time;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___player;
+	float ___Interaction_thres;
+	float ___Interaction_offset;
+	bool ___Enable_LOD;
+	bool ___Grow_in_Editor;
+	bool ___Has_Run_once;
+	bool ___InstaGrowLeaves;
+	bool ___Leaves_local_space;
+	bool ___is_grass;
+	INfiniDyGrass_tBAD350116F0D93FB74866482CCD1B440041E59F9* ___infiniDyTree;
+	float ___StartRadi;
+	float ___StartLength;
+	float ___Length_scale;
+	float ___Extend_scale;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Min_max_spread;
+	bool ___Spread_Z_separate;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Min_max_spread_Z;
+	bool ___Spread_Y_separate;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Min_max_spread_Y;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Min_Max_Branching;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___Max_branches_per_level;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Min_Max_Radi;
+	float ___lower_length_by;
+	float ___lower_radi_by;
+	bool ___Grow_tree;
+	float ___Start_tree_scale;
+	float ___End_scale;
+	float ___Grow_tree_speed;
+	float ___Update_every;
+	float ___last_update_time;
+	float ___start_time;
+	List_1_t6884A25D96900A79C80245FD94E9B8CC51456295* ___Trees;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Tree_pos;
+	String_t* ___BarkPrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___BarkPrefabOBJ;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___LeafPrefabs;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___BranchPrefabs;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___LeafPrefabsOBJ;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___BranchPrefabsOBJ;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___BranchID_per_level;
+	int32_t ___Grow_leaves_slow_factor;
+	float ___Grow_speed;
+	float ___Growth_start_div;
+	float ___Growth_angle_div;
+	float ___Leaf_start_div;
+	bool ___Smooth_leaf_growth;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Leaf_level_min_max;
+	int32_t ___Leaves_per_branch;
+	bool ___Use_height;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___Leaf_height_min_max;
+	float ___Leaf_dist_factor;
+	bool ___CreateForest;
+	bool ___Interactive_tree;
+	bool ___Tree_status_previous;
+	int32_t ___Max_interact_holder_items;
+	int32_t ___Max_trees_per_group;
+	float ___Max_tree_dist;
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___Forest_holder1;
+	bool ___rotation_over;
+	bool ___Grow_angles;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___Branch_levels;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___scaleVectors;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Registered_Brances;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Start_Scales;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Registered_Leaves;
+	List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* ___Registered_Leaves_Rot;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___Leaf_belongs_to_branch;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Leaf_pool;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Leaves;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___Leaves_scales;
+	int32_t ___Branches_done;
+	int32_t ___Height_levels;
+	float ___Height_separation;
+	float ___Height_reduce;
+	float ___Level1Decline;
+	bool ___Reduce_angle_with_height;
+	bool ___Multithreaded;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Height_offset;
+	bool ___Decouple_from_bark;
+	int32_t ___Tree_Holder_Index;
+	int32_t ___Grass_Holder_Index;
+	bool ___All_growing_ended;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Forest_holder;
+	Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* ___Leaf_mat;
+	bool ___Enable_wind;
+	float ___Wind_freq;
+	float ___Wind_strength;
+	bool ___batching_ended;
+	bool ___is_moving;
+	float ___Health;
+	bool ___start_falling;
+	float ___fall_ammount;
+	bool ___fall_ended;
+	bool ___passed_chop;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___root_tree;
+	bool ___Grow_tree_ended;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___Branch_grew;
+	int32_t ___Grow_level;
+	bool ___growth_over;
+	ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* ___Combiner;
+	bool ___shadows_removed;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Prev_hero_pos;
+};
+struct InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___enableAbove64KMesh;
+	bool ___addPresetBrushes;
+	bool ___UseTabs;
+	int32_t ___currentTab;
+	int32_t ___basicAdvancedToggle;
+	bool ___leftMousePaint;
+	bool ___UpdateMaterials;
+	bool ___ApplyPresets;
+	bool ___noThreading;
+	float ___Min_Height;
+	float ___Max_Height;
+	float ___Vary_Height;
+	bool ___Height_control;
+	float ___Min_Slope;
+	float ___Max_Slope;
+	float ___Vary_Slope;
+	bool ___Slope_control;
+	bool ___ShaderBasedInteract;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prev_pos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___SpeedVec;
+	float ___ShaderBInteractSpeed;
+	bool ___resetPlayer;
+	bool ___recheckPlayer;
+	bool ___resetInteractor;
+	bool ___applyInteractor;
+	bool ___Apply_LOD_to_all;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Interactor;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___play_mode_grass_holder;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Editor_holder;
+	float ___Scale_grabbed;
+	float ___ScaleMin_grabbed;
+	bool ___ScalePerTypes;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___ScalePerType;
+	bool ___GrabSettingsMassPlace;
+	List_1_t6794C702EE2B941DBCD05D9C665A9ED37AC021BE* ___BrushSettings;
+	bool ___GradualGrowth;
+	bool ___GradualRecreate;
+	bool ___UseDistFromPlayer;
+	float ___EnableDist;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___BrushTypePerSplat;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___SubTypePerSplat;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___MassPlantAreaCornerA;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___MassPlantAreaCornerB;
+	int32_t ___MassPlantDensity;
+	float ___WorldScale;
+	float ___prev_WorldScale;
+	int32_t ___prev_brush;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prev_cam_pos;
+	bool ___AdaptOnTerrain;
+	bool ___AdaptOnColor;
+	Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* ___currentTerrain;
+	TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* ___Tdata;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___Tpos;
+	List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* ___ScalePerTexture;
+	int32_t ___prev_type;
+	bool ___RandomRot;
+	float ___RandRotMin;
+	float ___RandRotMax;
+	bool ___GroupByObject;
+	bool ___ParentToObject;
+	bool ___MoveWithObject;
+	bool ___AvoidOwnColl;
+	bool ___PaintonTag;
+	bool ___Tag_based_player;
+	bool ___Tag_based_player_prev;
+	String_t* ___Player_tag;
+	String_t* ___Player_tag_prev;
+	bool ___UnGrown;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___DynamicCombiners;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___StaticCombiners;
+	bool ___Enable_real_time_paint;
+	bool ___Enable_real_time_erase;
+	float ___SphereCastRadius;
+	bool ___MassErase;
+	bool ___Erasing;
+	bool ___Looking;
+	bool ___ActivateHelp;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Fences;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___RealTimeFences;
+	float ___WindTurbulence;
+	bool ___GridOnNormal;
+	float ___rayCastDist;
+	float ___MinAvoidDist;
+	float ___MinScaleAvoidDist;
+	float ___InteractionSpeed;
+	float ___InteractSpeedThres;
+	float ___Interaction_thres;
+	float ___Max_tree_dist;
+	bool ___applyPerfToAll;
+	bool ___Disable_after_growth;
+	bool ___WhenCombinerFull;
+	bool ___Eliminate_original_mesh;
+	float ___Interaction_offset;
+	bool ___CleanUp;
+	int32_t ___MinBranches;
+	bool ___enable_colliders_editor;
+	bool ___enable_colliders_playmode;
+	float ___Min_density;
+	float ___Max_density;
+	float ___Min_spread;
+	float ___Max_spread;
+	bool ___Override_density;
+	bool ___Override_spread;
+	bool ___Preview_wind;
+	float ___Grow_speed;
+	float ___Editor_view_dist;
+	bool ___autoSetEditorViewDist;
+	bool ___Grass_painting;
+	bool ___Rock_painting;
+	bool ___Fence_painting;
+	float ___Collider_scale;
+	float ___Gizmo_scale;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___windzone;
+	WindZone_t7946C428D1DA3C255DCDC832A39B871EDC1315A7* ___windzoneScript;
+	float ___AmplifyWind;
+	bool ___Fence_start_added;
+	bool ___GizmosOn;
+	bool ___EditorCollidersOn;
+	bool ___ShaderWind;
+	bool ___TintGrass;
+	float ___TintPower;
+	float ___TintFrequency;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___tintColor;
+	float ___SpecularPower;
+	int32_t ___Max_interactive_group_members;
+	int32_t ___Max_static_group_members;
+	float ___LOD_distance;
+	float ___LOD_distance1;
+	float ___LOD_distance2;
+	float ___Cutoff_distance;
+	bool ___Interactive;
+	bool ___ApplyInteractive;
+	bool ___apply_to_all;
+	int32_t ___Grass_selector;
+	float ___min_grass_patch_dist;
+	float ___fence_scale;
+	float ___min_scale;
+	float ___max_scale;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Fence_poles;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Fence_poles_tmp;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Fence_poles_midA;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Fence_poles_midA_tmp;
+	List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* ___Grasses;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___GrassesType;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___GrassPrefab;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___player;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___FencesHolder;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___RocksHolder;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___GrassHolder;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___GrassBatchHolder;
+	float ___Grass_Fade_distance;
+	float ___Stop_Motion_distance;
+	List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* ___GrassMaterials;
+	List_1_tFFEF982D1ACBD1DB0F295214F4ACA4F4CD2DD21E* ___ExtraGrassMaterials;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___Overide_seg_detail;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___GrassPrefabs;
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ___GrassPrefabsIcons;
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ___RocksPrefabsIcons;
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ___FencePrefabsIcons;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___GrassPrefabsNames;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___RockPrefabs;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___FencePrefabs;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___FenceMidPrefabs;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Camera_transf;
+};
+struct InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___GrassManagerObjectName;
+	bool ___grow_grass;
+	float ___start_size_factor;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___Grassmanager;
+	bool ___bulkPaint;
+	int32_t ___Grass_selector;
+	float ___raycastHeight;
+	bool ___useCollisions;
+	int32_t ___plantButton;
+	bool ___useMouse;
+};
+struct InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	bool ___Enable_real_time_erase;
+	float ___eraseRadius;
+	String_t* ___GrassManagerObjectName;
+	bool ___enablePlanting;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prevPos;
+	float ___plantDistance;
+	float ___maxDistAround;
+	int32_t ___plantsCount;
+	bool ___overrideDensity;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___minMaxDensity;
+	float ___raycastHeight;
+	bool ___grow_grass;
+	float ___start_size_factor;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___Grassmanager;
+	bool ___bulkPaint;
+	int32_t ___Grass_selector;
+	bool ___useCollisions;
+};
+struct InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___Planets;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___PlanetsGrown;
+	float ___plantPlanetDistance;
+	float ___plantPlanetStrokes;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Tile;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___Tiles;
+	List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* ___TilesPositions;
+	String_t* ___GrassManagerObjectName;
+	bool ___forceRadialDirection;
+	bool ___grow_grass;
+	float ___start_size_factor;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___Grassmanager;
+	bool ___bulkPaint;
+	int32_t ___Grass_selector;
+	float ___raycastHeight;
+	bool ___useCollisions;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___player;
+	int32_t ___gridSize;
+	float ___tileSize;
+	float ___distThreshold;
+	bool ___selectRandomGrasses;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___randomGrassesIDs;
+	int32_t ___plantButton;
+	bool ___useMouse;
+	bool ___signalPlanting;
+	bool ___updateOnPlayerMove;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___tilePos;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___player_pos;
+	bool ___playerMoved;
+	float ___updatePlayerThreshold;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___prevPlayerPos;
+	bool ___endlessGrid;
+	RuntimeObject* ___coroutinePlantPlanets;
+};
+struct InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Tile;
+	List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* ___Tiles;
+	String_t* ___GrassManagerObjectName;
+	bool ___grow_grass;
+	float ___start_size_factor;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___Grassmanager;
+	bool ___bulkPaint;
+	int32_t ___Grass_selector;
+	float ___raycastHeight;
+	bool ___useCollisions;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___player;
+	int32_t ___gridSize;
+	float ___tileSize;
+	float ___distThreshold;
+	bool ___selectRandomGrasses;
+	List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* ___randomGrassesIDs;
+	int32_t ___plantButton;
+	bool ___useMouse;
+};
+struct InfiniGRASS_DemoRealTimev19_t4B5EFC4CCCB978F407C23EB7449CF4B4748C7CE0  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* ___heroPlanter;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Water1;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___GUI_text;
+	bool ___OnlySunWind;
+	List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* ___Cameras;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___SUN;
+	Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* ___SUN_LIGHT;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Freeze_POOL;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Freezer;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Rain1;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Rain2;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Bats;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Leaves;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Floor;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Floor_stripes;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Floor_collider;
+	float ___Sun_time_start;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___TREES;
+	bool ___HUD_ON;
+	bool ___enable_controls;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___TerrainObj;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___HorizonObj;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___MeshTerrainObj;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___Water;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___CloudHanlder;
+	float ___Camera_up;
+	float ___Grass_GUI_startX;
+	float ___Grass_GUI_startY;
+	bool ___SnowToggle;
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ___IconsGrass;
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ___IconsRocks;
+	List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* ___IconsFence;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___GrassManager;
+	ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC* ___Thrower;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___Audio;
+	float ___Sun_rotX;
+	float ___Sun_rotY;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___Sun_col;
+	float ___Wind_rotY;
+	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___Wind;
+	bool ___ImageFX_active;
+	bool ___Toggle_GUI;
+	int32_t ___quality;
+	int32_t ___current_cam;
+	float ___snow_growth;
+	float ___snow_glow;
+};
+struct ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___ObjectToThrow;
+	InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* ___GrassManager;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___Chop;
+	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* ___Bash;
+	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___Basher;
+	float ___Distance;
+	float ___timer;
+	float ___force_power;
+	bool ___Change_player;
+};
+struct List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_StaticFields
+{
+	GameObjectU5BU5D_tFF67550DFCE87096D7A3734EA15B75896B2722CF* ___s_emptyArray;
+};
+struct List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126_StaticFields
+{
+	INfiniDyGrassFieldU5BU5D_t72E9FF63313ADDA99894999820EA21108B95C0FF* ___s_emptyArray;
+};
+struct List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_StaticFields
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___s_emptyArray;
+};
+struct List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B_StaticFields
+{
+	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* ___s_emptyArray;
+};
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray;
+};
+struct List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523_StaticFields
+{
+	QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___s_emptyArray;
+};
+struct List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918_StaticFields
+{
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___s_emptyArray;
+};
+struct List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD_StaticFields
+{
+	StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___s_emptyArray;
+};
+struct List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4_StaticFields
+{
+	Texture2DU5BU5D_t05332F1E3F7D4493E304C702201F9BE4F9236191* ___s_emptyArray;
+};
+struct List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_StaticFields
+{
+	TransformU5BU5D_tBB9C5F5686CAE82E3D97D43DF0F3D68ABF75EC24* ___s_emptyArray;
+};
+struct List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B_StaticFields
+{
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___s_emptyArray;
+};
+struct String_t_StaticFields
+{
+	String_t* ___Empty;
+};
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	String_t* ___TrueString;
+	String_t* ___FalseString;
+};
+struct IntPtr_t_StaticFields
+{
+	intptr_t ___Zero;
+};
+struct Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields
+{
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___identityQuaternion;
+};
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector;
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector;
+};
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector;
+};
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector;
+};
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject;
+};
+struct TerrainData_t615A68EAC648066681875D47FC641496D12F2E24_StaticFields
+{
+	int32_t ___k_MaximumResolution;
+	int32_t ___k_MinimumDetailResolutionPerPatch;
+	int32_t ___k_MaximumDetailResolutionPerPatch;
+	int32_t ___k_MaximumDetailPatchCount;
+	int32_t ___k_MinimumAlphamapResolution;
+	int32_t ___k_MaximumAlphamapResolution;
+	int32_t ___k_MinimumBaseMapResolution;
+	int32_t ___k_MaximumBaseMapResolution;
+};
+struct Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700_StaticFields
+{
+	int32_t ___GenerateAllMips;
+};
+struct Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_StaticFields
+{
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreCull;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPreRender;
+	CameraCallback_t844E527BFE37BC0495E7F67993E43C07642DA9DD* ___onPostRender;
+};
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+struct ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411  : public RuntimeArray
+{
+	ALIGN_FIELD (8) ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 m_Items[1];
+
+	inline ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9 value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+	inline float GetAt(il2cpp_array_size_t i, il2cpp_array_size_t j, il2cpp_array_size_t k) const
+	{
+		il2cpp_array_size_t iBound = bounds[0].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
+		il2cpp_array_size_t jBound = bounds[1].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
+		il2cpp_array_size_t kBound = bounds[2].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(k, kBound);
+
+		il2cpp_array_size_t index = (i * jBound + j) * kBound + k;
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t i, il2cpp_array_size_t j, il2cpp_array_size_t k)
+	{
+		il2cpp_array_size_t iBound = bounds[0].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
+		il2cpp_array_size_t jBound = bounds[1].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
+		il2cpp_array_size_t kBound = bounds[2].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(k, kBound);
+
+		il2cpp_array_size_t index = (i * jBound + j) * kBound + k;
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t i, il2cpp_array_size_t j, il2cpp_array_size_t k, float value)
+	{
+		il2cpp_array_size_t iBound = bounds[0].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(i, iBound);
+		il2cpp_array_size_t jBound = bounds[1].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(j, jBound);
+		il2cpp_array_size_t kBound = bounds[2].length;
+		IL2CPP_ARRAY_BOUNDS_CHECK(k, kBound);
+
+		il2cpp_array_size_t index = (i * jBound + j) * kBound + k;
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j, il2cpp_array_size_t k) const
+	{
+		il2cpp_array_size_t jBound = bounds[1].length;
+		il2cpp_array_size_t kBound = bounds[2].length;
+
+		il2cpp_array_size_t index = (i * jBound + j) * kBound + k;
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j, il2cpp_array_size_t k)
+	{
+		il2cpp_array_size_t jBound = bounds[1].length;
+		il2cpp_array_size_t kBound = bounds[2].length;
+
+		il2cpp_array_size_t index = (i * jBound + j) * kBound + k;
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t i, il2cpp_array_size_t j, il2cpp_array_size_t k, float value)
+	{
+		il2cpp_array_size_t jBound = bounds[1].length;
+		il2cpp_array_size_t kBound = bounds[2].length;
+
+		il2cpp_array_size_t index = (i * jBound + j) * kBound + k;
+		m_Items[index] = value;
+	}
+};
+struct SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) float m_Items[1];
+
+	inline float GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline float* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, float value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline float GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline float* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, float value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248  : public RuntimeArray
+{
+	ALIGN_FIELD (8) String_t* m_Items[1];
+
+	inline String_t* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, String_t* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline String_t* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline String_t** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, String_t* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* m_Items[1];
+
+	inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) int32_t m_Items[1];
+
+	inline int32_t GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, int32_t value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline int32_t GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline int32_t* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, int32_t value)
+	{
+		m_Items[index] = value;
+	}
+};
+struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeArray
+{
+	ALIGN_FIELD (8) RuntimeObject* m_Items[1];
+
+	inline RuntimeObject* GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+	inline RuntimeObject* GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline RuntimeObject** GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, RuntimeObject* value)
+	{
+		m_Items[index] = value;
+		Il2CppCodeGenWriteBarrier((void**)m_Items + index, (void*)value);
+	}
+};
+struct Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C  : public RuntimeArray
+{
+	ALIGN_FIELD (8) Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 m_Items[1];
+
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAt(il2cpp_array_size_t index) const
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAt(il2cpp_array_size_t index)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		return m_Items + index;
+	}
+	inline void SetAt(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		IL2CPP_ARRAY_BOUNDS_CHECK(index, (uint32_t)(this)->max_length);
+		m_Items[index] = value;
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 GetAtUnchecked(il2cpp_array_size_t index) const
+	{
+		return m_Items[index];
+	}
+	inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* GetAddressAtUnchecked(il2cpp_array_size_t index)
+	{
+		return m_Items + index;
+	}
+	inline void SetAtUnchecked(il2cpp_array_size_t index, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 value)
+	{
+		m_Items[index] = value;
+	}
+};
+
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared (RuntimeObject* ___0_original, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_gshared (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_gshared_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_gshared_inline (List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* GameObject_GetComponentsInChildren_TisRuntimeObject_m511E687BF2424F8D832EA2EAA459870887FB9540_gshared (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared (RuntimeObject* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_gshared_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_item, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, int32_t ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_gshared (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, int32_t ___0_index, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_gshared_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void List_1_AddWithResize_mCDB189127FC2EE67B5EED9DE34F837DFC6EDC212_gshared (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_item, const RuntimeMethod* method) ;
+
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300 (String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
+inline InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_direction, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___1_hitInfo, float ___2_maxDistance, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* RaycastHit_get_transform_m89DB7FCFC50E0213A37CBE089400064B8FA19155 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO_PlantGrass_m37C17ABA7D022EE3FEDD1ACEDD9E9233FB2055AC (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray_set_direction_m8A8FF8101045BAE51BE5D5C1B6C21D0D5592DA98_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray_set_origin_m9B19A7BE86636111E3B16BCE08EAE030F37FE64D_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Physics_SphereCast_m3ACE0130E065A00D12D340E0FCB2B4988538B2C4 (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 ___0_ray, float ___1_radius, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* ___2_hitInfo, float ___3_maxDistance, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method) ;
+inline GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+inline ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* GameObject_GetComponent_TisControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686_mBCCA3D1841E5EB0217733A6707AD5900F222811A (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ControlCombineChildrenINfiniDyGrass_Restore_mD44FCEAE89069F9AD724106DD4933293EBB1E191 (ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* __this, const RuntimeMethod* method) ;
+inline INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* (*) (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_obj, const RuntimeMethod* method) ;
+inline Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline void List_1_RemoveAt_m18EDC05622FE00C5CF96D8E93E6CDD0F417295B2 (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
+}
+inline void List_1_RemoveAt_m0303906D2E29080C32389BC92E3F60A437053437 (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m54F62297ADEE4D4FDA697F49ED807BF901201B54_gshared)(__this, ___0_index, method);
+}
+inline void List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_gshared)(__this, ___0_index, method);
+}
+inline int32_t List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_inline (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+inline int32_t List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RaycastHit_set_point_m3B63BEB25A82BFCF9FBB300022D0362BC2CF9E11 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RaycastHit_set_normal_m97DDF1CBE8ADF1F72AA30BC83870615ABB38C88B (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473 (Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ContactPoint_get_point_mCCDFDACC5D8DB469898060A56A3CC45132911208 (ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ContactPoint_get_normal_mD7F0567CA2FD68644F7C6FE318E10C4D15F92AD6 (ContactPoint_t241857959C0D517C21F541BB04B63FA6C1EAB3F9* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* Collision_get_collider_mBB5A086C78FE4BE0589E216F899B611673ADD25D (Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* Collision_get_transform_mA5D135D9F696635EA7A0D2184CEF499427A6D0F6 (Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO_PlantInPosition_m6FF7804C4D1C63D0CA73CC1CF67538391F3FDC28 (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1 (String_t* ___0_a, String_t* ___1_b, const RuntimeMethod* method) ;
+inline GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979 (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m90A1E6C4C2B445D2E848DB75C772D1B95AAC046A_gshared)(___0_original, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+inline INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method)
+{
+	return ((  INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))GameObject_GetComponent_TisRuntimeObject_m6EAED4AA356F0F48288F67899E5958792395563B_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5 (RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TerrainData_get_alphamapWidth_m07E5B04B08E87AC9F66D766B363000F94C8612D4 (TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5 (TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t TerrainData_get_alphamapHeight_m4A8273D6E0E3526A31E2669FBAB240353C086AED (TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01 (TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* __this, int32_t ___0_x, int32_t ___1_y, int32_t ___2_width, int32_t ___3_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Array_GetUpperBound_m64006116D5244EB8DA52188A9E49929AA7D08E4E (RuntimeArray* __this, int32_t ___0_dimension, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, const RuntimeMethod*))List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_gshared_inline)(__this, method);
+}
+inline float List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50 (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  float (*) (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918*, int32_t, const RuntimeMethod*))List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494 (float ___0_minInclusive, float ___1_maxInclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___0_value, const RuntimeMethod* method) ;
+inline void List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_inline (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* __this, INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126*, INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* __this, String_t* ___0_value, const RuntimeMethod* method) ;
+inline void List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, const RuntimeMethod*))List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline)(__this, method);
+}
+inline void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline)(__this, method);
+}
+inline void List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*, const RuntimeMethod*))List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_gshared_inline)(__this, method);
+}
+inline void List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_inline (List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523*, const RuntimeMethod*))List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Shader_SetGlobalFloat_m8AA7A4D7D73914A00D9207D78621EDDF70602FB0 (String_t* ___0_name, float ___1_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, float ___0_value, const RuntimeMethod* method) ;
+inline Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9 (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
+{
+	return ((  Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* (*) (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3*, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m7181F81CAEC2CF53F5D2BC79B7425C16E1F80D33_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QualitySettings_set_shadowCascades_mB43E0A59B574B31AB8123795CDACD3B8E70C9A38 (int32_t ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioSource_get_volume_m9CCF33BC636562EA282FDE07463B547D70134EE3 (AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865 (const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, String_t* ___1_text, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F Light_get_color_mE7EB8F11BF394877B50A2F335627441889ADE536 (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408 (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, float ___1_value, float ___2_leftValue, float ___3_rightValue, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_color_m242F09E22904E0A20D5B032A0749678B0796A87C (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_value, const RuntimeMethod* method) ;
+inline Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456 (List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* (*) (List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1 (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* __this, String_t* ___0_name, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___1_value, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m48BBB83C5F748E6E6FF0731C3682092DEA6A7173_inline (List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Light_get_intensity_m8FA28D515853068A93FA68B2148809BBEE4E710F (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854 (Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* __this, float ___0_value, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 Screen_get_currentResolution_m8FE4C43E4F6EF28E0B85EB94B6C69D1EC5687CCD (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Resolution_get_width_mC55423852D453EEC0B66E692AA3E7F5DE772FB24 (Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Camera_get_pixelWidth_m55AC8AD744FC0179865C2E630C68F9AD0799065D (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3 (const RuntimeMethod* method) ;
+inline Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3 (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* (*) (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GUI_Button_mB2D6A5CDD9F6D8F79B87778837B70663E47D952E (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D ___0_position, Texture_t791CBB51219779964E0E8A2ED7C1AA5F92A4A700* ___1_image, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_inline (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D (float* __this, String_t* ___0_format, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* ___0_values, const RuntimeMethod* method) ;
+inline String_t* List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8 (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  String_t* (*) (List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD*, int32_t, const RuntimeMethod*))List_1_get_Item_m33561245D64798C2AB07584C0EC4F240E4839A38_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m093934F71A9B351911EE46311674ED463B180006 (String_t* ___0_str0, String_t* ___1_str1, String_t* ___2_str2, String_t* ___3_str3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1 (Behaviour_t01970CFBBA658497AE30F311C447DB0440BAB7FA* __this, const RuntimeMethod* method) ;
+inline void List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268 (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28 (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3 (int32_t ___0_button, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2 (int32_t ___0_key, const RuntimeMethod* method) ;
+inline CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_includeInactive, const RuntimeMethod* method)
+{
+	return ((  CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, bool, const RuntimeMethod*))GameObject_GetComponentsInChildren_TisRuntimeObject_m511E687BF2424F8D832EA2EAA459870887FB9540_gshared)(__this, ___0_includeInactive, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315 (Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_pos, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter_PlantInPosition_m0E0676579BFB14C22E826CCA5FF1C6C1C82E2BD4 (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter_PlantGrass_m276EAFF528680F29558D115A83BE98A5122FB967 (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CplantPlanetU3Ed__34__ctor_m946914685127D589FF1C612627CA5F88FA126645 (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68 (int32_t ___0_minInclusive, int32_t ___1_maxExclusive, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21 (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LoomINfiniDyGRASS_RunAsync_m20543595433D43FB4859A83EC6BB28757BA93BBE (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* ___0_action, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) ;
+inline GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_original, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_position, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___2_rotation, const RuntimeMethod* method)
+{
+	return ((  GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* (*) (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974, const RuntimeMethod*))Object_Instantiate_TisRuntimeObject_m249A6BA4F2F19C2D3CE217D4D31847DF0EF03EFE_gshared)(___0_original, ___1_position, ___2_rotation, method);
+}
+inline void List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
+}
+inline void List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*))List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_gshared_inline)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B (RuntimeArray* ___0_array, RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 ___1_fldHandle, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline)(__this, method);
+}
+inline Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	return ((  Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_gshared)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_PlantInPosition_mE9199AD2BA32197A20E25F705793F2900160EE86 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_gshared)(__this, ___0_index, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InfiniGRASSPlanterPLANETS_MultiThread_plantPlanet_mBCEAC0D1B76E0F0A0775B39DEBDC93135B04BB92 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_planetPos, float ___1_planetScale, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812 (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, RuntimeObject* ___0_routine, const RuntimeMethod* method) ;
+inline void List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_index, int32_t ___1_value, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, int32_t, const RuntimeMethod*))List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587_gshared)(__this, ___0_index, ___1_value, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_PlantGrass_mA82E0FEFA7533A419D20726BDC056B5C944D5920 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) ;
+inline void List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*, const RuntimeMethod*))List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690_gshared)(__this, method);
+}
+inline void List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, const RuntimeMethod*))List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_gshared)(__this, method);
+}
+inline Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810 (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, int32_t ___0_index, const RuntimeMethod* method)
+{
+	return ((  Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 (*) (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*, int32_t, const RuntimeMethod*))List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_gshared)(__this, ___0_index, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) ;
+inline int32_t List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, const RuntimeMethod* method)
+{
+	return ((  int32_t (*) (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*, const RuntimeMethod*))List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_gshared_inline)(__this, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* __this, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES_PlantInPosition_m9DF17D05BD6855D73DE0C28AF1DB38BBBE7AC4E6 (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES_PlantGrass_m40DC4C16106FECE49D1B0CE245C878BFFD2E5C3E (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4 (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4_gshared)(__this, ___0_item, method);
+}
+inline void List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8 (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*, int32_t, const RuntimeMethod*))List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8_gshared)(__this, ___0_item, method);
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB (RuntimeArray* ___0_array, int32_t ___1_index, int32_t ___2_length, const RuntimeMethod* method) ;
+inline void List_1_AddWithResize_mCDB189127FC2EE67B5EED9DE34F837DFC6EDC212 (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_item, const RuntimeMethod* method)
+{
+	((  void (*) (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B*, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2, const RuntimeMethod*))List_1_AddWithResize_mCDB189127FC2EE67B5EED9DE34F837DFC6EDC212_gshared)(__this, ___0_item, method);
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) ;
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO_Start_m97E0ED65128B23DC956D447B07680AE2360EF449 (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_0 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		String_t* L_2 = __this->___GrassManagerObjectName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_2, NULL);
+		V_0 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
+		NullCheck(L_6);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_7;
+		L_7 = GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086(L_6, GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		__this->___Grassmanager = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Grassmanager), (void*)L_7);
+	}
+
+IL_002f:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		__this->___prevPos = L_9;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO_Update_m7A21912F7BE457F617B3117D25D161C9687947E4 (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686_mBCCA3D1841E5EB0217733A6707AD5900F222811A_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m0303906D2E29080C32389BC92E3F60A437053437_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m18EDC05622FE00C5CF96D8E93E6CDD0F417295B2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral22FF7F9C87F7F253735EF53299764A497F49B07E);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	int32_t V_2 = 0;
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* V_5 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_6 = NULL;
+	int32_t V_7 = 0;
+	int32_t V_8 = 0;
+	{
+		bool L_0 = __this->___enablePlanting;
+		if (!L_0)
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_1);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
+		L_2 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_1, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___prevPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_2, L_3, NULL);
+		V_0 = L_4;
+		float L_5;
+		L_5 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_0), NULL);
+		float L_6 = __this->___plantDistance;
+		if ((!(((float)L_5) > ((float)L_6))))
+		{
+			goto IL_0119;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_7;
+		L_7 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_7);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8;
+		L_8 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_7, NULL);
+		__this->___prevPos = L_8;
+		il2cpp_codegen_initobj((&V_1), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		V_2 = 0;
+		goto IL_010d;
+	}
+
+IL_0054:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_9;
+		L_9 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_9, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11;
+		L_11 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		float L_12 = __this->___raycastHeight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_11, L_12, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_14;
+		L_14 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_10, L_13, NULL);
+		float L_15;
+		L_15 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_16 = __this->___maxDistAround;
+		float L_17;
+		L_17 = Random_get_value_m2CEA87FADF5222EF9E13D32695F15E2BA282E24B(NULL);
+		float L_18 = __this->___maxDistAround;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19;
+		memset((&L_19), 0, sizeof(L_19));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_19), ((float)il2cpp_codegen_multiply(L_15, L_16)), (0.0f), ((float)il2cpp_codegen_multiply(L_17, L_18)), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_14, L_19, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_21;
+		L_21 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_22;
+		L_22 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_21, NULL);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_23;
+		memset((&L_23), 0, sizeof(L_23));
+		Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline((&L_23), L_20, L_22, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_24;
+		L_24 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_23, (&V_1), (1000.0f), NULL);
+		if (!L_24)
+		{
+			goto IL_0109;
+		}
+	}
+	{
+		bool L_25 = __this->___overrideDensity;
+		if (!L_25)
+		{
+			goto IL_00ec;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_26 = __this->___Grassmanager;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_27 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___minMaxDensity);
+		float L_28 = L_27->___x;
+		NullCheck(L_26);
+		L_26->___Min_density = L_28;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_29 = __this->___Grassmanager;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* L_30 = (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7*)(&__this->___minMaxDensity);
+		float L_31 = L_30->___y;
+		NullCheck(L_29);
+		L_29->___Max_density = L_31;
+	}
+
+IL_00ec:
+	{
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_32 = V_1;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_33;
+		L_33 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_1), NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_34;
+		L_34 = RaycastHit_get_transform_m89DB7FCFC50E0213A37CBE089400064B8FA19155((&V_1), NULL);
+		int32_t L_35 = __this->___Grass_selector;
+		InfiniGRASSPlanterHERO_PlantGrass_m37C17ABA7D022EE3FEDD1ACEDD9E9233FB2055AC(__this, L_32, L_33, L_34, L_35, (bool)0, (bool)1, NULL);
+	}
+
+IL_0109:
+	{
+		int32_t L_36 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_36, 1));
+	}
+
+IL_010d:
+	{
+		int32_t L_37 = V_2;
+		int32_t L_38 = __this->___plantsCount;
+		if ((((int32_t)L_37) < ((int32_t)L_38)))
+		{
+			goto IL_0054;
+		}
+	}
+
+IL_0119:
+	{
+		bool L_39 = __this->___Enable_real_time_erase;
+		if (!L_39)
+		{
+			goto IL_030d;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_3), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_40;
+		L_40 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		L_41 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_40, NULL);
+		Ray_set_direction_m8A8FF8101045BAE51BE5D5C1B6C21D0D5592DA98_inline((&V_3), L_41, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_42;
+		L_42 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		NullCheck(L_42);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_42, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		memset((&L_44), 0, sizeof(L_44));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_44), (4.0f), (10.0f), (0.0f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
+		L_45 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_43, L_44, NULL);
+		Ray_set_origin_m9B19A7BE86636111E3B16BCE08EAE030F37FE64D_inline((&V_3), L_45, NULL);
+		il2cpp_codegen_initobj((&V_4), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_46 = V_3;
+		float L_47 = __this->___eraseRadius;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_48;
+		L_48 = Physics_SphereCast_m3ACE0130E065A00D12D340E0FCB2B4988538B2C4(L_46, L_47, (&V_4), (std::numeric_limits<float>::infinity()), NULL);
+		if (!L_48)
+		{
+			goto IL_030d;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_49;
+		L_49 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_4), NULL);
+		NullCheck(L_49);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_50;
+		L_50 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_49, NULL);
+		NullCheck(L_50);
+		GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* L_51;
+		L_51 = GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562(L_50, GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_52;
+		L_52 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_51, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_52)
+		{
+			goto IL_0303;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_53;
+		L_53 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_4), NULL);
+		NullCheck(L_53);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_54;
+		L_54 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_53, NULL);
+		NullCheck(L_54);
+		GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* L_55;
+		L_55 = GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562(L_54, GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562_RuntimeMethod_var);
+		NullCheck(L_55);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_56 = L_55->___TreeHandler;
+		NullCheck(L_56);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_57 = L_56->___Forest_holder;
+		NullCheck(L_57);
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_58;
+		L_58 = GameObject_GetComponent_TisControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686_mBCCA3D1841E5EB0217733A6707AD5900F222811A(L_57, GameObject_GetComponent_TisControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686_mBCCA3D1841E5EB0217733A6707AD5900F222811A_RuntimeMethod_var);
+		V_5 = L_58;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_59;
+		L_59 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_4), NULL);
+		NullCheck(L_59);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_60;
+		L_60 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_59, NULL);
+		NullCheck(L_60);
+		GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* L_61;
+		L_61 = GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562(L_60, GameObject_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_m202EAD8E6EFF6ACB56FEBBC45D68DB4520DCD562_RuntimeMethod_var);
+		NullCheck(L_61);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_62 = L_61->___TreeHandler;
+		V_6 = L_62;
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_63 = V_5;
+		NullCheck(L_63);
+		ControlCombineChildrenINfiniDyGrass_Restore_mD44FCEAE89069F9AD724106DD4933293EBB1E191(L_63, NULL);
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_64 = V_5;
+		NullCheck(L_64);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_65 = L_64->___Added_items_handles;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_66 = V_6;
+		NullCheck(L_66);
+		int32_t L_67 = L_66->___Tree_Holder_Index;
+		NullCheck(L_65);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_68;
+		L_68 = List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C(L_65, L_67, List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		NullCheck(L_68);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_69;
+		L_69 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_68, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_69, NULL);
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_70 = V_5;
+		NullCheck(L_70);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_71 = L_70->___Added_items;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_72 = V_6;
+		NullCheck(L_72);
+		int32_t L_73 = L_72->___Tree_Holder_Index;
+		NullCheck(L_71);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_74;
+		L_74 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_71, L_73, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		NullCheck(L_74);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_75;
+		L_75 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_74, NULL);
+		Object_DestroyImmediate_m6336EBC83591A5DB64EC70C92132824C6E258705(L_75, NULL);
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_76 = V_5;
+		NullCheck(L_76);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_77 = L_76->___Added_items_handles;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_78 = V_6;
+		NullCheck(L_78);
+		int32_t L_79 = L_78->___Tree_Holder_Index;
+		NullCheck(L_77);
+		List_1_RemoveAt_m18EDC05622FE00C5CF96D8E93E6CDD0F417295B2(L_77, L_79, List_1_RemoveAt_m18EDC05622FE00C5CF96D8E93E6CDD0F417295B2_RuntimeMethod_var);
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_80 = V_5;
+		NullCheck(L_80);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_81 = L_80->___Added_items;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_82 = V_6;
+		NullCheck(L_82);
+		int32_t L_83 = L_82->___Tree_Holder_Index;
+		NullCheck(L_81);
+		List_1_RemoveAt_m0303906D2E29080C32389BC92E3F60A437053437(L_81, L_83, List_1_RemoveAt_m0303906D2E29080C32389BC92E3F60A437053437_RuntimeMethod_var);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_84 = __this->___Grassmanager;
+		NullCheck(L_84);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_85 = L_84->___Grasses;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_86 = V_6;
+		NullCheck(L_86);
+		int32_t L_87 = L_86->___Grass_Holder_Index;
+		NullCheck(L_85);
+		List_1_RemoveAt_m18EDC05622FE00C5CF96D8E93E6CDD0F417295B2(L_85, L_87, List_1_RemoveAt_m18EDC05622FE00C5CF96D8E93E6CDD0F417295B2_RuntimeMethod_var);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_88 = __this->___Grassmanager;
+		NullCheck(L_88);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_89 = L_88->___GrassesType;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_90 = V_6;
+		NullCheck(L_90);
+		int32_t L_91 = L_90->___Grass_Holder_Index;
+		NullCheck(L_89);
+		List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004(L_89, L_91, List_1_RemoveAt_m76C4CDACF47BA529BAFADFC8D5E13DB9587F4004_RuntimeMethod_var);
+		V_7 = 0;
+		goto IL_0293;
+	}
+
+IL_0278:
+	{
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_92 = V_5;
+		NullCheck(L_92);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_93 = L_92->___Added_items_handles;
+		int32_t L_94 = V_7;
+		NullCheck(L_93);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_95;
+		L_95 = List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C(L_93, L_94, List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		int32_t L_96 = V_7;
+		NullCheck(L_95);
+		L_95->___Tree_Holder_Index = L_96;
+		int32_t L_97 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_97, 1));
+	}
+
+IL_0293:
+	{
+		int32_t L_98 = V_7;
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_99 = V_5;
+		NullCheck(L_99);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_100 = L_99->___Added_items;
+		NullCheck(L_100);
+		int32_t L_101;
+		L_101 = List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_inline(L_100, List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_RuntimeMethod_var);
+		if ((((int32_t)L_98) < ((int32_t)L_101)))
+		{
+			goto IL_0278;
+		}
+	}
+	{
+		V_8 = 0;
+		goto IL_02c7;
+	}
+
+IL_02a8:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_102 = __this->___Grassmanager;
+		NullCheck(L_102);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_103 = L_102->___Grasses;
+		int32_t L_104 = V_8;
+		NullCheck(L_103);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_105;
+		L_105 = List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C(L_103, L_104, List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		int32_t L_106 = V_8;
+		NullCheck(L_105);
+		L_105->___Grass_Holder_Index = L_106;
+		int32_t L_107 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_107, 1));
+	}
+
+IL_02c7:
+	{
+		int32_t L_108 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_109 = __this->___Grassmanager;
+		NullCheck(L_109);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_110 = L_109->___Grasses;
+		NullCheck(L_110);
+		int32_t L_111;
+		L_111 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_110, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		if ((((int32_t)L_108) < ((int32_t)L_111)))
+		{
+			goto IL_02a8;
+		}
+	}
+	{
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_112 = V_5;
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_113 = L_112;
+		NullCheck(L_113);
+		int32_t L_114 = L_113->___Added_item_count;
+		NullCheck(L_113);
+		L_113->___Added_item_count = ((int32_t)il2cpp_codegen_subtract(L_114, 1));
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_115 = V_5;
+		NullCheck(L_115);
+		L_115->___MakeActive = (bool)1;
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_116 = V_5;
+		NullCheck(L_116);
+		L_116->___Decombine = (bool)0;
+		ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686* L_117 = V_5;
+		NullCheck(L_117);
+		L_117->___Decombined = (bool)0;
+		return;
+	}
+
+IL_0303:
+	{
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral22FF7F9C87F7F253735EF53299764A497F49B07E, NULL);
+	}
+
+IL_030d:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO_PlantInPosition_m6FF7804C4D1C63D0CA73CC1CF67538391F3FDC28 (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) 
+{
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
+		RaycastHit_set_point_m3B63BEB25A82BFCF9FBB300022D0362BC2CF9E11((&V_0), L_0, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_normal;
+		RaycastHit_set_normal_m97DDF1CBE8ADF1F72AA30BC83870615ABB38C88B((&V_0), L_1, NULL);
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_2 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = ___2_collider1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___3_transform1;
+		int32_t L_5 = __this->___Grass_selector;
+		InfiniGRASSPlanterHERO_PlantGrass_m37C17ABA7D022EE3FEDD1ACEDD9E9233FB2055AC(__this, L_2, L_3, L_4, L_5, (bool)0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO_OnCollisionEnter_m70790399A6ABDCA63E6FC7F7A60C7D5B120B3315 (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_info, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		bool L_0 = __this->___useCollisions;
+		if (!L_0)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_3 = ___0_info;
+		NullCheck(L_3);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_4;
+		L_4 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_3, NULL);
+		NullCheck(L_4);
+		if (!(((RuntimeArray*)L_4)->max_length))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_5 = ___0_info;
+		NullCheck(L_5);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_6;
+		L_6 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = ContactPoint_get_point_mCCDFDACC5D8DB469898060A56A3CC45132911208(((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_0 = L_7;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_8 = ___0_info;
+		NullCheck(L_8);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_9;
+		L_9 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_8, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = ContactPoint_get_normal_mD7F0567CA2FD68644F7C6FE318E10C4D15F92AD6(((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_1 = L_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_1;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_13 = ___0_info;
+		NullCheck(L_13);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14;
+		L_14 = Collision_get_collider_mBB5A086C78FE4BE0589E216F899B611673ADD25D(L_13, NULL);
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_15 = ___0_info;
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Collision_get_transform_mA5D135D9F696635EA7A0D2184CEF499427A6D0F6(L_15, NULL);
+		InfiniGRASSPlanterHERO_PlantInPosition_m6FF7804C4D1C63D0CA73CC1CF67538391F3FDC28(__this, L_11, L_12, L_14, L_16, NULL);
+	}
+
+IL_0057:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO_PlantGrass_m37C17ABA7D022EE3FEDD1ACEDD9E9233FB2055AC (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_2 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* V_6 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_7 = NULL;
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	bool G_B6_0 = false;
+	bool G_B5_0 = false;
+	int32_t G_B7_0 = 0;
+	bool G_B7_1 = false;
+	{
+		V_0 = (bool)0;
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_0;
+		L_0 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___1_collider1;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___1_collider1;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_7;
+		L_7 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		V_0 = (bool)1;
+	}
+
+IL_0036:
+	{
+		bool L_10 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_11 = ___1_collider1;
+		NullCheck(L_11);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			G_B6_0 = L_10;
+			goto IL_005c;
+		}
+		G_B5_0 = L_10;
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14 = ___1_collider1;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805(L_15, NULL);
+		bool L_17;
+		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, _stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3, NULL);
+		G_B7_0 = ((int32_t)(L_17));
+		G_B7_1 = G_B5_0;
+		goto IL_005d;
+	}
+
+IL_005c:
+	{
+		G_B7_0 = 0;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_005d:
+	{
+		if (!((int32_t)((int32_t)G_B7_1|G_B7_0)))
+		{
+			goto IL_06d4;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_18 = ___1_collider1;
+		NullCheck(L_18);
+		GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* L_19;
+		L_19 = Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B(L_18, Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_20)
+		{
+			goto IL_06d4;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_21 = __this->___Grassmanager;
+		NullCheck(L_21);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_22 = L_21->___GrassPrefabs;
+		int32_t L_23 = ___3_Grass_selector;
+		NullCheck(L_22);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_22, L_23, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_24, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		V_1 = L_25;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_1;
+		NullCheck(L_26);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
+		L_27 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		NullCheck(L_27);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_27, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_1;
+		NullCheck(L_29);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_30;
+		L_30 = GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03(L_29, GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		V_2 = L_30;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_31 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&___0_hit), NULL);
+		NullCheck(L_31);
+		L_31->___Intial_Up_Vector = L_32;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_33)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_34 = V_2;
+		NullCheck(L_34);
+		L_34->___Grow_tree = (bool)1;
+		goto IL_00c9;
+	}
+
+IL_00c2:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_35 = V_2;
+		NullCheck(L_35);
+		L_35->___Grow_in_Editor = (bool)1;
+	}
+
+IL_00c9:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_36 = __this->___Grassmanager;
+		NullCheck(L_36);
+		bool L_37 = L_36->___AdaptOnTerrain;
+		bool L_38 = V_0;
+		if (!((int32_t)((int32_t)L_37&(int32_t)L_38)))
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_40 = L_39.___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_41 = __this->___Grassmanager;
+		NullCheck(L_41);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_42 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_41->___Tpos);
+		float L_43 = L_42->___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_44 = __this->___Grassmanager;
+		NullCheck(L_44);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_45 = L_44->___Tdata;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = TerrainData_get_alphamapWidth_m07E5B04B08E87AC9F66D766B363000F94C8612D4(L_45, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_47 = __this->___Grassmanager;
+		NullCheck(L_47);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_48 = L_47->___Tdata;
+		NullCheck(L_48);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		L_49 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_48, NULL);
+		float L_50 = L_49.___x;
+		V_4 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_40, L_43)), ((float)L_46)))/L_50)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_52 = L_51.___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_53 = __this->___Grassmanager;
+		NullCheck(L_53);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_54 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_53->___Tpos);
+		float L_55 = L_54->___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_56 = __this->___Grassmanager;
+		NullCheck(L_56);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_57 = L_56->___Tdata;
+		NullCheck(L_57);
+		int32_t L_58;
+		L_58 = TerrainData_get_alphamapHeight_m4A8273D6E0E3526A31E2669FBAB240353C086AED(L_57, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_59 = __this->___Grassmanager;
+		NullCheck(L_59);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_60 = L_59->___Tdata;
+		NullCheck(L_60);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
+		L_61 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_60, NULL);
+		float L_62 = L_61.___z;
+		V_5 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_52, L_55)), ((float)L_58)))/L_62)));
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_63 = __this->___Grassmanager;
+		NullCheck(L_63);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_64 = L_63->___Tdata;
+		int32_t L_65 = V_4;
+		int32_t L_66 = V_5;
+		NullCheck(L_64);
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_67;
+		L_67 = TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01(L_64, L_65, L_66, 1, 1, NULL);
+		V_6 = L_67;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_68 = V_6;
+		NullCheck((RuntimeArray*)L_68);
+		int32_t L_69;
+		L_69 = Array_GetUpperBound_m64006116D5244EB8DA52188A9E49929AA7D08E4E((RuntimeArray*)L_68, 2, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_70 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(L_69, 1)));
+		V_7 = L_70;
+		V_9 = 0;
+		goto IL_01af;
+	}
+
+IL_0199:
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_71 = V_7;
+		int32_t L_72 = V_9;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_73 = V_6;
+		int32_t L_74 = V_9;
+		NullCheck(L_73);
+		float L_75;
+		L_75 = (L_73)->GetAt(0, 0, L_74);
+		NullCheck(L_71);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (float)L_75);
+		int32_t L_76 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_01af:
+	{
+		int32_t L_77 = V_9;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_78 = V_7;
+		NullCheck(L_78);
+		if ((((int32_t)L_77) < ((int32_t)((int32_t)(((RuntimeArray*)L_78)->max_length)))))
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		V_8 = (0.0f);
+		V_10 = 0;
+		goto IL_020e;
+	}
+
+IL_01c3:
+	{
+		int32_t L_79 = V_10;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_80 = __this->___Grassmanager;
+		NullCheck(L_80);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_81 = L_80->___ScalePerTexture;
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_81, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		if ((((int32_t)L_79) <= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_82, 1)))))
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		float L_83 = V_8;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_84 = V_7;
+		int32_t L_85 = V_10;
+		NullCheck(L_84);
+		int32_t L_86 = L_85;
+		float L_87 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		V_8 = ((float)il2cpp_codegen_add(L_83, ((float)il2cpp_codegen_multiply((1.0f), L_87))));
+		goto IL_0208;
+	}
+
+IL_01eb:
+	{
+		float L_88 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_89 = __this->___Grassmanager;
+		NullCheck(L_89);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_90 = L_89->___ScalePerTexture;
+		int32_t L_91 = V_10;
+		NullCheck(L_90);
+		float L_92;
+		L_92 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_90, L_91, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_93 = V_7;
+		int32_t L_94 = V_10;
+		NullCheck(L_93);
+		int32_t L_95 = L_94;
+		float L_96 = (L_93)->GetAt(static_cast<il2cpp_array_size_t>(L_95));
+		V_8 = ((float)il2cpp_codegen_add(L_88, ((float)il2cpp_codegen_multiply(L_92, L_96))));
+	}
+
+IL_0208:
+	{
+		int32_t L_97 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_97, 1));
+	}
+
+IL_020e:
+	{
+		int32_t L_98 = V_10;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_99 = V_7;
+		NullCheck(L_99);
+		if ((((int32_t)L_98) < ((int32_t)((int32_t)(((RuntimeArray*)L_99)->max_length)))))
+		{
+			goto IL_01c3;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_100 = V_2;
+		float L_101 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_102 = __this->___Grassmanager;
+		NullCheck(L_102);
+		float L_103 = L_102->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_104 = __this->___Grassmanager;
+		NullCheck(L_104);
+		float L_105 = L_104->___max_scale;
+		float L_106;
+		L_106 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_103, L_105, NULL);
+		NullCheck(L_100);
+		L_100->___End_scale = ((float)il2cpp_codegen_multiply(L_101, L_106));
+		goto IL_025d;
+	}
+
+IL_023c:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_107 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_108 = __this->___Grassmanager;
+		NullCheck(L_108);
+		float L_109 = L_108->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_110 = __this->___Grassmanager;
+		NullCheck(L_110);
+		float L_111 = L_110->___max_scale;
+		float L_112;
+		L_112 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_109, L_111, NULL);
+		NullCheck(L_107);
+		L_107->___End_scale = L_112;
+	}
+
+IL_025d:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_113 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_114 = __this->___Grassmanager;
+		NullCheck(L_114);
+		int32_t L_115 = L_114->___Max_interactive_group_members;
+		NullCheck(L_113);
+		L_113->___Max_interact_holder_items = L_115;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_116 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_117 = __this->___Grassmanager;
+		NullCheck(L_117);
+		int32_t L_118 = L_117->___Max_static_group_members;
+		NullCheck(L_116);
+		L_116->___Max_trees_per_group = L_118;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_119 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_120 = __this->___Grassmanager;
+		NullCheck(L_120);
+		bool L_121 = L_120->___Interactive;
+		NullCheck(L_119);
+		L_119->___Interactive_tree = L_121;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_122;
+		L_122 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_122)
+		{
+			goto IL_02c1;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_123 = V_2;
+		NullCheck(L_123);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_124;
+		L_124 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_123, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_125 = L_124;
+		NullCheck(L_125);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_126;
+		L_126 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_125, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_127 = V_2;
+		NullCheck(L_127);
+		float L_128 = L_127->___End_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_129 = __this->___Grassmanager;
+		NullCheck(L_129);
+		float L_130 = L_129->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131;
+		L_131 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_126, ((float)il2cpp_codegen_multiply(L_128, L_130)), NULL);
+		NullCheck(L_125);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_125, L_131, NULL);
+		goto IL_02dc;
+	}
+
+IL_02c1:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_132 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_133;
+		L_133 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_134 = __this->___Grassmanager;
+		NullCheck(L_134);
+		float L_135 = L_134->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
+		L_136 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_133, L_135, NULL);
+		NullCheck(L_132);
+		L_132->___colliderScale = L_136;
+	}
+
+IL_02dc:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_137 = __this->___Grassmanager;
+		NullCheck(L_137);
+		bool L_138 = L_137->___Override_spread;
+		if (!L_138)
+		{
+			goto IL_032a;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_139 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_140 = __this->___Grassmanager;
+		NullCheck(L_140);
+		float L_141 = L_140->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_142 = __this->___Grassmanager;
+		NullCheck(L_142);
+		float L_143 = L_142->___Max_spread;
+		float L_144;
+		L_144 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_141, L_143, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_145 = __this->___Grassmanager;
+		NullCheck(L_145);
+		float L_146 = L_145->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_147 = __this->___Grassmanager;
+		NullCheck(L_147);
+		float L_148 = L_147->___Max_spread;
+		float L_149;
+		L_149 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_146, L_148, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_150;
+		memset((&L_150), 0, sizeof(L_150));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_150), L_144, L_149, NULL);
+		NullCheck(L_139);
+		L_139->___PosSpread = L_150;
+	}
+
+IL_032a:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_151 = __this->___Grassmanager;
+		NullCheck(L_151);
+		bool L_152 = L_151->___Override_density;
+		if (!L_152)
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_153 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_154 = __this->___Grassmanager;
+		NullCheck(L_154);
+		float L_155 = L_154->___Min_density;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_156 = __this->___Grassmanager;
+		NullCheck(L_156);
+		float L_157 = L_156->___Max_density;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_158;
+		memset((&L_158), 0, sizeof(L_158));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_158), L_155, L_157, NULL);
+		NullCheck(L_153);
+		L_153->___Min_Max_Branching = L_158;
+	}
+
+IL_0358:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_159 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_160 = ___2_transform1;
+		NullCheck(L_160);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_161;
+		L_161 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_160, NULL);
+		NullCheck(L_161);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_162;
+		L_162 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_161, NULL);
+		NullCheck(L_159);
+		L_159->___PaintedOnOBJ = L_162;
+		Il2CppCodeGenWriteBarrier((void**)(&L_159->___PaintedOnOBJ), (void*)L_162);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_163 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_164 = __this->___Grassmanager;
+		NullCheck(L_164);
+		bool L_165 = L_164->___GridOnNormal;
+		NullCheck(L_163);
+		L_163->___GridOnNormal = L_165;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_166 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_167 = __this->___Grassmanager;
+		NullCheck(L_167);
+		float L_168 = L_167->___rayCastDist;
+		NullCheck(L_166);
+		L_166->___max_ray_dist = L_168;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_169 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_170 = __this->___Grassmanager;
+		NullCheck(L_170);
+		float L_171 = L_170->___MinAvoidDist;
+		NullCheck(L_169);
+		L_169->___MinAvoidDist = L_171;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_172 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_173 = __this->___Grassmanager;
+		NullCheck(L_173);
+		float L_174 = L_173->___MinScaleAvoidDist;
+		NullCheck(L_172);
+		L_172->___MinScaleAvoidDist = L_174;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_175 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_176 = __this->___Grassmanager;
+		NullCheck(L_176);
+		float L_177 = L_176->___InteractionSpeed;
+		NullCheck(L_175);
+		L_175->___InteractionSpeed = L_177;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_178 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_179 = __this->___Grassmanager;
+		NullCheck(L_179);
+		float L_180 = L_179->___InteractSpeedThres;
+		NullCheck(L_178);
+		L_178->___InteractSpeedThres = L_180;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_181 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_182 = __this->___Grassmanager;
+		NullCheck(L_182);
+		float L_183 = L_182->___Interaction_thres;
+		NullCheck(L_181);
+		L_181->___Interaction_thres = L_183;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_184 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_185 = __this->___Grassmanager;
+		NullCheck(L_185);
+		float L_186 = L_185->___Max_tree_dist;
+		NullCheck(L_184);
+		L_184->___Max_tree_dist = L_186;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_187 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_188 = __this->___Grassmanager;
+		NullCheck(L_188);
+		bool L_189 = L_188->___Disable_after_growth;
+		NullCheck(L_187);
+		L_187->___Disable_after_growth = L_189;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_190 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_191 = __this->___Grassmanager;
+		NullCheck(L_191);
+		bool L_192 = L_191->___WhenCombinerFull;
+		NullCheck(L_190);
+		L_190->___WhenCombinerFull = L_192;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_193 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_194 = __this->___Grassmanager;
+		NullCheck(L_194);
+		bool L_195 = L_194->___Eliminate_original_mesh;
+		NullCheck(L_193);
+		L_193->___Eliminate_original_mesh = L_195;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_196 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_197 = __this->___Grassmanager;
+		NullCheck(L_197);
+		float L_198 = L_197->___Interaction_offset;
+		NullCheck(L_196);
+		L_196->___Interaction_offset = L_198;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_199 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_200 = __this->___Grassmanager;
+		NullCheck(L_200);
+		float L_201 = L_200->___LOD_distance;
+		NullCheck(L_199);
+		L_199->___LOD_distance = L_201;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_202 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_203 = __this->___Grassmanager;
+		NullCheck(L_203);
+		float L_204 = L_203->___LOD_distance1;
+		NullCheck(L_202);
+		L_202->___LOD_distance1 = L_204;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_205 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_206 = __this->___Grassmanager;
+		NullCheck(L_206);
+		float L_207 = L_206->___LOD_distance2;
+		NullCheck(L_205);
+		L_205->___LOD_distance2 = L_207;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_208 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_209 = __this->___Grassmanager;
+		NullCheck(L_209);
+		float L_210 = L_209->___Cutoff_distance;
+		NullCheck(L_208);
+		L_208->___Cutoff_distance = L_210;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_211 = V_2;
+		NullCheck(L_211);
+		L_211->___Tag_based = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_212 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_213 = __this->___Grassmanager;
+		NullCheck(L_212);
+		L_212->___GrassManager = L_213;
+		Il2CppCodeGenWriteBarrier((void**)(&L_212->___GrassManager), (void*)L_213);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_214 = V_2;
+		int32_t L_215 = ___3_Grass_selector;
+		NullCheck(L_214);
+		L_214->___Type = ((int32_t)il2cpp_codegen_add(L_215, 1));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_216 = V_2;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_217 = V_2;
+		NullCheck(L_217);
+		float L_218 = L_217->___End_scale;
+		NullCheck(L_216);
+		L_216->___Start_tree_scale = ((float)(L_218/(4.0f)));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_219 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_220 = __this->___Grassmanager;
+		NullCheck(L_220);
+		bool L_221 = L_220->___RandomRot;
+		NullCheck(L_219);
+		L_219->___RandomRot = L_221;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_222 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_223 = __this->___Grassmanager;
+		NullCheck(L_223);
+		float L_224 = L_223->___RandRotMin;
+		NullCheck(L_222);
+		L_222->___RandRotMin = L_224;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_225 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_226 = __this->___Grassmanager;
+		NullCheck(L_226);
+		float L_227 = L_226->___RandRotMax;
+		NullCheck(L_225);
+		L_225->___RandRotMax = L_227;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_228 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_229 = __this->___Grassmanager;
+		NullCheck(L_229);
+		bool L_230 = L_229->___GroupByObject;
+		NullCheck(L_228);
+		L_228->___GroupByObject = L_230;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_231 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_232 = __this->___Grassmanager;
+		NullCheck(L_232);
+		bool L_233 = L_232->___ParentToObject;
+		NullCheck(L_231);
+		L_231->___ParentToObject = L_233;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_234 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_235 = __this->___Grassmanager;
+		NullCheck(L_235);
+		bool L_236 = L_235->___MoveWithObject;
+		NullCheck(L_234);
+		L_234->___MoveWithObject = L_236;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_237 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_238 = __this->___Grassmanager;
+		NullCheck(L_238);
+		bool L_239 = L_238->___AvoidOwnColl;
+		NullCheck(L_237);
+		L_237->___AvoidOwnColl = L_239;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_240 = V_1;
+		NullCheck(L_240);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_241;
+		L_241 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_240, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_242 = __this->___Grassmanager;
+		NullCheck(L_242);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_243 = L_242->___GrassHolder;
+		NullCheck(L_243);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_244;
+		L_244 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_243, NULL);
+		NullCheck(L_241);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_241, L_244, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_245 = __this->___Grassmanager;
+		NullCheck(L_245);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_246 = L_245->___Grasses;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_247 = V_2;
+		NullCheck(L_246);
+		List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_inline(L_246, L_247, List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_248 = __this->___Grassmanager;
+		NullCheck(L_248);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_249 = L_248->___GrassesType;
+		int32_t L_250 = ___3_Grass_selector;
+		NullCheck(L_249);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_249, L_250, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_251 = V_1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_252 = __this->___Grassmanager;
+		NullCheck(L_252);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_253 = L_252->___Grasses;
+		NullCheck(L_253);
+		int32_t L_254;
+		L_254 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_253, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		V_11 = L_254;
+		String_t* L_255;
+		L_255 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_11), NULL);
+		String_t* L_256;
+		L_256 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE, L_255, NULL);
+		NullCheck(L_251);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_251, L_256, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_257 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_258 = __this->___Grassmanager;
+		NullCheck(L_258);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_259 = L_258->___Grasses;
+		NullCheck(L_259);
+		int32_t L_260;
+		L_260 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_259, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_257);
+		L_257->___Grass_Holder_Index = ((int32_t)il2cpp_codegen_subtract(L_260, 1));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_261 = V_2;
+		NullCheck(L_261);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_262;
+		L_262 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_261, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_263 = __this->___Grassmanager;
+		NullCheck(L_263);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_264 = L_263->___GrassHolder;
+		NullCheck(L_264);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_265;
+		L_265 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_264, NULL);
+		NullCheck(L_262);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_262, L_265, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_266 = __this->___Grassmanager;
+		NullCheck(L_266);
+		L_266->___CleanUp = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_267 = __this->___Grassmanager;
+		NullCheck(L_267);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_268 = L_267->___Grasses;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_269 = __this->___Grassmanager;
+		NullCheck(L_269);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_270 = L_269->___Grasses;
+		NullCheck(L_270);
+		int32_t L_271;
+		L_271 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_270, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_268);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_272;
+		L_272 = List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C(L_268, ((int32_t)il2cpp_codegen_subtract(L_271, 1)), List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		V_3 = L_272;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_273 = V_3;
+		NullCheck(L_273);
+		L_273->___Combiner = (ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_273->___Combiner), (void*)(ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_274 = V_3;
+		NullCheck(L_274);
+		L_274->___Grow_in_Editor = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_275 = V_3;
+		NullCheck(L_275);
+		L_275->___growth_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_276 = V_3;
+		NullCheck(L_276);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_277 = L_276->___Registered_Brances;
+		NullCheck(L_277);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_277, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_278 = V_3;
+		NullCheck(L_278);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_279 = L_278->___Branch_grew;
+		NullCheck(L_279);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_279, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_280 = V_3;
+		NullCheck(L_280);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_281 = L_280->___Registered_Leaves;
+		NullCheck(L_281);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_281, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_282 = V_3;
+		NullCheck(L_282);
+		List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* L_283 = L_282->___Registered_Leaves_Rot;
+		NullCheck(L_283);
+		List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_inline(L_283, List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_284 = V_3;
+		NullCheck(L_284);
+		L_284->___batching_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_285 = V_3;
+		NullCheck(L_285);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_286 = L_285->___Branch_levels;
+		NullCheck(L_286);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_286, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_287 = V_3;
+		NullCheck(L_287);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_288 = L_287->___BranchID_per_level;
+		NullCheck(L_288);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_288, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_289 = V_3;
+		NullCheck(L_289);
+		L_289->___Grow_level = 0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_290 = V_3;
+		NullCheck(L_290);
+		L_290->___Grow_tree_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_291 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_292 = V_3;
+		NullCheck(L_292);
+		float L_293 = L_292->___Max_Health;
+		NullCheck(L_291);
+		L_291->___Health = L_293;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_294 = V_3;
+		NullCheck(L_294);
+		L_294->___is_moving = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_295 = V_3;
+		NullCheck(L_295);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_296 = L_295->___Leaf_belongs_to_branch;
+		NullCheck(L_296);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_296, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_297 = V_3;
+		NullCheck(L_297);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_298 = L_297->___scaleVectors;
+		NullCheck(L_298);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_298, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_299 = V_3;
+		NullCheck(L_299);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_300 = L_299->___Leaves;
+		NullCheck(L_300);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_300, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_301 = V_3;
+		NullCheck(L_301);
+		L_301->___Tree_Holder_Index = 0;
+		bool L_302 = __this->___grow_grass;
+		if (!L_302)
+		{
+			goto IL_06b3;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_303 = V_3;
+		NullCheck(L_303);
+		L_303->___Grow_tree = (bool)1;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_304 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_305 = V_3;
+		NullCheck(L_305);
+		float L_306 = L_305->___End_scale;
+		float L_307 = __this->___start_size_factor;
+		NullCheck(L_304);
+		L_304->___Start_tree_scale = ((float)il2cpp_codegen_multiply(L_306, L_307));
+		goto IL_06c6;
+	}
+
+IL_06b3:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_308 = V_3;
+		NullCheck(L_308);
+		L_308->___Grow_tree = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_309 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_310 = V_3;
+		NullCheck(L_310);
+		float L_311 = L_310->___End_scale;
+		NullCheck(L_309);
+		L_309->___Start_tree_scale = L_311;
+	}
+
+IL_06c6:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_312 = V_3;
+		NullCheck(L_312);
+		L_312->___rotation_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_313 = V_3;
+		NullCheck(L_313);
+		L_313->___Forest_holder = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_313->___Forest_holder), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+	}
+
+IL_06d4:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterHERO__ctor_mCBEC5E15F06E12221A91F9A512CD3C31AED2766A (InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___eraseRadius = (20.0f);
+		__this->___GrassManagerObjectName = _stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___GrassManagerObjectName), (void*)_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		__this->___enablePlanting = (bool)1;
+		__this->___plantDistance = (1.0f);
+		__this->___maxDistAround = (1.0f);
+		__this->___plantsCount = 4;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_0;
+		memset((&L_0), 0, sizeof(L_0));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_0), (1.0f), (2.0f), NULL);
+		__this->___minMaxDensity = L_0;
+		__this->___raycastHeight = (2.0f);
+		__this->___start_size_factor = (0.300000012f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASS_DemoRealTimev19_Start_m96C166FD05974C14723191BF768470B9466ED2BE (InfiniGRASS_DemoRealTimev19_t4B5EFC4CCCB978F407C23EB7449CF4B4748C7CE0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralFC98BE25D5901659336ADFDEE1817852C433429B);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		Shader_SetGlobalFloat_m8AA7A4D7D73914A00D9207D78621EDDF70602FB0(_stringLiteralFC98BE25D5901659336ADFDEE1817852C433429B, (0.0f), NULL);
+		__this->___snow_growth = (0.0f);
+		__this->___snow_glow = (0.75f);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___Audio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___Audio;
+		NullCheck(L_2);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_2, (bool)1, NULL);
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3 = __this->___Audio;
+		NullCheck(L_3);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_3, (0.0f), NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = __this->___SUN;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_006e;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_6 = __this->___SUN;
+		NullCheck(L_6);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_7;
+		L_7 = Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9(L_6, Component_GetComponent_TisLight_t1E68479B7782AF2050FAA02A5DC612FD034F18F3_mF4816FA12B6F220CA55D47D669D7E50DC118B9E9_RuntimeMethod_var);
+		__this->___SUN_LIGHT = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___SUN_LIGHT), (void*)L_7);
+	}
+
+IL_006e:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_8 = __this->___GrassManager;
+		NullCheck(L_8);
+		L_8->___WindTurbulence = (0.200000003f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_9 = __this->___GrassManager;
+		NullCheck(L_9);
+		L_9->___AmplifyWind = (0.699999988f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_10 = __this->___GrassManager;
+		NullCheck(L_10);
+		L_10->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_11 = __this->___GrassManager;
+		NullCheck(L_11);
+		L_11->___Max_density = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_12 = __this->___GrassManager;
+		NullCheck(L_12);
+		L_12->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_13 = __this->___GrassManager;
+		NullCheck(L_13);
+		L_13->___Max_spread = (9.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_14 = __this->___GrassManager;
+		NullCheck(L_14);
+		L_14->___min_scale = (0.300000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_15 = __this->___GrassManager;
+		NullCheck(L_15);
+		L_15->___max_scale = (0.649999976f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_16 = __this->___GrassManager;
+		NullCheck(L_16);
+		L_16->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_17 = __this->___GrassManager;
+		NullCheck(L_17);
+		L_17->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_18 = __this->___GrassManager;
+		NullCheck(L_18);
+		L_18->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_19 = __this->___GrassManager;
+		NullCheck(L_19);
+		L_19->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_20 = __this->___GrassManager;
+		NullCheck(L_20);
+		L_20->___RandomRot = (bool)0;
+		QualitySettings_set_shadowCascades_mB43E0A59B574B31AB8123795CDACD3B8E70C9A38(2, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_21 = __this->___GrassManager;
+		NullCheck(L_21);
+		L_21->___Grass_selector = 0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_22 = __this->___GrassManager;
+		NullCheck(L_22);
+		L_22->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_23 = __this->___GrassManager;
+		NullCheck(L_23);
+		L_23->___Max_density = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_24 = __this->___GrassManager;
+		NullCheck(L_24);
+		L_24->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_25 = __this->___GrassManager;
+		NullCheck(L_25);
+		L_25->___Max_spread = (9.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_26 = __this->___GrassManager;
+		NullCheck(L_26);
+		L_26->___min_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_27 = __this->___GrassManager;
+		NullCheck(L_27);
+		L_27->___max_scale = (0.600000024f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_28 = __this->___GrassManager;
+		NullCheck(L_28);
+		L_28->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_29 = __this->___GrassManager;
+		NullCheck(L_29);
+		L_29->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_30 = __this->___GrassManager;
+		NullCheck(L_30);
+		L_30->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_31 = __this->___GrassManager;
+		NullCheck(L_31);
+		L_31->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_32 = __this->___GrassManager;
+		NullCheck(L_32);
+		L_32->___RandomRot = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_33 = __this->___GrassManager;
+		NullCheck(L_33);
+		L_33->___AmplifyWind = (0.400000006f);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASS_DemoRealTimev19_LateUpdate_m5C6C0AF7496811B6F0763DC1EA4FB54E6AA10698 (InfiniGRASS_DemoRealTimev19_t4B5EFC4CCCB978F407C23EB7449CF4B4748C7CE0* __this, const RuntimeMethod* method) 
+{
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_0 = __this->___GrassManager;
+		NullCheck(L_0);
+		float L_1 = L_0->___AmplifyWind;
+		if ((!(((float)L_1) > ((float)(0.5f)))))
+		{
+			goto IL_0022;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_2 = __this->___GrassManager;
+		NullCheck(L_2);
+		L_2->___AmplifyWind = (0.400000006f);
+	}
+
+IL_0022:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASS_DemoRealTimev19_OnGUI_mD9B85CE4989872A8E0F35E8B65C27A1066995A72 (InfiniGRASS_DemoRealTimev19_t4B5EFC4CCCB978F407C23EB7449CF4B4748C7CE0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m48BBB83C5F748E6E6FF0731C3682092DEA6A7173_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral03CE15910E6C9D5BB5B9AA7F0F394602D3F296B8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0941FB97C737F7BC2E6B9CE6B243A5691DF3B8F2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral09D4A21326120ADF38DCF9976C6A808E8A9C3D79);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral0C08C695AEA0CD1061FB21DBE353D367595339B4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral14F71F91E4989486A39163AE76E4AD0C9CDE70EC);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1AC7969A60D1E58C97B6D20409CC46D822150C82);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1AD303814CFD70D0757B3FD9E70BE25519573995);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral1EBF8EA74B861A903512C862872ACA852D5399D5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral250D42E7647CB7A62827E3F93B41DF627EDA5937);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F3E2BC5563715E5275AB7CC7BA2D37934CE20D9);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2FC0EF613300907019607E2257A0D3F14F991A88);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral309B0D1BE9F1B329C03F1FFDCA61D0987ECB41D6);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral338454C4EA466E9EE6637257CB9E997972C6D7D2);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral405D63E13FC1621722674431C69647B1C788FA1A);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral406CD22481DC546A7283309979C6C7519BE2AED5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4256B1E0FEAF53DF93D977F5C91288DF48791C4C);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4609A84F1ACB567958428E7A9CC13F63591ED595);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral547A192F8F4D419FA8B3C08A9A817C1F3AA5EAAE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral66479690EE5D1EBF7B12FDE1A2DD9C8A7C6A9244);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6814ECD1050551E86D7A70265E5974A7D615E025);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6D6B8E94DC4D78B87209FFEA746EC4CC013AC83B);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral6F1B04EEFD3DA9799B14CD45D53EFEF1C81BFE70);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral72B46ECCDAC966E1450569C31DD118C1AAE4B3E7);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral74736502E984A033724DEC229000A845E8036FDB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral7A61A19934FDD357D5A5CECEBB2E7E77DD0784CB);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral85998D8C162D60EAF15D3DC2FD24CE8B9C8005CF);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB71D47FE8F1691BD4C37787168CA0FA7D18E4F55);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralBF96454C89E7953347814BFA97A67C8AC29F3ADD);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralC9FB943EC47C5732ACF4C805F5EE7C1602A76F60);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCC79D02C02810DB5C3CAC11A420F2FC424A779C4);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCD1F7A682E15A49BF16D9BC358A5EE625772D888);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralCF8B64C6D169EDF0C77BD30D3B6E3AE3808A75B1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD5397619F822E94D936DDC71C80B6B87E5A6ADA5);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD674876B9515CA2450C6F5C440CB3639D10292A8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD73128755FB54BE3885E11AA8BBBA589FA8C45A8);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD9C228937753BF3F00E12C45C4F9407626D2F295);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE6784AEFADE0BBC5FFBD83644C8E9725700929D3);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF5CC6387CB86C9CCBB32FAFF2D55FC2A4CE1D2E1);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralF5F14FE7B6A879FDD041B076D46B622B5BE87544);
+		s_Il2CppMethodInitialized = true;
+	}
+	String_t* V_0 = NULL;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	int32_t V_6 = 0;
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	float V_9 = 0.0f;
+	String_t* V_10 = NULL;
+	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 V_12;
+	memset((&V_12), 0, sizeof(V_12));
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	String_t* V_15 = NULL;
+	int32_t V_16 = 0;
+	int32_t V_17 = 0;
+	float V_18 = 0.0f;
+	float V_19 = 0.0f;
+	float V_20 = 0.0f;
+	int32_t V_21 = 0;
+	String_t* V_22 = NULL;
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_0 = __this->___GrassManager;
+		NullCheck(L_0);
+		float L_1 = L_0->___TintPower;
+		if ((!(((float)L_1) > ((float)(0.0f)))))
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_2 = __this->___GrassManager;
+		NullCheck(L_2);
+		L_2->___TintGrass = (bool)1;
+	}
+
+IL_001e:
+	{
+		V_0 = _stringLiteral4609A84F1ACB567958428E7A9CC13F63591ED595;
+		bool L_3 = __this->___Toggle_GUI;
+		if (!L_3)
+		{
+			goto IL_0032;
+		}
+	}
+	{
+		V_0 = _stringLiteralF5CC6387CB86C9CCBB32FAFF2D55FC2A4CE1D2E1;
+	}
+
+IL_0032:
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_4;
+		memset((&L_4), 0, sizeof(L_4));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_4), (10.0f), (10.0f), (110.0f), (22.0f), NULL);
+		String_t* L_5 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_6;
+		L_6 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_4, L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		bool L_7 = __this->___Toggle_GUI;
+		if (!L_7)
+		{
+			goto IL_008b;
+		}
+	}
+	{
+		__this->___Toggle_GUI = (bool)0;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___GUI_text;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_8, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_9)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___GUI_text;
+		NullCheck(L_10);
+		bool L_11;
+		L_11 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_10, NULL);
+		if (!L_11)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = __this->___GUI_text;
+		NullCheck(L_12);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_12, (bool)0, NULL);
+		goto IL_00b9;
+	}
+
+IL_008b:
+	{
+		__this->___Toggle_GUI = (bool)1;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_13 = __this->___GUI_text;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_14;
+		L_14 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_13, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_14)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15 = __this->___GUI_text;
+		NullCheck(L_15);
+		bool L_16;
+		L_16 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_15, NULL);
+		if (L_16)
+		{
+			goto IL_00b9;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_17 = __this->___GUI_text;
+		NullCheck(L_17);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_17, (bool)1, NULL);
+	}
+
+IL_00b9:
+	{
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_18), (10.0f), (32.0f), (110.0f), (22.0f), NULL);
+		int32_t* L_19 = (int32_t*)(&__this->___current_cam);
+		String_t* L_20;
+		L_20 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_19, NULL);
+		String_t* L_21;
+		L_21 = String_Concat_m8855A6DE10F84DA7F4EC113CADDB59873A25573B(_stringLiteralC9FB943EC47C5732ACF4C805F5EE7C1602A76F60, L_20, _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_22;
+		L_22 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_18, L_21, NULL);
+		if (!L_22)
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_23 = __this->___Cameras;
+		int32_t L_24 = __this->___current_cam;
+		NullCheck(L_23);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
+		L_25 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_23, L_24, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		NullCheck(L_25);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26;
+		L_26 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_25, NULL);
+		NullCheck(L_26);
+		bool L_27;
+		L_27 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_26, NULL);
+		if (!L_27)
+		{
+			goto IL_012f;
+		}
+	}
+	{
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_28 = __this->___Cameras;
+		int32_t L_29 = __this->___current_cam;
+		NullCheck(L_28);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_30;
+		L_30 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_28, L_29, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		NullCheck(L_30);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31;
+		L_31 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_30, NULL);
+		NullCheck(L_31);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_31, (bool)0, NULL);
+	}
+
+IL_012f:
+	{
+		int32_t L_32 = __this->___current_cam;
+		__this->___current_cam = ((int32_t)il2cpp_codegen_add(L_32, 1));
+		int32_t L_33 = __this->___current_cam;
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_34 = __this->___Cameras;
+		NullCheck(L_34);
+		int32_t L_35;
+		L_35 = List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_inline(L_34, List_1_get_Count_mB5E64608D47703A98476E026480AE38671047C87_RuntimeMethod_var);
+		if ((((int32_t)L_33) < ((int32_t)L_35)))
+		{
+			goto IL_0157;
+		}
+	}
+	{
+		__this->___current_cam = 0;
+	}
+
+IL_0157:
+	{
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_36 = __this->___Cameras;
+		int32_t L_37 = __this->___current_cam;
+		NullCheck(L_36);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_38;
+		L_38 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_36, L_37, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		NullCheck(L_38);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_39;
+		L_39 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_38, NULL);
+		NullCheck(L_39);
+		bool L_40;
+		L_40 = GameObject_get_activeInHierarchy_m49250F4F168DCC5388D5BE4F6A5681386907B109(L_39, NULL);
+		if (L_40)
+		{
+			goto IL_0190;
+		}
+	}
+	{
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_41 = __this->___Cameras;
+		int32_t L_42 = __this->___current_cam;
+		NullCheck(L_41);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_43;
+		L_43 = List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA(L_41, L_42, List_1_get_Item_m8EAA91B4CE37CBB6C720FD238E4505097B29FFDA_RuntimeMethod_var);
+		NullCheck(L_43);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_44;
+		L_44 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_43, NULL);
+		NullCheck(L_44);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_44, (bool)1, NULL);
+	}
+
+IL_0190:
+	{
+		bool L_45 = __this->___Toggle_GUI;
+		if (!L_45)
+		{
+			goto IL_3753;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_46 = __this->___GrassManager;
+		NullCheck(L_46);
+		float L_47 = L_46->___AmplifyWind;
+		if ((!(((float)L_47) > ((float)(0.100000001f)))))
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_48 = __this->___Audio;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_49;
+		L_49 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_48, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_49)
+		{
+			goto IL_01ec;
+		}
+	}
+	{
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_50 = __this->___Audio;
+		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_51 = __this->___Audio;
+		NullCheck(L_51);
+		float L_52;
+		L_52 = AudioSource_get_volume_m9CCF33BC636562EA282FDE07463B547D70134EE3(L_51, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_53 = __this->___GrassManager;
+		NullCheck(L_53);
+		float L_54 = L_53->___AmplifyWind;
+		float L_55;
+		L_55 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
+		float L_56;
+		L_56 = Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline(L_52, ((float)(L_54/(8.0f))), L_55, NULL);
+		NullCheck(L_50);
+		AudioSource_set_volume_mD902BBDBBDE0E3C148609BF3C05096148E90F2C0(L_50, L_56, NULL);
+	}
+
+IL_01ec:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_57 = __this->___GrassManager;
+		NullCheck(L_57);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_58 = L_57->___windzone;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_59;
+		L_59 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_58, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_59)
+		{
+			goto IL_0223;
+		}
+	}
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_60 = __this->___Wind;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_61;
+		L_61 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_60, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_61)
+		{
+			goto IL_0223;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_62 = __this->___GrassManager;
+		NullCheck(L_62);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_63 = L_62->___windzone;
+		NullCheck(L_63);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_64;
+		L_64 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_63, NULL);
+		__this->___Wind = L_64;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Wind), (void*)L_64);
+	}
+
+IL_0223:
+	{
+		V_1 = (-100.0f);
+		V_2 = (20.0f);
+		V_3 = (120.0f);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_65 = __this->___SUN_LIGHT;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_66;
+		L_66 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_65, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_66)
+		{
+			goto IL_0372;
+		}
+	}
+	{
+		float L_67 = V_2;
+		float L_68 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_69;
+		memset((&L_69), 0, sizeof(L_69));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_69), ((float)il2cpp_codegen_subtract(L_67, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_68, (140.0f))), (20.0f))), (70.0f))), (120.0f), (20.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_70;
+		L_70 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_69, _stringLiteral250D42E7647CB7A62827E3F93B41DF627EDA5937, NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_71 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___Sun_col);
+		float L_72 = V_2;
+		float L_73 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_74;
+		memset((&L_74), 0, sizeof(L_74));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_74), ((float)il2cpp_codegen_subtract(L_72, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_73, (140.0f))), (70.0f))), (100.0f), (30.0f), NULL);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_75 = __this->___SUN_LIGHT;
+		NullCheck(L_75);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_76;
+		L_76 = Light_get_color_mE7EB8F11BF394877B50A2F335627441889ADE536(L_75, NULL);
+		float L_77 = L_76.___r;
+		float L_78;
+		L_78 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_74, L_77, (0.5f), (1.0f), NULL);
+		L_71->___r = L_78;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_79 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___Sun_col);
+		float L_80 = V_2;
+		float L_81 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_82;
+		memset((&L_82), 0, sizeof(L_82));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_82), ((float)il2cpp_codegen_subtract(L_80, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_81, (172.0f))), (70.0f))), (100.0f), (30.0f), NULL);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_83 = __this->___SUN_LIGHT;
+		NullCheck(L_83);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_84;
+		L_84 = Light_get_color_mE7EB8F11BF394877B50A2F335627441889ADE536(L_83, NULL);
+		float L_85 = L_84.___g;
+		float L_86;
+		L_86 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_82, L_85, (0.5f), (1.0f), NULL);
+		L_79->___g = L_86;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F* L_87 = (Color_tD001788D726C3A7F1379BEED0260B9591F440C1F*)(&__this->___Sun_col);
+		float L_88 = V_2;
+		float L_89 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_90;
+		memset((&L_90), 0, sizeof(L_90));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_90), ((float)il2cpp_codegen_subtract(L_88, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_89, (204.0f))), (70.0f))), (100.0f), (30.0f), NULL);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_91 = __this->___SUN_LIGHT;
+		NullCheck(L_91);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_92;
+		L_92 = Light_get_color_mE7EB8F11BF394877B50A2F335627441889ADE536(L_91, NULL);
+		float L_93 = L_92.___b;
+		float L_94;
+		L_94 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_90, L_93, (0.5f), (1.0f), NULL);
+		L_87->___b = L_94;
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_95 = __this->___SUN_LIGHT;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_96 = __this->___Sun_col;
+		NullCheck(L_95);
+		Light_set_color_m242F09E22904E0A20D5B032A0749678B0796A87C(L_95, L_96, NULL);
+	}
+
+IL_0372:
+	{
+		float L_97 = V_2;
+		float L_98 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_99;
+		memset((&L_99), 0, sizeof(L_99));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_99), ((float)il2cpp_codegen_subtract(L_97, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_98, (140.0f))), (20.0f))), (70.0f))), (70.0f))), (50.0f))), (120.0f), (20.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_100;
+		L_100 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_99, _stringLiteralCD1F7A682E15A49BF16D9BC358A5EE625772D888, NULL);
+		float L_101 = V_2;
+		float L_102 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_103;
+		memset((&L_103), 0, sizeof(L_103));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_103), ((float)il2cpp_codegen_subtract(L_101, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_102, (140.0f))), (70.0f))), (70.0f))), (50.0f))), (100.0f), (30.0f), NULL);
+		float L_104 = __this->___snow_growth;
+		float L_105;
+		L_105 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_103, L_104, (0.0f), (10.0f), NULL);
+		__this->___snow_growth = L_105;
+		float L_106 = V_2;
+		float L_107 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_108;
+		memset((&L_108), 0, sizeof(L_108));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_108), ((float)il2cpp_codegen_subtract(L_106, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_107, (140.0f))), (20.0f))), (70.0f))), (70.0f))), (40.0f))), (70.0f))), (120.0f), (20.0f), NULL);
+		String_t* L_109;
+		L_109 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_108, _stringLiteral309B0D1BE9F1B329C03F1FFDCA61D0987ECB41D6, NULL);
+		float L_110 = V_2;
+		float L_111 = V_3;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_112;
+		memset((&L_112), 0, sizeof(L_112));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_112), ((float)il2cpp_codegen_subtract(L_110, (10.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_111, (140.0f))), (70.0f))), (70.0f))), (40.0f))), (70.0f))), (100.0f), (30.0f), NULL);
+		float L_113 = __this->___snow_glow;
+		float L_114;
+		L_114 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_112, L_113, (0.0f), (10.0f), NULL);
+		__this->___snow_glow = L_114;
+		V_6 = 0;
+		goto IL_0514;
+	}
+
+IL_0497:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_115 = __this->___GrassManager;
+		NullCheck(L_115);
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_116 = L_115->___GrassMaterials;
+		int32_t L_117 = V_6;
+		NullCheck(L_116);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_118;
+		L_118 = List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456(L_116, L_117, List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456_RuntimeMethod_var);
+		NullCheck(L_118);
+		bool L_119;
+		L_119 = Material_HasProperty_mC09A83B44E368A217F606DD4954FA080CC03EC6C(L_118, _stringLiteral1EBF8EA74B861A903512C862872ACA852D5399D5, NULL);
+		if (!L_119)
+		{
+			goto IL_050e;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_120 = __this->___GrassManager;
+		NullCheck(L_120);
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_121 = L_120->___GrassMaterials;
+		int32_t L_122 = V_6;
+		NullCheck(L_121);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_123;
+		L_123 = List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456(L_121, L_122, List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456_RuntimeMethod_var);
+		NullCheck(L_123);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_124;
+		L_124 = Material_GetVector_mA2011D4DA2CC58003AE90DBF0802CF5EE31B014D(L_123, _stringLiteral1EBF8EA74B861A903512C862872ACA852D5399D5, NULL);
+		V_7 = L_124;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_125 = __this->___GrassManager;
+		NullCheck(L_125);
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_126 = L_125->___GrassMaterials;
+		int32_t L_127 = V_6;
+		NullCheck(L_126);
+		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_128;
+		L_128 = List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456(L_126, L_127, List_1_get_Item_m70F5CFC2DEA9332B78C5ADC0EE1CE1B7465B1456_RuntimeMethod_var);
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_129 = V_7;
+		float L_130 = L_129.___x;
+		float L_131 = __this->___snow_growth;
+		float L_132 = __this->___snow_glow;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_133 = V_7;
+		float L_134 = L_133.___w;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_135;
+		memset((&L_135), 0, sizeof(L_135));
+		Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline((&L_135), L_130, L_131, L_132, L_134, NULL);
+		NullCheck(L_128);
+		Material_SetVector_m69444B8040D955821F241113446CC8713C9E12D1(L_128, _stringLiteral1EBF8EA74B861A903512C862872ACA852D5399D5, L_135, NULL);
+	}
+
+IL_050e:
+	{
+		int32_t L_136 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_136, 1));
+	}
+
+IL_0514:
+	{
+		int32_t L_137 = V_6;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_138 = __this->___GrassManager;
+		NullCheck(L_138);
+		List_1_t386E09F4F22DDE4D2AC41A8567FFF283C254537B* L_139 = L_138->___GrassMaterials;
+		NullCheck(L_139);
+		int32_t L_140;
+		L_140 = List_1_get_Count_m48BBB83C5F748E6E6FF0731C3682092DEA6A7173_inline(L_139, List_1_get_Count_m48BBB83C5F748E6E6FF0731C3682092DEA6A7173_RuntimeMethod_var);
+		if ((((int32_t)L_137) < ((int32_t)L_140)))
+		{
+			goto IL_0497;
+		}
+	}
+	{
+		V_4 = (100.0f);
+		V_5 = (30.0f);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_141 = __this->___SUN_LIGHT;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_142;
+		L_142 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_141, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_142)
+		{
+			goto IL_0749;
+		}
+	}
+	{
+		float L_143 = V_4;
+		float L_144 = V_1;
+		float L_145 = V_5;
+		float L_146 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_147;
+		memset((&L_147), 0, sizeof(L_147));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_147), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_143)), (10.0f))), L_144)), ((float)il2cpp_codegen_add(L_145, (30.0f))), ((float)il2cpp_codegen_add(L_146, (10.0f))), (25.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_148;
+		L_148 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_147, _stringLiteral405D63E13FC1621722674431C69647B1C788FA1A, NULL);
+		float L_149 = V_4;
+		float L_150 = V_1;
+		float L_151 = V_5;
+		float L_152 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_153;
+		memset((&L_153), 0, sizeof(L_153));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_153), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_149)), (10.0f))), L_150)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_151, (30.0f))), (30.0f))), ((float)il2cpp_codegen_add(L_152, (0.0f))), (30.0f), NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_154 = __this->___SUN;
+		NullCheck(L_154);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_155;
+		L_155 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_154, NULL);
+		float L_156 = L_155.___x;
+		float L_157;
+		L_157 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_153, L_156, (0.0f), (80.0f), NULL);
+		__this->___Sun_rotX = L_157;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_158 = __this->___SUN;
+		float L_159 = __this->___Sun_rotX;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_160 = __this->___SUN;
+		NullCheck(L_160);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_161;
+		L_161 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_160, NULL);
+		float L_162 = L_161.___y;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_163 = __this->___SUN;
+		NullCheck(L_163);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_164;
+		L_164 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_163, NULL);
+		float L_165 = L_164.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_166;
+		memset((&L_166), 0, sizeof(L_166));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_166), L_159, L_162, L_165, NULL);
+		NullCheck(L_158);
+		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_158, L_166, NULL);
+		float L_167 = V_4;
+		float L_168 = V_1;
+		float L_169 = V_5;
+		float L_170 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_171;
+		memset((&L_171), 0, sizeof(L_171));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_171), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_167)), (10.0f))), L_168)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_169, (30.0f))), (30.0f))), (30.0f))), ((float)il2cpp_codegen_add(L_170, (0.0f))), (30.0f), NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_172 = __this->___SUN;
+		NullCheck(L_172);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_173;
+		L_173 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_172, NULL);
+		float L_174 = L_173.___y;
+		float L_175;
+		L_175 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_171, L_174, (0.0f), (359.0f), NULL);
+		__this->___Sun_rotY = L_175;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_176 = __this->___SUN;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_177 = __this->___SUN;
+		NullCheck(L_177);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_178;
+		L_178 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_177, NULL);
+		float L_179 = L_178.___x;
+		float L_180 = __this->___Sun_rotY;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_181 = __this->___SUN;
+		NullCheck(L_181);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_182;
+		L_182 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_181, NULL);
+		float L_183 = L_182.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_184;
+		memset((&L_184), 0, sizeof(L_184));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_184), L_179, L_180, L_183, NULL);
+		NullCheck(L_176);
+		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_176, L_184, NULL);
+		float L_185 = V_4;
+		float L_186 = V_1;
+		float L_187 = V_5;
+		float L_188 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_189;
+		memset((&L_189), 0, sizeof(L_189));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_189), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_185)), (10.0f))), L_186)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_187, (30.0f))), (30.0f))), (30.0f))), (30.0f))), ((float)il2cpp_codegen_add(L_188, (0.0f))), (25.0f), NULL);
+		String_t* L_190;
+		L_190 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_189, _stringLiteralD5397619F822E94D936DDC71C80B6B87E5A6ADA5, NULL);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_191 = __this->___SUN_LIGHT;
+		float L_192 = V_4;
+		float L_193 = V_1;
+		float L_194 = V_5;
+		float L_195 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_196;
+		memset((&L_196), 0, sizeof(L_196));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_196), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_192)), (10.0f))), L_193)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_194, (30.0f))), (30.0f))), (30.0f))), (30.0f))), (30.0f))), ((float)il2cpp_codegen_add(L_195, (0.0f))), (30.0f), NULL);
+		Light_t1E68479B7782AF2050FAA02A5DC612FD034F18F3* L_197 = __this->___SUN_LIGHT;
+		NullCheck(L_197);
+		float L_198;
+		L_198 = Light_get_intensity_m8FA28D515853068A93FA68B2148809BBEE4E710F(L_197, NULL);
+		float L_199;
+		L_199 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_196, L_198, (0.100000001f), (8.0f), NULL);
+		NullCheck(L_191);
+		Light_set_intensity_mE4820C7F39F490B92ED5EA0C3AADA7C0775BE854(L_191, L_199, NULL);
+	}
+
+IL_0749:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_200 = __this->___Wind;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_201;
+		L_201 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_200, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_201)
+		{
+			goto IL_084a;
+		}
+	}
+	{
+		float L_202 = V_4;
+		float L_203 = V_1;
+		float L_204 = V_5;
+		float L_205 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_206;
+		memset((&L_206), 0, sizeof(L_206));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_206), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_202)), (10.0f))), L_203)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_204, (30.0f))), (30.0f))), (30.0f))), (50.0f))), (30.0f))), ((float)il2cpp_codegen_add(L_205, (0.0f))), (25.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_207;
+		L_207 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_206, _stringLiteral6814ECD1050551E86D7A70265E5974A7D615E025, NULL);
+		float L_208 = V_4;
+		float L_209 = V_1;
+		float L_210 = V_5;
+		float L_211 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_212;
+		memset((&L_212), 0, sizeof(L_212));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_212), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_208)), (10.0f))), L_209)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_210, (30.0f))), (30.0f))), (30.0f))), (50.0f))), (30.0f))), (30.0f))), ((float)il2cpp_codegen_add(L_211, (0.0f))), (30.0f), NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_213 = __this->___Wind;
+		NullCheck(L_213);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_214;
+		L_214 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_213, NULL);
+		float L_215 = L_214.___y;
+		float L_216;
+		L_216 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_212, L_215, (0.0f), (359.0f), NULL);
+		__this->___Wind_rotY = L_216;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_217 = __this->___Wind;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_218 = __this->___Wind;
+		NullCheck(L_218);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_219;
+		L_219 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_218, NULL);
+		float L_220 = L_219.___x;
+		float L_221 = __this->___Wind_rotY;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_222 = __this->___Wind;
+		NullCheck(L_222);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_223;
+		L_223 = Transform_get_eulerAngles_mCAAF48EFCF628F1ED91C2FFE75A4FD19C039DD6A(L_222, NULL);
+		float L_224 = L_223.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_225;
+		memset((&L_225), 0, sizeof(L_225));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_225), L_220, L_221, L_224, NULL);
+		NullCheck(L_217);
+		Transform_set_eulerAngles_m9F0BC484A7915A51FAB87230644229B75BACA004(L_217, L_225, NULL);
+	}
+
+IL_084a:
+	{
+		bool L_226 = __this->___OnlySunWind;
+		if (L_226)
+		{
+			goto IL_3753;
+		}
+	}
+	{
+		float L_227 = V_4;
+		float L_228 = V_1;
+		float L_229 = V_5;
+		float L_230 = V_4;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_231;
+		memset((&L_231), 0, sizeof(L_231));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_231), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply((1.0f), L_227)), (10.0f))), L_228)), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_229, (30.0f))), (30.0f))), (30.0f))), (50.0f))), (30.0f))), (30.0f))), (30.0f))), ((float)il2cpp_codegen_add(L_230, (50.0f))), (30.0f), NULL);
+		int32_t* L_232 = (int32_t*)(&__this->___quality);
+		String_t* L_233;
+		L_233 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_232, NULL);
+		String_t* L_234;
+		L_234 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral03CE15910E6C9D5BB5B9AA7F0F394602D3F296B8, L_233, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_235;
+		L_235 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_231, L_234, NULL);
+		if (!L_235)
+		{
+			goto IL_0904;
+		}
+	}
+	{
+		int32_t L_236 = __this->___quality;
+		if ((!(((uint32_t)L_236) == ((uint32_t)2))))
+		{
+			goto IL_08d7;
+		}
+	}
+	{
+		QualitySettings_set_shadowCascades_mB43E0A59B574B31AB8123795CDACD3B8E70C9A38(0, NULL);
+		__this->___quality = 0;
+		goto IL_0904;
+	}
+
+IL_08d7:
+	{
+		int32_t L_237 = __this->___quality;
+		if ((!(((uint32_t)L_237) == ((uint32_t)1))))
+		{
+			goto IL_08ef;
+		}
+	}
+	{
+		QualitySettings_set_shadowCascades_mB43E0A59B574B31AB8123795CDACD3B8E70C9A38(4, NULL);
+		__this->___quality = 2;
+		goto IL_0904;
+	}
+
+IL_08ef:
+	{
+		int32_t L_238 = __this->___quality;
+		if (L_238)
+		{
+			goto IL_0904;
+		}
+	}
+	{
+		QualitySettings_set_shadowCascades_mB43E0A59B574B31AB8123795CDACD3B8E70C9A38(2, NULL);
+		__this->___quality = 1;
+	}
+
+IL_0904:
+	{
+		Resolution_tDF215F567EEFFD07B9A8FB7CEACC08EA6B8B9525 L_239;
+		L_239 = Screen_get_currentResolution_m8FE4C43E4F6EF28E0B85EB94B6C69D1EC5687CCD(NULL);
+		V_12 = L_239;
+		int32_t L_240;
+		L_240 = Resolution_get_width_mC55423852D453EEC0B66E692AA3E7F5DE772FB24((&V_12), NULL);
+		V_8 = ((float)L_240);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_241;
+		L_241 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_242;
+		L_242 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_241, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_242)
+		{
+			goto IL_0931;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_243;
+		L_243 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_243);
+		int32_t L_244;
+		L_244 = Camera_get_pixelWidth_m55AC8AD744FC0179865C2E630C68F9AD0799065D(L_243, NULL);
+		V_8 = ((float)L_244);
+		goto IL_094b;
+	}
+
+IL_0931:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_245;
+		L_245 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_246;
+		L_246 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_245, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_246)
+		{
+			goto IL_094b;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_247;
+		L_247 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		NullCheck(L_247);
+		int32_t L_248;
+		L_248 = Camera_get_pixelWidth_m55AC8AD744FC0179865C2E630C68F9AD0799065D(L_247, NULL);
+		V_8 = ((float)L_248);
+	}
+
+IL_094b:
+	{
+		float L_249 = V_8;
+		__this->___Grass_GUI_startX = ((float)il2cpp_codegen_subtract(L_249, (400.0f)));
+		V_9 = (135.0f);
+		float L_250 = V_9;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_251;
+		memset((&L_251), 0, sizeof(L_251));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_251), (130.0f), ((float)il2cpp_codegen_add((80.0f), L_250)), (80.0f), (25.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_252;
+		L_252 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_251, _stringLiteral72B46ECCDAC966E1450569C31DD118C1AAE4B3E7, NULL);
+		if (!L_252)
+		{
+			goto IL_09d3;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_253 = __this->___GrassManager;
+		NullCheck(L_253);
+		bool L_254 = L_253->___Rock_painting;
+		if (!L_254)
+		{
+			goto IL_09a3;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_255 = __this->___GrassManager;
+		NullCheck(L_255);
+		L_255->___Rock_painting = (bool)0;
+		goto IL_09c7;
+	}
+
+IL_09a3:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_256 = __this->___GrassManager;
+		NullCheck(L_256);
+		L_256->___Rock_painting = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_257 = __this->___GrassManager;
+		NullCheck(L_257);
+		L_257->___Fence_painting = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_258 = __this->___GrassManager;
+		NullCheck(L_258);
+		L_258->___Grass_painting = (bool)0;
+	}
+
+IL_09c7:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_259 = __this->___GrassManager;
+		NullCheck(L_259);
+		L_259->___Grass_selector = 0;
+	}
+
+IL_09d3:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_260 = __this->___GrassManager;
+		NullCheck(L_260);
+		bool L_261 = L_260->___Rock_painting;
+		if (!L_261)
+		{
+			goto IL_0c5c;
+		}
+	}
+	{
+		V_13 = 0;
+		goto IL_0a37;
+	}
+
+IL_09e8:
+	{
+		float L_262 = __this->___Grass_GUI_startX;
+		int32_t L_263 = V_13;
+		float L_264 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_265;
+		memset((&L_265), 0, sizeof(L_265));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_265), ((float)il2cpp_codegen_add(L_262, ((float)((int32_t)il2cpp_codegen_multiply(((int32_t)60), L_263))))), ((float)il2cpp_codegen_add(L_264, (5.0f))), (60.0f), (60.0f), NULL);
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_266 = __this->___IconsRocks;
+		int32_t L_267 = V_13;
+		NullCheck(L_266);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_268;
+		L_268 = List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3(L_266, L_267, List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_269;
+		L_269 = GUI_Button_mB2D6A5CDD9F6D8F79B87778837B70663E47D952E(L_265, L_268, NULL);
+		if (!L_269)
+		{
+			goto IL_0a31;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_270 = __this->___GrassManager;
+		int32_t L_271 = V_13;
+		NullCheck(L_270);
+		L_270->___Grass_selector = L_271;
+	}
+
+IL_0a31:
+	{
+		int32_t L_272 = V_13;
+		V_13 = ((int32_t)il2cpp_codegen_add(L_272, 1));
+	}
+
+IL_0a37:
+	{
+		int32_t L_273 = V_13;
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_274 = __this->___IconsRocks;
+		NullCheck(L_274);
+		int32_t L_275;
+		L_275 = List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_inline(L_274, List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_RuntimeMethod_var);
+		if ((((int32_t)L_273) < ((int32_t)L_275)))
+		{
+			goto IL_09e8;
+		}
+	}
+	{
+		float L_276 = __this->___Grass_GUI_startX;
+		float L_277 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_278;
+		memset((&L_278), 0, sizeof(L_278));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_278), L_276, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_277, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_279 = __this->___GrassManager;
+		NullCheck(L_279);
+		float* L_280 = (float*)(&L_279->___min_grass_patch_dist);
+		String_t* L_281;
+		L_281 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_280, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_282;
+		L_282 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral09D4A21326120ADF38DCF9976C6A808E8A9C3D79, L_281, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_283;
+		L_283 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_278, L_282, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_284 = __this->___GrassManager;
+		float L_285 = __this->___Grass_GUI_startX;
+		float L_286 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_287;
+		memset((&L_287), 0, sizeof(L_287));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_287), ((float)il2cpp_codegen_add(L_285, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_286, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_288 = __this->___GrassManager;
+		NullCheck(L_288);
+		float L_289 = L_288->___min_grass_patch_dist;
+		float L_290;
+		L_290 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_287, L_289, (2.0f), (8.0f), NULL);
+		NullCheck(L_284);
+		L_284->___min_grass_patch_dist = L_290;
+		float L_291 = __this->___Grass_GUI_startX;
+		float L_292 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_293;
+		memset((&L_293), 0, sizeof(L_293));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_293), L_291, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_292, (60.0f))), (30.0f))), (110.0f), (40.0f), NULL);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_294 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_295 = L_294;
+		NullCheck(L_295);
+		(L_295)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral74736502E984A033724DEC229000A845E8036FDB);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_296 = L_295;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_297 = __this->___GrassManager;
+		NullCheck(L_297);
+		float* L_298 = (float*)(&L_297->___min_scale);
+		String_t* L_299;
+		L_299 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_298, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_296);
+		(L_296)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_299);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_300 = L_296;
+		NullCheck(L_300);
+		(L_300)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD9C228937753BF3F00E12C45C4F9407626D2F295);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_301 = L_300;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_302 = __this->___GrassManager;
+		NullCheck(L_302);
+		float* L_303 = (float*)(&L_302->___max_scale);
+		String_t* L_304;
+		L_304 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_303, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_301);
+		(L_301)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_304);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_305 = L_301;
+		NullCheck(L_305);
+		(L_305)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		String_t* L_306;
+		L_306 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_305, NULL);
+		String_t* L_307;
+		L_307 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_293, L_306, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_308 = __this->___GrassManager;
+		float L_309 = __this->___Grass_GUI_startX;
+		float L_310 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_311;
+		memset((&L_311), 0, sizeof(L_311));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_311), ((float)il2cpp_codegen_add(L_309, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_310, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_312 = __this->___GrassManager;
+		NullCheck(L_312);
+		float L_313 = L_312->___min_scale;
+		float L_314;
+		L_314 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_311, L_313, (0.0500000007f), (1.5f), NULL);
+		NullCheck(L_308);
+		L_308->___min_scale = L_314;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_315 = __this->___GrassManager;
+		float L_316 = __this->___Grass_GUI_startX;
+		float L_317 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_318;
+		memset((&L_318), 0, sizeof(L_318));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_318), ((float)il2cpp_codegen_add(L_316, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_317, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_319 = __this->___GrassManager;
+		NullCheck(L_319);
+		float L_320 = L_319->___max_scale;
+		float L_321;
+		L_321 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_318, L_320, (0.100000001f), (1.5f), NULL);
+		NullCheck(L_315);
+		L_315->___max_scale = L_321;
+	}
+
+IL_0c5c:
+	{
+		float L_322 = V_9;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_323;
+		memset((&L_323), 0, sizeof(L_323));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_323), (130.0f), ((float)il2cpp_codegen_add((45.0f), L_322)), (80.0f), (25.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_324;
+		L_324 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_323, _stringLiteralD674876B9515CA2450C6F5C440CB3639D10292A8, NULL);
+		if (!L_324)
+		{
+			goto IL_0ccf;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_325 = __this->___GrassManager;
+		NullCheck(L_325);
+		bool L_326 = L_325->___Fence_painting;
+		if (!L_326)
+		{
+			goto IL_0c9f;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_327 = __this->___GrassManager;
+		NullCheck(L_327);
+		L_327->___Fence_painting = (bool)0;
+		goto IL_0cc3;
+	}
+
+IL_0c9f:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_328 = __this->___GrassManager;
+		NullCheck(L_328);
+		L_328->___Fence_painting = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_329 = __this->___GrassManager;
+		NullCheck(L_329);
+		L_329->___Rock_painting = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_330 = __this->___GrassManager;
+		NullCheck(L_330);
+		L_330->___Grass_painting = (bool)0;
+	}
+
+IL_0cc3:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_331 = __this->___GrassManager;
+		NullCheck(L_331);
+		L_331->___Grass_selector = 0;
+	}
+
+IL_0ccf:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_332 = __this->___GrassManager;
+		NullCheck(L_332);
+		bool L_333 = L_332->___Fence_painting;
+		if (!L_333)
+		{
+			goto IL_0e43;
+		}
+	}
+	{
+		V_14 = 0;
+		goto IL_0d50;
+	}
+
+IL_0ce4:
+	{
+		float L_334 = __this->___Grass_GUI_startX;
+		int32_t L_335 = V_14;
+		float L_336 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_337;
+		memset((&L_337), 0, sizeof(L_337));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_337), ((float)il2cpp_codegen_add(L_334, ((float)((int32_t)il2cpp_codegen_multiply(((int32_t)60), L_335))))), ((float)il2cpp_codegen_add(L_336, (5.0f))), (60.0f), (60.0f), NULL);
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_338 = __this->___IconsFence;
+		int32_t L_339 = V_14;
+		NullCheck(L_338);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_340;
+		L_340 = List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3(L_338, L_339, List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_341;
+		L_341 = GUI_Button_mB2D6A5CDD9F6D8F79B87778837B70663E47D952E(L_337, L_340, NULL);
+		if (!L_341)
+		{
+			goto IL_0d4a;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_342 = __this->___GrassManager;
+		NullCheck(L_342);
+		int32_t L_343 = L_342->___Grass_selector;
+		int32_t L_344 = V_14;
+		if ((((int32_t)L_343) == ((int32_t)L_344)))
+		{
+			goto IL_0d3e;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_345 = __this->___GrassManager;
+		int32_t L_346 = V_14;
+		NullCheck(L_345);
+		L_345->___Grass_selector = L_346;
+		goto IL_0d4a;
+	}
+
+IL_0d3e:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_347 = __this->___GrassManager;
+		NullCheck(L_347);
+		L_347->___Fence_painting = (bool)0;
+	}
+
+IL_0d4a:
+	{
+		int32_t L_348 = V_14;
+		V_14 = ((int32_t)il2cpp_codegen_add(L_348, 1));
+	}
+
+IL_0d50:
+	{
+		int32_t L_349 = V_14;
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_350 = __this->___IconsFence;
+		NullCheck(L_350);
+		int32_t L_351;
+		L_351 = List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_inline(L_350, List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_RuntimeMethod_var);
+		if ((((int32_t)L_349) < ((int32_t)L_351)))
+		{
+			goto IL_0ce4;
+		}
+	}
+	{
+		float L_352 = __this->___Grass_GUI_startX;
+		float L_353 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_354;
+		memset((&L_354), 0, sizeof(L_354));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_354), L_352, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_353, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_355 = __this->___GrassManager;
+		NullCheck(L_355);
+		float* L_356 = (float*)(&L_355->___fence_scale);
+		String_t* L_357;
+		L_357 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_356, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_358;
+		L_358 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral6F1B04EEFD3DA9799B14CD45D53EFEF1C81BFE70, L_357, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_359;
+		L_359 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_354, L_358, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_360 = __this->___GrassManager;
+		float L_361 = __this->___Grass_GUI_startX;
+		float L_362 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_363;
+		memset((&L_363), 0, sizeof(L_363));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_363), ((float)il2cpp_codegen_add(L_361, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_362, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_364 = __this->___GrassManager;
+		NullCheck(L_364);
+		float L_365 = L_364->___fence_scale;
+		float L_366;
+		L_366 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_363, L_365, (0.300000012f), (0.5f), NULL);
+		NullCheck(L_360);
+		L_360->___fence_scale = L_366;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_367 = __this->___GrassManager;
+		NullCheck(L_367);
+		L_367->___min_grass_patch_dist = (0.400000006f);
+	}
+
+IL_0e43:
+	{
+		float L_368 = V_9;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_369;
+		memset((&L_369), 0, sizeof(L_369));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_369), (220.0f), ((float)il2cpp_codegen_add((10.0f), ((float)il2cpp_codegen_multiply(L_368, (2.0f))))), (300.0f), (25.0f), NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_370;
+		L_370 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_369, _stringLiteral1AD303814CFD70D0757B3FD9E70BE25519573995, NULL);
+		if (!L_370)
+		{
+			goto IL_0eb0;
+		}
+	}
+	{
+		InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* L_371 = __this->___heroPlanter;
+		NullCheck(L_371);
+		bool L_372 = L_371->___enablePlanting;
+		if (!L_372)
+		{
+			goto IL_0e98;
+		}
+	}
+	{
+		InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* L_373 = __this->___heroPlanter;
+		NullCheck(L_373);
+		L_373->___enablePlanting = (bool)0;
+		InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* L_374 = __this->___heroPlanter;
+		NullCheck(L_374);
+		L_374->___Enable_real_time_erase = (bool)1;
+		goto IL_0eb0;
+	}
+
+IL_0e98:
+	{
+		InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* L_375 = __this->___heroPlanter;
+		NullCheck(L_375);
+		L_375->___enablePlanting = (bool)1;
+		InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* L_376 = __this->___heroPlanter;
+		NullCheck(L_376);
+		L_376->___Enable_real_time_erase = (bool)0;
+	}
+
+IL_0eb0:
+	{
+		V_10 = _stringLiteral4256B1E0FEAF53DF93D977F5C91288DF48791C4C;
+		InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* L_377 = __this->___heroPlanter;
+		NullCheck(L_377);
+		bool L_378 = L_377->___enablePlanting;
+		if (!L_378)
+		{
+			goto IL_0ecb;
+		}
+	}
+	{
+		V_10 = _stringLiteral0C08C695AEA0CD1061FB21DBE353D367595339B4;
+	}
+
+IL_0ecb:
+	{
+		float L_379 = V_9;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_380;
+		memset((&L_380), 0, sizeof(L_380));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_380), (220.0f), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add((10.0f), ((float)il2cpp_codegen_multiply(L_379, (2.0f))))), (30.0f))), (300.0f), (35.0f), NULL);
+		String_t* L_381 = V_10;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_382;
+		L_382 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_380, L_381, NULL);
+		float L_383 = V_9;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_384;
+		memset((&L_384), 0, sizeof(L_384));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_384), (130.0f), ((float)il2cpp_codegen_add((10.0f), L_383)), (80.0f), (22.0f), NULL);
+		bool L_385;
+		L_385 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_384, _stringLiteral0941FB97C737F7BC2E6B9CE6B243A5691DF3B8F2, NULL);
+		if (!L_385)
+		{
+			goto IL_0f6e;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_386 = __this->___GrassManager;
+		NullCheck(L_386);
+		bool L_387 = L_386->___Grass_painting;
+		if (!L_387)
+		{
+			goto IL_0f3e;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_388 = __this->___GrassManager;
+		NullCheck(L_388);
+		L_388->___Grass_painting = (bool)0;
+		goto IL_0f62;
+	}
+
+IL_0f3e:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_389 = __this->___GrassManager;
+		NullCheck(L_389);
+		L_389->___Grass_painting = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_390 = __this->___GrassManager;
+		NullCheck(L_390);
+		L_390->___Rock_painting = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_391 = __this->___GrassManager;
+		NullCheck(L_391);
+		L_391->___Fence_painting = (bool)0;
+	}
+
+IL_0f62:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_392 = __this->___GrassManager;
+		NullCheck(L_392);
+		L_392->___Grass_selector = 0;
+	}
+
+IL_0f6e:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_393 = __this->___GrassManager;
+		NullCheck(L_393);
+		bool L_394 = L_393->___Grass_painting;
+		if (!L_394)
+		{
+			goto IL_3200;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_395 = __this->___GrassManager;
+		NullCheck(L_395);
+		L_395->___GridOnNormal = (bool)1;
+		V_16 = 0;
+		goto IL_2700;
+	}
+
+IL_0f92:
+	{
+		V_17 = ((int32_t)15);
+		float L_396 = __this->___Grass_GUI_startX;
+		int32_t L_397 = V_16;
+		V_18 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_396, ((float)((int32_t)il2cpp_codegen_multiply(((int32_t)60), L_397))))), (561.0f)));
+		V_19 = (0.0f);
+		int32_t L_398 = V_16;
+		int32_t L_399 = V_17;
+		if ((((int32_t)L_398) <= ((int32_t)L_399)))
+		{
+			goto IL_0fe6;
+		}
+	}
+	{
+		float L_400 = __this->___Grass_GUI_startY;
+		V_19 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_400, (40.0f))), (10.0f)));
+		float L_401 = __this->___Grass_GUI_startX;
+		int32_t L_402 = V_16;
+		int32_t L_403 = V_17;
+		V_18 = ((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(L_401, ((float)((int32_t)il2cpp_codegen_multiply(((int32_t)60), ((int32_t)il2cpp_codegen_subtract(((int32_t)il2cpp_codegen_subtract(L_402, L_403)), 1))))))), (561.0f)));
+	}
+
+IL_0fe6:
+	{
+		V_20 = (60.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_404 = __this->___GrassManager;
+		NullCheck(L_404);
+		int32_t L_405 = L_404->___Grass_selector;
+		int32_t L_406 = V_16;
+		if ((!(((uint32_t)L_405) == ((uint32_t)L_406))))
+		{
+			goto IL_1003;
+		}
+	}
+	{
+		V_20 = (55.0f);
+	}
+
+IL_1003:
+	{
+		float L_407 = V_18;
+		float L_408 = V_19;
+		float L_409 = V_20;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_410;
+		memset((&L_410), 0, sizeof(L_410));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_410), L_407, L_408, (60.0f), L_409, NULL);
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_411 = __this->___IconsGrass;
+		int32_t L_412 = V_16;
+		NullCheck(L_411);
+		Texture2D_tE6505BC111DD8A424A9DBE8E05D7D09E11FFFCF4* L_413;
+		L_413 = List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3(L_411, L_412, List_1_get_Item_m41F9D0682DC2DEC45DFE466C6AFE6D89379BC9A3_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_414;
+		L_414 = GUI_Button_mB2D6A5CDD9F6D8F79B87778837B70663E47D952E(L_410, L_413, NULL);
+		if (!L_414)
+		{
+			goto IL_26fa;
+		}
+	}
+	{
+		InfiniGRASSPlanterHERO_t0B50A4B9EBEBAB421BE4AEC3ED171A7102185A7A* L_415 = __this->___heroPlanter;
+		int32_t L_416 = V_16;
+		NullCheck(L_415);
+		L_415->___Grass_selector = L_416;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_417 = __this->___GrassManager;
+		int32_t L_418 = V_16;
+		NullCheck(L_417);
+		L_417->___Grass_selector = L_418;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_419 = __this->___GrassManager;
+		int32_t L_420 = V_16;
+		NullCheck(L_419);
+		L_419->___prev_brush = L_420;
+		int32_t L_421 = V_16;
+		if (L_421)
+		{
+			goto IL_1104;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_422 = __this->___GrassManager;
+		NullCheck(L_422);
+		L_422->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_423 = __this->___GrassManager;
+		NullCheck(L_423);
+		L_423->___Max_density = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_424 = __this->___GrassManager;
+		NullCheck(L_424);
+		L_424->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_425 = __this->___GrassManager;
+		NullCheck(L_425);
+		L_425->___Max_spread = (9.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_426 = __this->___GrassManager;
+		NullCheck(L_426);
+		L_426->___min_scale = (0.300000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_427 = __this->___GrassManager;
+		NullCheck(L_427);
+		L_427->___max_scale = (0.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_428 = __this->___GrassManager;
+		NullCheck(L_428);
+		L_428->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_429 = __this->___GrassManager;
+		NullCheck(L_429);
+		L_429->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_430 = __this->___GrassManager;
+		NullCheck(L_430);
+		L_430->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_431 = __this->___GrassManager;
+		NullCheck(L_431);
+		L_431->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_432 = __this->___GrassManager;
+		NullCheck(L_432);
+		L_432->___RandomRot = (bool)0;
+	}
+
+IL_1104:
+	{
+		int32_t L_433 = V_16;
+		if ((!(((uint32_t)L_433) == ((uint32_t)1))))
+		{
+			goto IL_11b8;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_434 = __this->___GrassManager;
+		NullCheck(L_434);
+		L_434->___min_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_435 = __this->___GrassManager;
+		NullCheck(L_435);
+		L_435->___max_scale = (0.800000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_436 = __this->___GrassManager;
+		NullCheck(L_436);
+		L_436->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_437 = __this->___GrassManager;
+		NullCheck(L_437);
+		L_437->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_438 = __this->___GrassManager;
+		NullCheck(L_438);
+		L_438->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_439 = __this->___GrassManager;
+		NullCheck(L_439);
+		L_439->___Max_spread = (9.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_440 = __this->___GrassManager;
+		NullCheck(L_440);
+		L_440->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_441 = __this->___GrassManager;
+		NullCheck(L_441);
+		L_441->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_442 = __this->___GrassManager;
+		NullCheck(L_442);
+		L_442->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_443 = __this->___GrassManager;
+		NullCheck(L_443);
+		L_443->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_444 = __this->___GrassManager;
+		NullCheck(L_444);
+		L_444->___RandomRot = (bool)0;
+	}
+
+IL_11b8:
+	{
+		int32_t L_445 = V_16;
+		if ((!(((uint32_t)L_445) == ((uint32_t)2))))
+		{
+			goto IL_126c;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_446 = __this->___GrassManager;
+		NullCheck(L_446);
+		L_446->___min_scale = (0.800000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_447 = __this->___GrassManager;
+		NullCheck(L_447);
+		L_447->___max_scale = (0.899999976f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_448 = __this->___GrassManager;
+		NullCheck(L_448);
+		L_448->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_449 = __this->___GrassManager;
+		NullCheck(L_449);
+		L_449->___Max_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_450 = __this->___GrassManager;
+		NullCheck(L_450);
+		L_450->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_451 = __this->___GrassManager;
+		NullCheck(L_451);
+		L_451->___Max_spread = (10.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_452 = __this->___GrassManager;
+		NullCheck(L_452);
+		L_452->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_453 = __this->___GrassManager;
+		NullCheck(L_453);
+		L_453->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_454 = __this->___GrassManager;
+		NullCheck(L_454);
+		L_454->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_455 = __this->___GrassManager;
+		NullCheck(L_455);
+		L_455->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_456 = __this->___GrassManager;
+		NullCheck(L_456);
+		L_456->___RandomRot = (bool)1;
+	}
+
+IL_126c:
+	{
+		int32_t L_457 = V_16;
+		if ((!(((uint32_t)L_457) == ((uint32_t)3))))
+		{
+			goto IL_1320;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_458 = __this->___GrassManager;
+		NullCheck(L_458);
+		L_458->___min_scale = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_459 = __this->___GrassManager;
+		NullCheck(L_459);
+		L_459->___max_scale = (1.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_460 = __this->___GrassManager;
+		NullCheck(L_460);
+		L_460->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_461 = __this->___GrassManager;
+		NullCheck(L_461);
+		L_461->___Max_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_462 = __this->___GrassManager;
+		NullCheck(L_462);
+		L_462->___Min_spread = (10.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_463 = __this->___GrassManager;
+		NullCheck(L_463);
+		L_463->___Max_spread = (12.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_464 = __this->___GrassManager;
+		NullCheck(L_464);
+		L_464->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_465 = __this->___GrassManager;
+		NullCheck(L_465);
+		L_465->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_466 = __this->___GrassManager;
+		NullCheck(L_466);
+		L_466->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_467 = __this->___GrassManager;
+		NullCheck(L_467);
+		L_467->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_468 = __this->___GrassManager;
+		NullCheck(L_468);
+		L_468->___RandomRot = (bool)0;
+	}
+
+IL_1320:
+	{
+		int32_t L_469 = V_16;
+		if ((!(((uint32_t)L_469) == ((uint32_t)4))))
+		{
+			goto IL_13d4;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_470 = __this->___GrassManager;
+		NullCheck(L_470);
+		L_470->___min_scale = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_471 = __this->___GrassManager;
+		NullCheck(L_471);
+		L_471->___max_scale = (1.20000005f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_472 = __this->___GrassManager;
+		NullCheck(L_472);
+		L_472->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_473 = __this->___GrassManager;
+		NullCheck(L_473);
+		L_473->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_474 = __this->___GrassManager;
+		NullCheck(L_474);
+		L_474->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_475 = __this->___GrassManager;
+		NullCheck(L_475);
+		L_475->___Max_spread = (10.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_476 = __this->___GrassManager;
+		NullCheck(L_476);
+		L_476->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_477 = __this->___GrassManager;
+		NullCheck(L_477);
+		L_477->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_478 = __this->___GrassManager;
+		NullCheck(L_478);
+		L_478->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_479 = __this->___GrassManager;
+		NullCheck(L_479);
+		L_479->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_480 = __this->___GrassManager;
+		NullCheck(L_480);
+		L_480->___RandomRot = (bool)0;
+	}
+
+IL_13d4:
+	{
+		int32_t L_481 = V_16;
+		if ((!(((uint32_t)L_481) == ((uint32_t)5))))
+		{
+			goto IL_1488;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_482 = __this->___GrassManager;
+		NullCheck(L_482);
+		L_482->___min_scale = (0.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_483 = __this->___GrassManager;
+		NullCheck(L_483);
+		L_483->___max_scale = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_484 = __this->___GrassManager;
+		NullCheck(L_484);
+		L_484->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_485 = __this->___GrassManager;
+		NullCheck(L_485);
+		L_485->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_486 = __this->___GrassManager;
+		NullCheck(L_486);
+		L_486->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_487 = __this->___GrassManager;
+		NullCheck(L_487);
+		L_487->___Max_spread = (10.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_488 = __this->___GrassManager;
+		NullCheck(L_488);
+		L_488->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_489 = __this->___GrassManager;
+		NullCheck(L_489);
+		L_489->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_490 = __this->___GrassManager;
+		NullCheck(L_490);
+		L_490->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_491 = __this->___GrassManager;
+		NullCheck(L_491);
+		L_491->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_492 = __this->___GrassManager;
+		NullCheck(L_492);
+		L_492->___RandomRot = (bool)0;
+	}
+
+IL_1488:
+	{
+		int32_t L_493 = V_16;
+		if ((!(((uint32_t)L_493) == ((uint32_t)6))))
+		{
+			goto IL_153c;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_494 = __this->___GrassManager;
+		NullCheck(L_494);
+		L_494->___min_scale = (0.600000024f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_495 = __this->___GrassManager;
+		NullCheck(L_495);
+		L_495->___max_scale = (0.899999976f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_496 = __this->___GrassManager;
+		NullCheck(L_496);
+		L_496->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_497 = __this->___GrassManager;
+		NullCheck(L_497);
+		L_497->___Max_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_498 = __this->___GrassManager;
+		NullCheck(L_498);
+		L_498->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_499 = __this->___GrassManager;
+		NullCheck(L_499);
+		L_499->___Max_spread = (10.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_500 = __this->___GrassManager;
+		NullCheck(L_500);
+		L_500->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_501 = __this->___GrassManager;
+		NullCheck(L_501);
+		L_501->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_502 = __this->___GrassManager;
+		NullCheck(L_502);
+		L_502->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_503 = __this->___GrassManager;
+		NullCheck(L_503);
+		L_503->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_504 = __this->___GrassManager;
+		NullCheck(L_504);
+		L_504->___RandomRot = (bool)1;
+	}
+
+IL_153c:
+	{
+		int32_t L_505 = V_16;
+		if ((!(((uint32_t)L_505) == ((uint32_t)7))))
+		{
+			goto IL_15f0;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_506 = __this->___GrassManager;
+		NullCheck(L_506);
+		L_506->___min_scale = (0.800000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_507 = __this->___GrassManager;
+		NullCheck(L_507);
+		L_507->___max_scale = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_508 = __this->___GrassManager;
+		NullCheck(L_508);
+		L_508->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_509 = __this->___GrassManager;
+		NullCheck(L_509);
+		L_509->___Max_density = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_510 = __this->___GrassManager;
+		NullCheck(L_510);
+		L_510->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_511 = __this->___GrassManager;
+		NullCheck(L_511);
+		L_511->___Max_spread = (8.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_512 = __this->___GrassManager;
+		NullCheck(L_512);
+		L_512->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_513 = __this->___GrassManager;
+		NullCheck(L_513);
+		L_513->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_514 = __this->___GrassManager;
+		NullCheck(L_514);
+		L_514->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_515 = __this->___GrassManager;
+		NullCheck(L_515);
+		L_515->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_516 = __this->___GrassManager;
+		NullCheck(L_516);
+		L_516->___RandomRot = (bool)0;
+	}
+
+IL_15f0:
+	{
+		int32_t L_517 = V_16;
+		if ((!(((uint32_t)L_517) == ((uint32_t)8))))
+		{
+			goto IL_16b4;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_518 = __this->___GrassManager;
+		NullCheck(L_518);
+		L_518->___min_scale = (1.20000005f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_519 = __this->___GrassManager;
+		NullCheck(L_519);
+		L_519->___max_scale = (1.29999995f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_520 = __this->___GrassManager;
+		NullCheck(L_520);
+		L_520->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_521 = __this->___GrassManager;
+		NullCheck(L_521);
+		L_521->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_522 = __this->___GrassManager;
+		NullCheck(L_522);
+		L_522->___Min_spread = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_523 = __this->___GrassManager;
+		NullCheck(L_523);
+		L_523->___Max_spread = (6.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_524 = __this->___GrassManager;
+		NullCheck(L_524);
+		L_524->___Collider_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_525 = __this->___GrassManager;
+		NullCheck(L_525);
+		L_525->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_526 = __this->___GrassManager;
+		NullCheck(L_526);
+		L_526->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_527 = __this->___GrassManager;
+		NullCheck(L_527);
+		L_527->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_528 = __this->___GrassManager;
+		NullCheck(L_528);
+		L_528->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_529 = __this->___GrassManager;
+		NullCheck(L_529);
+		L_529->___RandomRot = (bool)0;
+	}
+
+IL_16b4:
+	{
+		int32_t L_530 = V_16;
+		if ((!(((uint32_t)L_530) == ((uint32_t)((int32_t)9)))))
+		{
+			goto IL_1769;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_531 = __this->___GrassManager;
+		NullCheck(L_531);
+		L_531->___min_scale = (2.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_532 = __this->___GrassManager;
+		NullCheck(L_532);
+		L_532->___max_scale = (5.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_533 = __this->___GrassManager;
+		NullCheck(L_533);
+		L_533->___Min_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_534 = __this->___GrassManager;
+		NullCheck(L_534);
+		L_534->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_535 = __this->___GrassManager;
+		NullCheck(L_535);
+		L_535->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_536 = __this->___GrassManager;
+		NullCheck(L_536);
+		L_536->___Max_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_537 = __this->___GrassManager;
+		NullCheck(L_537);
+		L_537->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_538 = __this->___GrassManager;
+		NullCheck(L_538);
+		L_538->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_539 = __this->___GrassManager;
+		NullCheck(L_539);
+		L_539->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_540 = __this->___GrassManager;
+		NullCheck(L_540);
+		L_540->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_541 = __this->___GrassManager;
+		NullCheck(L_541);
+		L_541->___RandomRot = (bool)0;
+	}
+
+IL_1769:
+	{
+		int32_t L_542 = V_16;
+		int32_t L_543 = V_16;
+		if (!((int32_t)(((((int32_t)L_542) == ((int32_t)((int32_t)10)))? 1 : 0)|((((int32_t)L_543) == ((int32_t)((int32_t)11)))? 1 : 0))))
+		{
+			goto IL_1827;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_544 = __this->___GrassManager;
+		NullCheck(L_544);
+		L_544->___min_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_545 = __this->___GrassManager;
+		NullCheck(L_545);
+		L_545->___max_scale = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_546 = __this->___GrassManager;
+		NullCheck(L_546);
+		L_546->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_547 = __this->___GrassManager;
+		NullCheck(L_547);
+		L_547->___Max_density = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_548 = __this->___GrassManager;
+		NullCheck(L_548);
+		L_548->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_549 = __this->___GrassManager;
+		NullCheck(L_549);
+		L_549->___Max_spread = (9.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_550 = __this->___GrassManager;
+		NullCheck(L_550);
+		L_550->___Cutoff_distance = (190.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_551 = __this->___GrassManager;
+		NullCheck(L_551);
+		L_551->___LOD_distance = (140.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_552 = __this->___GrassManager;
+		NullCheck(L_552);
+		L_552->___LOD_distance1 = (160.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_553 = __this->___GrassManager;
+		NullCheck(L_553);
+		L_553->___LOD_distance2 = (180.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_554 = __this->___GrassManager;
+		NullCheck(L_554);
+		L_554->___RandomRot = (bool)0;
+	}
+
+IL_1827:
+	{
+		int32_t L_555 = V_16;
+		if ((!(((uint32_t)L_555) == ((uint32_t)((int32_t)12)))))
+		{
+			goto IL_18dc;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_556 = __this->___GrassManager;
+		NullCheck(L_556);
+		L_556->___min_scale = (0.25f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_557 = __this->___GrassManager;
+		NullCheck(L_557);
+		L_557->___max_scale = (0.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_558 = __this->___GrassManager;
+		NullCheck(L_558);
+		L_558->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_559 = __this->___GrassManager;
+		NullCheck(L_559);
+		L_559->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_560 = __this->___GrassManager;
+		NullCheck(L_560);
+		L_560->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_561 = __this->___GrassManager;
+		NullCheck(L_561);
+		L_561->___Max_spread = (11.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_562 = __this->___GrassManager;
+		NullCheck(L_562);
+		L_562->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_563 = __this->___GrassManager;
+		NullCheck(L_563);
+		L_563->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_564 = __this->___GrassManager;
+		NullCheck(L_564);
+		L_564->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_565 = __this->___GrassManager;
+		NullCheck(L_565);
+		L_565->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_566 = __this->___GrassManager;
+		NullCheck(L_566);
+		L_566->___RandomRot = (bool)1;
+	}
+
+IL_18dc:
+	{
+		int32_t L_567 = V_16;
+		if ((!(((uint32_t)L_567) == ((uint32_t)((int32_t)13)))))
+		{
+			goto IL_1991;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_568 = __this->___GrassManager;
+		NullCheck(L_568);
+		L_568->___min_scale = (0.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_569 = __this->___GrassManager;
+		NullCheck(L_569);
+		L_569->___max_scale = (1.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_570 = __this->___GrassManager;
+		NullCheck(L_570);
+		L_570->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_571 = __this->___GrassManager;
+		NullCheck(L_571);
+		L_571->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_572 = __this->___GrassManager;
+		NullCheck(L_572);
+		L_572->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_573 = __this->___GrassManager;
+		NullCheck(L_573);
+		L_573->___Max_spread = (9.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_574 = __this->___GrassManager;
+		NullCheck(L_574);
+		L_574->___Cutoff_distance = (530.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_575 = __this->___GrassManager;
+		NullCheck(L_575);
+		L_575->___LOD_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_576 = __this->___GrassManager;
+		NullCheck(L_576);
+		L_576->___LOD_distance1 = (523.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_577 = __this->___GrassManager;
+		NullCheck(L_577);
+		L_577->___LOD_distance2 = (527.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_578 = __this->___GrassManager;
+		NullCheck(L_578);
+		L_578->___RandomRot = (bool)1;
+	}
+
+IL_1991:
+	{
+		int32_t L_579 = V_16;
+		if ((!(((uint32_t)L_579) == ((uint32_t)((int32_t)14)))))
+		{
+			goto IL_1a46;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_580 = __this->___GrassManager;
+		NullCheck(L_580);
+		L_580->___min_scale = (0.600000024f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_581 = __this->___GrassManager;
+		NullCheck(L_581);
+		L_581->___max_scale = (2.79999995f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_582 = __this->___GrassManager;
+		NullCheck(L_582);
+		L_582->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_583 = __this->___GrassManager;
+		NullCheck(L_583);
+		L_583->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_584 = __this->___GrassManager;
+		NullCheck(L_584);
+		L_584->___Min_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_585 = __this->___GrassManager;
+		NullCheck(L_585);
+		L_585->___Max_spread = (11.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_586 = __this->___GrassManager;
+		NullCheck(L_586);
+		L_586->___Cutoff_distance = (60.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_587 = __this->___GrassManager;
+		NullCheck(L_587);
+		L_587->___LOD_distance = (45.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_588 = __this->___GrassManager;
+		NullCheck(L_588);
+		L_588->___LOD_distance1 = (50.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_589 = __this->___GrassManager;
+		NullCheck(L_589);
+		L_589->___LOD_distance2 = (55.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_590 = __this->___GrassManager;
+		NullCheck(L_590);
+		L_590->___RandomRot = (bool)0;
+	}
+
+IL_1a46:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_591 = __this->___GrassManager;
+		NullCheck(L_591);
+		int32_t L_592 = L_591->___Grass_selector;
+		if ((!(((uint32_t)L_592) == ((uint32_t)((int32_t)15)))))
+		{
+			goto IL_1b04;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_593 = __this->___GrassManager;
+		NullCheck(L_593);
+		L_593->___min_scale = (0.800000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_594 = __this->___GrassManager;
+		NullCheck(L_594);
+		L_594->___max_scale = (1.39999998f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_595 = __this->___GrassManager;
+		NullCheck(L_595);
+		L_595->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_596 = __this->___GrassManager;
+		NullCheck(L_596);
+		L_596->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_597 = __this->___GrassManager;
+		NullCheck(L_597);
+		L_597->___Min_spread = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_598 = __this->___GrassManager;
+		NullCheck(L_598);
+		L_598->___Max_spread = (5.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_599 = __this->___GrassManager;
+		NullCheck(L_599);
+		L_599->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_600 = __this->___GrassManager;
+		NullCheck(L_600);
+		L_600->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_601 = __this->___GrassManager;
+		NullCheck(L_601);
+		L_601->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_602 = __this->___GrassManager;
+		NullCheck(L_602);
+		L_602->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_603 = __this->___GrassManager;
+		NullCheck(L_603);
+		L_603->___RandomRot = (bool)0;
+	}
+
+IL_1b04:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_604 = __this->___GrassManager;
+		NullCheck(L_604);
+		int32_t L_605 = L_604->___Grass_selector;
+		if ((!(((uint32_t)L_605) == ((uint32_t)((int32_t)16)))))
+		{
+			goto IL_1bc2;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_606 = __this->___GrassManager;
+		NullCheck(L_606);
+		L_606->___min_scale = (0.300000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_607 = __this->___GrassManager;
+		NullCheck(L_607);
+		L_607->___max_scale = (0.899999976f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_608 = __this->___GrassManager;
+		NullCheck(L_608);
+		L_608->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_609 = __this->___GrassManager;
+		NullCheck(L_609);
+		L_609->___Max_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_610 = __this->___GrassManager;
+		NullCheck(L_610);
+		L_610->___Min_spread = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_611 = __this->___GrassManager;
+		NullCheck(L_611);
+		L_611->___Max_spread = (5.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_612 = __this->___GrassManager;
+		NullCheck(L_612);
+		L_612->___Cutoff_distance = (60.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_613 = __this->___GrassManager;
+		NullCheck(L_613);
+		L_613->___LOD_distance = (45.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_614 = __this->___GrassManager;
+		NullCheck(L_614);
+		L_614->___LOD_distance1 = (50.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_615 = __this->___GrassManager;
+		NullCheck(L_615);
+		L_615->___LOD_distance2 = (55.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_616 = __this->___GrassManager;
+		NullCheck(L_616);
+		L_616->___RandomRot = (bool)0;
+	}
+
+IL_1bc2:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_617 = __this->___GrassManager;
+		NullCheck(L_617);
+		int32_t L_618 = L_617->___Grass_selector;
+		if ((!(((uint32_t)L_618) == ((uint32_t)((int32_t)17)))))
+		{
+			goto IL_1c80;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_619 = __this->___GrassManager;
+		NullCheck(L_619);
+		L_619->___min_scale = (0.300000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_620 = __this->___GrassManager;
+		NullCheck(L_620);
+		L_620->___max_scale = (0.899999976f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_621 = __this->___GrassManager;
+		NullCheck(L_621);
+		L_621->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_622 = __this->___GrassManager;
+		NullCheck(L_622);
+		L_622->___Max_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_623 = __this->___GrassManager;
+		NullCheck(L_623);
+		L_623->___Min_spread = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_624 = __this->___GrassManager;
+		NullCheck(L_624);
+		L_624->___Max_spread = (5.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_625 = __this->___GrassManager;
+		NullCheck(L_625);
+		L_625->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_626 = __this->___GrassManager;
+		NullCheck(L_626);
+		L_626->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_627 = __this->___GrassManager;
+		NullCheck(L_627);
+		L_627->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_628 = __this->___GrassManager;
+		NullCheck(L_628);
+		L_628->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_629 = __this->___GrassManager;
+		NullCheck(L_629);
+		L_629->___RandomRot = (bool)0;
+	}
+
+IL_1c80:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_630 = __this->___GrassManager;
+		NullCheck(L_630);
+		int32_t L_631 = L_630->___Grass_selector;
+		if ((!(((uint32_t)L_631) == ((uint32_t)((int32_t)18)))))
+		{
+			goto IL_1d3e;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_632 = __this->___GrassManager;
+		NullCheck(L_632);
+		L_632->___min_scale = (0.200000003f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_633 = __this->___GrassManager;
+		NullCheck(L_633);
+		L_633->___max_scale = (0.800000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_634 = __this->___GrassManager;
+		NullCheck(L_634);
+		L_634->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_635 = __this->___GrassManager;
+		NullCheck(L_635);
+		L_635->___Max_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_636 = __this->___GrassManager;
+		NullCheck(L_636);
+		L_636->___Min_spread = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_637 = __this->___GrassManager;
+		NullCheck(L_637);
+		L_637->___Max_spread = (5.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_638 = __this->___GrassManager;
+		NullCheck(L_638);
+		L_638->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_639 = __this->___GrassManager;
+		NullCheck(L_639);
+		L_639->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_640 = __this->___GrassManager;
+		NullCheck(L_640);
+		L_640->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_641 = __this->___GrassManager;
+		NullCheck(L_641);
+		L_641->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_642 = __this->___GrassManager;
+		NullCheck(L_642);
+		L_642->___RandomRot = (bool)1;
+	}
+
+IL_1d3e:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_643 = __this->___GrassManager;
+		NullCheck(L_643);
+		int32_t L_644 = L_643->___Grass_selector;
+		if ((!(((uint32_t)L_644) == ((uint32_t)((int32_t)19)))))
+		{
+			goto IL_1dfc;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_645 = __this->___GrassManager;
+		NullCheck(L_645);
+		L_645->___min_scale = (0.200000003f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_646 = __this->___GrassManager;
+		NullCheck(L_646);
+		L_646->___max_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_647 = __this->___GrassManager;
+		NullCheck(L_647);
+		L_647->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_648 = __this->___GrassManager;
+		NullCheck(L_648);
+		L_648->___Max_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_649 = __this->___GrassManager;
+		NullCheck(L_649);
+		L_649->___Min_spread = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_650 = __this->___GrassManager;
+		NullCheck(L_650);
+		L_650->___Max_spread = (5.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_651 = __this->___GrassManager;
+		NullCheck(L_651);
+		L_651->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_652 = __this->___GrassManager;
+		NullCheck(L_652);
+		L_652->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_653 = __this->___GrassManager;
+		NullCheck(L_653);
+		L_653->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_654 = __this->___GrassManager;
+		NullCheck(L_654);
+		L_654->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_655 = __this->___GrassManager;
+		NullCheck(L_655);
+		L_655->___RandomRot = (bool)0;
+	}
+
+IL_1dfc:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_656 = __this->___GrassManager;
+		NullCheck(L_656);
+		int32_t L_657 = L_656->___Grass_selector;
+		if ((!(((uint32_t)L_657) == ((uint32_t)((int32_t)20)))))
+		{
+			goto IL_1eba;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_658 = __this->___GrassManager;
+		NullCheck(L_658);
+		L_658->___min_scale = (0.150000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_659 = __this->___GrassManager;
+		NullCheck(L_659);
+		L_659->___max_scale = (0.300000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_660 = __this->___GrassManager;
+		NullCheck(L_660);
+		L_660->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_661 = __this->___GrassManager;
+		NullCheck(L_661);
+		L_661->___Max_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_662 = __this->___GrassManager;
+		NullCheck(L_662);
+		L_662->___Min_spread = (5.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_663 = __this->___GrassManager;
+		NullCheck(L_663);
+		L_663->___Max_spread = (6.5f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_664 = __this->___GrassManager;
+		NullCheck(L_664);
+		L_664->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_665 = __this->___GrassManager;
+		NullCheck(L_665);
+		L_665->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_666 = __this->___GrassManager;
+		NullCheck(L_666);
+		L_666->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_667 = __this->___GrassManager;
+		NullCheck(L_667);
+		L_667->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_668 = __this->___GrassManager;
+		NullCheck(L_668);
+		L_668->___RandomRot = (bool)1;
+	}
+
+IL_1eba:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_669 = __this->___GrassManager;
+		NullCheck(L_669);
+		int32_t L_670 = L_669->___Grass_selector;
+		if ((!(((uint32_t)L_670) == ((uint32_t)((int32_t)21)))))
+		{
+			goto IL_1f78;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_671 = __this->___GrassManager;
+		NullCheck(L_671);
+		L_671->___min_scale = (0.25f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_672 = __this->___GrassManager;
+		NullCheck(L_672);
+		L_672->___max_scale = (0.800000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_673 = __this->___GrassManager;
+		NullCheck(L_673);
+		L_673->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_674 = __this->___GrassManager;
+		NullCheck(L_674);
+		L_674->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_675 = __this->___GrassManager;
+		NullCheck(L_675);
+		L_675->___Min_spread = (10.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_676 = __this->___GrassManager;
+		NullCheck(L_676);
+		L_676->___Max_spread = (15.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_677 = __this->___GrassManager;
+		NullCheck(L_677);
+		L_677->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_678 = __this->___GrassManager;
+		NullCheck(L_678);
+		L_678->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_679 = __this->___GrassManager;
+		NullCheck(L_679);
+		L_679->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_680 = __this->___GrassManager;
+		NullCheck(L_680);
+		L_680->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_681 = __this->___GrassManager;
+		NullCheck(L_681);
+		L_681->___RandomRot = (bool)0;
+	}
+
+IL_1f78:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_682 = __this->___GrassManager;
+		NullCheck(L_682);
+		int32_t L_683 = L_682->___Grass_selector;
+		if ((!(((uint32_t)L_683) == ((uint32_t)((int32_t)22)))))
+		{
+			goto IL_2036;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_684 = __this->___GrassManager;
+		NullCheck(L_684);
+		L_684->___min_scale = (0.699999988f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_685 = __this->___GrassManager;
+		NullCheck(L_685);
+		L_685->___max_scale = (1.54999995f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_686 = __this->___GrassManager;
+		NullCheck(L_686);
+		L_686->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_687 = __this->___GrassManager;
+		NullCheck(L_687);
+		L_687->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_688 = __this->___GrassManager;
+		NullCheck(L_688);
+		L_688->___Min_spread = (5.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_689 = __this->___GrassManager;
+		NullCheck(L_689);
+		L_689->___Max_spread = (6.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_690 = __this->___GrassManager;
+		NullCheck(L_690);
+		L_690->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_691 = __this->___GrassManager;
+		NullCheck(L_691);
+		L_691->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_692 = __this->___GrassManager;
+		NullCheck(L_692);
+		L_692->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_693 = __this->___GrassManager;
+		NullCheck(L_693);
+		L_693->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_694 = __this->___GrassManager;
+		NullCheck(L_694);
+		L_694->___RandomRot = (bool)1;
+	}
+
+IL_2036:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_695 = __this->___GrassManager;
+		NullCheck(L_695);
+		int32_t L_696 = L_695->___Grass_selector;
+		if ((!(((uint32_t)L_696) == ((uint32_t)((int32_t)23)))))
+		{
+			goto IL_20f4;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_697 = __this->___GrassManager;
+		NullCheck(L_697);
+		L_697->___min_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_698 = __this->___GrassManager;
+		NullCheck(L_698);
+		L_698->___max_scale = (0.920000017f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_699 = __this->___GrassManager;
+		NullCheck(L_699);
+		L_699->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_700 = __this->___GrassManager;
+		NullCheck(L_700);
+		L_700->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_701 = __this->___GrassManager;
+		NullCheck(L_701);
+		L_701->___Min_spread = (5.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_702 = __this->___GrassManager;
+		NullCheck(L_702);
+		L_702->___Max_spread = (6.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_703 = __this->___GrassManager;
+		NullCheck(L_703);
+		L_703->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_704 = __this->___GrassManager;
+		NullCheck(L_704);
+		L_704->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_705 = __this->___GrassManager;
+		NullCheck(L_705);
+		L_705->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_706 = __this->___GrassManager;
+		NullCheck(L_706);
+		L_706->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_707 = __this->___GrassManager;
+		NullCheck(L_707);
+		L_707->___RandomRot = (bool)1;
+	}
+
+IL_20f4:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_708 = __this->___GrassManager;
+		NullCheck(L_708);
+		int32_t L_709 = L_708->___Grass_selector;
+		if ((!(((uint32_t)L_709) == ((uint32_t)((int32_t)24)))))
+		{
+			goto IL_21b2;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_710 = __this->___GrassManager;
+		NullCheck(L_710);
+		L_710->___min_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_711 = __this->___GrassManager;
+		NullCheck(L_711);
+		L_711->___max_scale = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_712 = __this->___GrassManager;
+		NullCheck(L_712);
+		L_712->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_713 = __this->___GrassManager;
+		NullCheck(L_713);
+		L_713->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_714 = __this->___GrassManager;
+		NullCheck(L_714);
+		L_714->___Min_spread = (5.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_715 = __this->___GrassManager;
+		NullCheck(L_715);
+		L_715->___Max_spread = (6.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_716 = __this->___GrassManager;
+		NullCheck(L_716);
+		L_716->___Cutoff_distance = (520.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_717 = __this->___GrassManager;
+		NullCheck(L_717);
+		L_717->___LOD_distance = (220.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_718 = __this->___GrassManager;
+		NullCheck(L_718);
+		L_718->___LOD_distance1 = (270.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_719 = __this->___GrassManager;
+		NullCheck(L_719);
+		L_719->___LOD_distance2 = (410.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_720 = __this->___GrassManager;
+		NullCheck(L_720);
+		L_720->___RandomRot = (bool)0;
+	}
+
+IL_21b2:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_721 = __this->___GrassManager;
+		NullCheck(L_721);
+		int32_t L_722 = L_721->___Grass_selector;
+		if ((!(((uint32_t)L_722) == ((uint32_t)((int32_t)25)))))
+		{
+			goto IL_2290;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_723 = __this->___GrassManager;
+		NullCheck(L_723);
+		L_723->___min_scale = (1.39999998f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_724 = __this->___GrassManager;
+		NullCheck(L_724);
+		L_724->___max_scale = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_725 = __this->___GrassManager;
+		NullCheck(L_725);
+		L_725->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_726 = __this->___GrassManager;
+		NullCheck(L_726);
+		L_726->___Max_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_727 = __this->___GrassManager;
+		NullCheck(L_727);
+		L_727->___Min_spread = (25.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_728 = __this->___GrassManager;
+		NullCheck(L_728);
+		L_728->___Max_spread = (36.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_729 = __this->___GrassManager;
+		NullCheck(L_729);
+		L_729->___Cutoff_distance = (500.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_730 = __this->___GrassManager;
+		NullCheck(L_730);
+		L_730->___LOD_distance = (150.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_731 = __this->___GrassManager;
+		NullCheck(L_731);
+		L_731->___LOD_distance1 = (190.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_732 = __this->___GrassManager;
+		NullCheck(L_732);
+		L_732->___LOD_distance2 = (250.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_733 = __this->___GrassManager;
+		NullCheck(L_733);
+		L_733->___RandomRot = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_734 = __this->___GrassManager;
+		NullCheck(L_734);
+		L_734->___RandRotMin = (-20.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_735 = __this->___GrassManager;
+		NullCheck(L_735);
+		L_735->___RandRotMin = (20.0f);
+	}
+
+IL_2290:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_736 = __this->___GrassManager;
+		NullCheck(L_736);
+		int32_t L_737 = L_736->___Grass_selector;
+		if ((!(((uint32_t)L_737) == ((uint32_t)((int32_t)26)))))
+		{
+			goto IL_234e;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_738 = __this->___GrassManager;
+		NullCheck(L_738);
+		L_738->___min_scale = (0.400000006f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_739 = __this->___GrassManager;
+		NullCheck(L_739);
+		L_739->___max_scale = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_740 = __this->___GrassManager;
+		NullCheck(L_740);
+		L_740->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_741 = __this->___GrassManager;
+		NullCheck(L_741);
+		L_741->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_742 = __this->___GrassManager;
+		NullCheck(L_742);
+		L_742->___Min_spread = (5.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_743 = __this->___GrassManager;
+		NullCheck(L_743);
+		L_743->___Max_spread = (6.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_744 = __this->___GrassManager;
+		NullCheck(L_744);
+		L_744->___Cutoff_distance = (500.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_745 = __this->___GrassManager;
+		NullCheck(L_745);
+		L_745->___LOD_distance = (150.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_746 = __this->___GrassManager;
+		NullCheck(L_746);
+		L_746->___LOD_distance1 = (190.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_747 = __this->___GrassManager;
+		NullCheck(L_747);
+		L_747->___LOD_distance2 = (250.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_748 = __this->___GrassManager;
+		NullCheck(L_748);
+		L_748->___RandomRot = (bool)1;
+	}
+
+IL_234e:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_749 = __this->___GrassManager;
+		NullCheck(L_749);
+		int32_t L_750 = L_749->___Grass_selector;
+		if ((!(((uint32_t)L_750) == ((uint32_t)((int32_t)27)))))
+		{
+			goto IL_242c;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_751 = __this->___GrassManager;
+		NullCheck(L_751);
+		L_751->___min_scale = (1.20000005f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_752 = __this->___GrassManager;
+		NullCheck(L_752);
+		L_752->___max_scale = (2.9000001f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_753 = __this->___GrassManager;
+		NullCheck(L_753);
+		L_753->___Min_density = (1.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_754 = __this->___GrassManager;
+		NullCheck(L_754);
+		L_754->___Max_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_755 = __this->___GrassManager;
+		NullCheck(L_755);
+		L_755->___Min_spread = (25.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_756 = __this->___GrassManager;
+		NullCheck(L_756);
+		L_756->___Max_spread = (36.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_757 = __this->___GrassManager;
+		NullCheck(L_757);
+		L_757->___Cutoff_distance = (500.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_758 = __this->___GrassManager;
+		NullCheck(L_758);
+		L_758->___LOD_distance = (150.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_759 = __this->___GrassManager;
+		NullCheck(L_759);
+		L_759->___LOD_distance1 = (190.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_760 = __this->___GrassManager;
+		NullCheck(L_760);
+		L_760->___LOD_distance2 = (250.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_761 = __this->___GrassManager;
+		NullCheck(L_761);
+		L_761->___RandomRot = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_762 = __this->___GrassManager;
+		NullCheck(L_762);
+		L_762->___RandRotMin = (0.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_763 = __this->___GrassManager;
+		NullCheck(L_763);
+		L_763->___RandRotMin = (0.0f);
+	}
+
+IL_242c:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_764 = __this->___GrassManager;
+		NullCheck(L_764);
+		int32_t L_765 = L_764->___Grass_selector;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_766 = __this->___GrassManager;
+		NullCheck(L_766);
+		int32_t L_767 = L_766->___Grass_selector;
+		if (!((int32_t)(((((int32_t)L_765) == ((int32_t)((int32_t)28)))? 1 : 0)|((((int32_t)L_767) == ((int32_t)((int32_t)29)))? 1 : 0))))
+		{
+			goto IL_251c;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_768 = __this->___GrassManager;
+		NullCheck(L_768);
+		L_768->___min_scale = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_769 = __this->___GrassManager;
+		NullCheck(L_769);
+		L_769->___max_scale = (4.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_770 = __this->___GrassManager;
+		NullCheck(L_770);
+		L_770->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_771 = __this->___GrassManager;
+		NullCheck(L_771);
+		L_771->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_772 = __this->___GrassManager;
+		NullCheck(L_772);
+		L_772->___Min_spread = (5.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_773 = __this->___GrassManager;
+		NullCheck(L_773);
+		L_773->___Max_spread = (5.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_774 = __this->___GrassManager;
+		NullCheck(L_774);
+		L_774->___Cutoff_distance = (500.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_775 = __this->___GrassManager;
+		NullCheck(L_775);
+		L_775->___LOD_distance = (150.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_776 = __this->___GrassManager;
+		NullCheck(L_776);
+		L_776->___LOD_distance1 = (190.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_777 = __this->___GrassManager;
+		NullCheck(L_777);
+		L_777->___LOD_distance2 = (250.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_778 = __this->___GrassManager;
+		NullCheck(L_778);
+		L_778->___RandomRot = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_779 = __this->___GrassManager;
+		NullCheck(L_779);
+		L_779->___RandRotMin = (-10.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_780 = __this->___GrassManager;
+		NullCheck(L_780);
+		L_780->___RandRotMin = (10.0f);
+	}
+
+IL_251c:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_781 = __this->___GrassManager;
+		NullCheck(L_781);
+		int32_t L_782 = L_781->___Grass_selector;
+		if ((!(((uint32_t)L_782) == ((uint32_t)((int32_t)30)))))
+		{
+			goto IL_25fa;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_783 = __this->___GrassManager;
+		NullCheck(L_783);
+		L_783->___min_scale = (0.300000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_784 = __this->___GrassManager;
+		NullCheck(L_784);
+		L_784->___max_scale = (0.699999988f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_785 = __this->___GrassManager;
+		NullCheck(L_785);
+		L_785->___Min_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_786 = __this->___GrassManager;
+		NullCheck(L_786);
+		L_786->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_787 = __this->___GrassManager;
+		NullCheck(L_787);
+		L_787->___Min_spread = (14.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_788 = __this->___GrassManager;
+		NullCheck(L_788);
+		L_788->___Max_spread = (16.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_789 = __this->___GrassManager;
+		NullCheck(L_789);
+		L_789->___Cutoff_distance = (500.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_790 = __this->___GrassManager;
+		NullCheck(L_790);
+		L_790->___LOD_distance = (150.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_791 = __this->___GrassManager;
+		NullCheck(L_791);
+		L_791->___LOD_distance1 = (190.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_792 = __this->___GrassManager;
+		NullCheck(L_792);
+		L_792->___LOD_distance2 = (250.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_793 = __this->___GrassManager;
+		NullCheck(L_793);
+		L_793->___RandomRot = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_794 = __this->___GrassManager;
+		NullCheck(L_794);
+		L_794->___RandRotMin = (0.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_795 = __this->___GrassManager;
+		NullCheck(L_795);
+		L_795->___RandRotMin = (0.0f);
+	}
+
+IL_25fa:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_796 = __this->___GrassManager;
+		NullCheck(L_796);
+		int32_t L_797 = L_796->___Grass_selector;
+		if ((!(((uint32_t)L_797) == ((uint32_t)((int32_t)31)))))
+		{
+			goto IL_26d8;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_798 = __this->___GrassManager;
+		NullCheck(L_798);
+		L_798->___min_scale = (0.800000012f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_799 = __this->___GrassManager;
+		NullCheck(L_799);
+		L_799->___max_scale = (2.4000001f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_800 = __this->___GrassManager;
+		NullCheck(L_800);
+		L_800->___Min_density = (2.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_801 = __this->___GrassManager;
+		NullCheck(L_801);
+		L_801->___Max_density = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_802 = __this->___GrassManager;
+		NullCheck(L_802);
+		L_802->___Min_spread = (3.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_803 = __this->___GrassManager;
+		NullCheck(L_803);
+		L_803->___Max_spread = (7.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_804 = __this->___GrassManager;
+		NullCheck(L_804);
+		L_804->___Cutoff_distance = (500.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_805 = __this->___GrassManager;
+		NullCheck(L_805);
+		L_805->___LOD_distance = (150.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_806 = __this->___GrassManager;
+		NullCheck(L_806);
+		L_806->___LOD_distance1 = (190.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_807 = __this->___GrassManager;
+		NullCheck(L_807);
+		L_807->___LOD_distance2 = (250.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_808 = __this->___GrassManager;
+		NullCheck(L_808);
+		L_808->___RandomRot = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_809 = __this->___GrassManager;
+		NullCheck(L_809);
+		L_809->___RandRotMin = (0.0f);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_810 = __this->___GrassManager;
+		NullCheck(L_810);
+		L_810->___RandRotMin = (0.0f);
+	}
+
+IL_26d8:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_811 = __this->___GrassManager;
+		NullCheck(L_811);
+		float L_812 = L_811->___AmplifyWind;
+		if ((!(((float)L_812) > ((float)(0.400000006f)))))
+		{
+			goto IL_26fa;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_813 = __this->___GrassManager;
+		NullCheck(L_813);
+		L_813->___AmplifyWind = (0.400000006f);
+	}
+
+IL_26fa:
+	{
+		int32_t L_814 = V_16;
+		V_16 = ((int32_t)il2cpp_codegen_add(L_814, 1));
+	}
+
+IL_2700:
+	{
+		int32_t L_815 = V_16;
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_816 = __this->___IconsGrass;
+		NullCheck(L_816);
+		int32_t L_817;
+		L_817 = List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_inline(L_816, List_1_get_Count_mED079FEB063B8FEF7F43AED70CB562DD77470DE2_RuntimeMethod_var);
+		if ((((int32_t)L_815) < ((int32_t)L_817)))
+		{
+			goto IL_0f92;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_818 = __this->___GrassManager;
+		NullCheck(L_818);
+		bool L_819 = L_818->___Grass_painting;
+		if (!L_819)
+		{
+			goto IL_2792;
+		}
+	}
+	{
+		float L_820 = __this->___Grass_GUI_startX;
+		float L_821 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_822;
+		memset((&L_822), 0, sizeof(L_822));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_822), ((float)il2cpp_codegen_subtract(L_820, (500.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_821, (60.0f))), (30.0f))), (330.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_823 = __this->___GrassManager;
+		NullCheck(L_823);
+		int32_t L_824 = L_823->___Grass_selector;
+		V_21 = ((int32_t)il2cpp_codegen_add(L_824, 1));
+		String_t* L_825;
+		L_825 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_21), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_826 = __this->___GrassManager;
+		NullCheck(L_826);
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_827 = L_826->___GrassPrefabsNames;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_828 = __this->___GrassManager;
+		NullCheck(L_828);
+		int32_t L_829 = L_828->___Grass_selector;
+		NullCheck(L_827);
+		String_t* L_830;
+		L_830 = List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8(L_827, L_829, List_1_get_Item_m21AEC50E791371101DC22ABCF96A2E46800811F8_RuntimeMethod_var);
+		String_t* L_831;
+		L_831 = String_Concat_m093934F71A9B351911EE46311674ED463B180006(_stringLiteralD73128755FB54BE3885E11AA8BBBA589FA8C45A8, L_825, _stringLiteral2FC0EF613300907019607E2257A0D3F14F991A88, L_830, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_832;
+		L_832 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_822, L_831, NULL);
+	}
+
+IL_2792:
+	{
+		V_15 = _stringLiteralE6784AEFADE0BBC5FFBD83644C8E9725700929D3;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_833 = __this->___GrassManager;
+		NullCheck(L_833);
+		bool L_834 = L_833->___RandomRot;
+		if (L_834)
+		{
+			goto IL_27ad;
+		}
+	}
+	{
+		V_15 = _stringLiteral547A192F8F4D419FA8B3C08A9A817C1F3AA5EAAE;
+	}
+
+IL_27ad:
+	{
+		float L_835 = __this->___Grass_GUI_startX;
+		float L_836 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_837;
+		memset((&L_837), 0, sizeof(L_837));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_837), ((float)il2cpp_codegen_subtract(L_835, (110.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_836, (60.0f))), (5.0f))), (25.0f))), (25.0f))), (110.0f), (25.0f), NULL);
+		String_t* L_838 = V_15;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_839;
+		L_839 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_837, L_838, NULL);
+		if (!L_839)
+		{
+			goto IL_2816;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_840 = __this->___GrassManager;
+		NullCheck(L_840);
+		bool L_841 = L_840->___RandomRot;
+		if (L_841)
+		{
+			goto IL_280a;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_842 = __this->___GrassManager;
+		NullCheck(L_842);
+		L_842->___RandomRot = (bool)1;
+		goto IL_2816;
+	}
+
+IL_280a:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_843 = __this->___GrassManager;
+		NullCheck(L_843);
+		L_843->___RandomRot = (bool)0;
+	}
+
+IL_2816:
+	{
+		float L_844 = __this->___Grass_GUI_startX;
+		float L_845 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_846;
+		memset((&L_846), 0, sizeof(L_846));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_846), L_844, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_845, (60.0f))), (30.0f))), (110.0f), (40.0f), NULL);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_847 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_848 = L_847;
+		NullCheck(L_848);
+		(L_848)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralBF96454C89E7953347814BFA97A67C8AC29F3ADD);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_849 = L_848;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_850 = __this->___GrassManager;
+		NullCheck(L_850);
+		float* L_851 = (float*)(&L_850->___min_scale);
+		String_t* L_852;
+		L_852 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_851, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_849);
+		(L_849)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_852);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_853 = L_849;
+		NullCheck(L_853);
+		(L_853)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD9C228937753BF3F00E12C45C4F9407626D2F295);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_854 = L_853;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_855 = __this->___GrassManager;
+		NullCheck(L_855);
+		float* L_856 = (float*)(&L_855->___max_scale);
+		String_t* L_857;
+		L_857 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_856, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_854);
+		(L_854)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_857);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_858 = L_854;
+		NullCheck(L_858);
+		(L_858)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		String_t* L_859;
+		L_859 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_858, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_860;
+		L_860 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_846, L_859, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_861 = __this->___GrassManager;
+		float L_862 = __this->___Grass_GUI_startX;
+		float L_863 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_864;
+		memset((&L_864), 0, sizeof(L_864));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_864), ((float)il2cpp_codegen_add(L_862, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_863, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_865 = __this->___GrassManager;
+		NullCheck(L_865);
+		float L_866 = L_865->___min_scale;
+		float L_867;
+		L_867 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_864, L_866, (0.0500000007f), (2.0f), NULL);
+		NullCheck(L_861);
+		L_861->___min_scale = L_867;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_868 = __this->___GrassManager;
+		float L_869 = __this->___Grass_GUI_startX;
+		float L_870 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_871;
+		memset((&L_871), 0, sizeof(L_871));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_871), ((float)il2cpp_codegen_add(L_869, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_870, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_872 = __this->___GrassManager;
+		NullCheck(L_872);
+		float L_873 = L_872->___max_scale;
+		float L_874;
+		L_874 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_871, L_873, (0.0500000007f), (3.0f), NULL);
+		NullCheck(L_868);
+		L_868->___max_scale = L_874;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_875 = __this->___GrassManager;
+		NullCheck(L_875);
+		float L_876 = L_875->___max_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_877 = __this->___GrassManager;
+		NullCheck(L_877);
+		float L_878 = L_877->___min_scale;
+		if ((!(((float)L_876) < ((float)L_878))))
+		{
+			goto IL_2986;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_879 = __this->___GrassManager;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_880 = __this->___GrassManager;
+		NullCheck(L_880);
+		float L_881 = L_880->___min_scale;
+		NullCheck(L_879);
+		L_879->___max_scale = L_881;
+	}
+
+IL_2986:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_882 = __this->___GrassManager;
+		NullCheck(L_882);
+		L_882->___Override_density = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_883 = __this->___GrassManager;
+		NullCheck(L_883);
+		L_883->___Override_spread = (bool)1;
+		float L_884 = __this->___Grass_GUI_startX;
+		float L_885 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_886;
+		memset((&L_886), 0, sizeof(L_886));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_886), ((float)il2cpp_codegen_add(L_884, (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_885, (60.0f))), (30.0f))), (110.0f), (40.0f), NULL);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_887 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_888 = L_887;
+		NullCheck(L_888);
+		(L_888)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteralCF8B64C6D169EDF0C77BD30D3B6E3AE3808A75B1);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_889 = L_888;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_890 = __this->___GrassManager;
+		NullCheck(L_890);
+		float* L_891 = (float*)(&L_890->___Min_density);
+		String_t* L_892;
+		L_892 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_891, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_889);
+		(L_889)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_892);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_893 = L_889;
+		NullCheck(L_893);
+		(L_893)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD9C228937753BF3F00E12C45C4F9407626D2F295);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_894 = L_893;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_895 = __this->___GrassManager;
+		NullCheck(L_895);
+		float* L_896 = (float*)(&L_895->___Max_density);
+		String_t* L_897;
+		L_897 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_896, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_894);
+		(L_894)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_897);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_898 = L_894;
+		NullCheck(L_898);
+		(L_898)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		String_t* L_899;
+		L_899 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_898, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_900;
+		L_900 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_886, L_899, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_901 = __this->___GrassManager;
+		float L_902 = __this->___Grass_GUI_startX;
+		float L_903 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_904;
+		memset((&L_904), 0, sizeof(L_904));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_904), ((float)il2cpp_codegen_add(L_902, (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_903, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_905 = __this->___GrassManager;
+		NullCheck(L_905);
+		float L_906 = L_905->___Min_density;
+		float L_907;
+		L_907 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_904, L_906, (1.0f), (3.0f), NULL);
+		NullCheck(L_901);
+		L_901->___Min_density = L_907;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_908 = __this->___GrassManager;
+		NullCheck(L_908);
+		float L_909 = L_908->___Max_density;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_910 = __this->___GrassManager;
+		NullCheck(L_910);
+		float L_911 = L_910->___Min_density;
+		if ((!(((float)L_909) < ((float)L_911))))
+		{
+			goto IL_2ab0;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_912 = __this->___GrassManager;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_913 = __this->___GrassManager;
+		NullCheck(L_913);
+		float L_914 = L_913->___Min_density;
+		NullCheck(L_912);
+		L_912->___Max_density = L_914;
+	}
+
+IL_2ab0:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_915 = __this->___GrassManager;
+		float L_916 = __this->___Grass_GUI_startX;
+		float L_917 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_918;
+		memset((&L_918), 0, sizeof(L_918));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_918), ((float)il2cpp_codegen_add(L_916, (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_917, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_919 = __this->___GrassManager;
+		NullCheck(L_919);
+		float L_920 = L_919->___Max_density;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_921 = __this->___GrassManager;
+		NullCheck(L_921);
+		float L_922 = L_921->___Min_density;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		float L_923;
+		L_923 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_918, L_920, L_922, (4.0f), NULL);
+		NullCheck(L_915);
+		L_915->___Max_density = L_923;
+		float L_924 = __this->___Grass_GUI_startX;
+		float L_925 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_926;
+		memset((&L_926), 0, sizeof(L_926));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_926), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_924, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_925, (60.0f))), (30.0f))), (110.0f), (40.0f), NULL);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_927 = (StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248*)SZArrayNew(StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248_il2cpp_TypeInfo_var, (uint32_t)5);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_928 = L_927;
+		NullCheck(L_928);
+		(L_928)->SetAt(static_cast<il2cpp_array_size_t>(0), (String_t*)_stringLiteral66479690EE5D1EBF7B12FDE1A2DD9C8A7C6A9244);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_929 = L_928;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_930 = __this->___GrassManager;
+		NullCheck(L_930);
+		float* L_931 = (float*)(&L_930->___Min_spread);
+		String_t* L_932;
+		L_932 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_931, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_929);
+		(L_929)->SetAt(static_cast<il2cpp_array_size_t>(1), (String_t*)L_932);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_933 = L_929;
+		NullCheck(L_933);
+		(L_933)->SetAt(static_cast<il2cpp_array_size_t>(2), (String_t*)_stringLiteralD9C228937753BF3F00E12C45C4F9407626D2F295);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_934 = L_933;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_935 = __this->___GrassManager;
+		NullCheck(L_935);
+		float* L_936 = (float*)(&L_935->___Max_spread);
+		String_t* L_937;
+		L_937 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_936, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		NullCheck(L_934);
+		(L_934)->SetAt(static_cast<il2cpp_array_size_t>(3), (String_t*)L_937);
+		StringU5BU5D_t7674CD946EC0CE7B3AE0BE70E6EE85F2ECD9F248* L_938 = L_934;
+		NullCheck(L_938);
+		(L_938)->SetAt(static_cast<il2cpp_array_size_t>(4), (String_t*)_stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D);
+		String_t* L_939;
+		L_939 = String_Concat_m647EBF831F54B6DF7D5AFA5FD012CF4EE7571B6A(L_938, NULL);
+		String_t* L_940;
+		L_940 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_926, L_939, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_941 = __this->___GrassManager;
+		float L_942 = __this->___Grass_GUI_startX;
+		float L_943 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_944;
+		memset((&L_944), 0, sizeof(L_944));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_944), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_942, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_943, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_945 = __this->___GrassManager;
+		NullCheck(L_945);
+		float L_946 = L_945->___Min_spread;
+		float L_947;
+		L_947 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_944, L_946, (5.0f), (35.0f), NULL);
+		NullCheck(L_941);
+		L_941->___Min_spread = L_947;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_948 = __this->___GrassManager;
+		float L_949 = __this->___Grass_GUI_startX;
+		float L_950 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_951;
+		memset((&L_951), 0, sizeof(L_951));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_951), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_949, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_950, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_952 = __this->___GrassManager;
+		NullCheck(L_952);
+		float L_953 = L_952->___Max_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_954 = __this->___GrassManager;
+		NullCheck(L_954);
+		float L_955 = L_954->___Min_spread;
+		float L_956;
+		L_956 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_951, L_953, L_955, (45.0f), NULL);
+		NullCheck(L_948);
+		L_948->___Max_spread = L_956;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_957 = __this->___GrassManager;
+		NullCheck(L_957);
+		float L_958 = L_957->___Max_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_959 = __this->___GrassManager;
+		NullCheck(L_959);
+		float L_960 = L_959->___Min_spread;
+		if ((!(((float)L_958) < ((float)L_960))))
+		{
+			goto IL_2ca8;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_961 = __this->___GrassManager;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_962 = __this->___GrassManager;
+		NullCheck(L_962);
+		float L_963 = L_962->___Min_spread;
+		NullCheck(L_961);
+		L_961->___Max_spread = L_963;
+	}
+
+IL_2ca8:
+	{
+		float L_964 = __this->___Grass_GUI_startX;
+		float L_965 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_966;
+		memset((&L_966), 0, sizeof(L_966));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_966), L_964, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_965, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_967 = __this->___GrassManager;
+		NullCheck(L_967);
+		float* L_968 = (float*)(&L_967->___AmplifyWind);
+		String_t* L_969;
+		L_969 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_968, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_970;
+		L_970 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralF5F14FE7B6A879FDD041B076D46B622B5BE87544, L_969, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_971;
+		L_971 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_966, L_970, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_972 = __this->___GrassManager;
+		float L_973 = __this->___Grass_GUI_startX;
+		float L_974 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_975;
+		memset((&L_975), 0, sizeof(L_975));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_975), ((float)il2cpp_codegen_add(L_973, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_974, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_976 = __this->___GrassManager;
+		NullCheck(L_976);
+		float L_977 = L_976->___AmplifyWind;
+		float L_978;
+		L_978 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_975, L_977, (0.0f), (0.5f), NULL);
+		NullCheck(L_972);
+		L_972->___AmplifyWind = L_978;
+		float L_979 = __this->___Grass_GUI_startX;
+		float L_980 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_981;
+		memset((&L_981), 0, sizeof(L_981));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_981), ((float)il2cpp_codegen_add(L_979, (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_980, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_982 = __this->___GrassManager;
+		NullCheck(L_982);
+		float* L_983 = (float*)(&L_982->___WindTurbulence);
+		String_t* L_984;
+		L_984 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_983, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_985;
+		L_985 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral2F3E2BC5563715E5275AB7CC7BA2D37934CE20D9, L_984, NULL);
+		String_t* L_986;
+		L_986 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_981, L_985, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_987 = __this->___GrassManager;
+		float L_988 = __this->___Grass_GUI_startX;
+		float L_989 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_990;
+		memset((&L_990), 0, sizeof(L_990));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_990), ((float)il2cpp_codegen_add(L_988, (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_989, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_991 = __this->___GrassManager;
+		NullCheck(L_991);
+		float L_992 = L_991->___WindTurbulence;
+		float L_993;
+		L_993 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_990, L_992, (0.0f), (1.5f), NULL);
+		NullCheck(L_987);
+		L_987->___WindTurbulence = L_993;
+		float L_994 = __this->___Grass_GUI_startX;
+		float L_995 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_996;
+		memset((&L_996), 0, sizeof(L_996));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_996), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_994, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_995, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_997 = __this->___GrassManager;
+		NullCheck(L_997);
+		float* L_998 = (float*)(&L_997->___Grass_Fade_distance);
+		String_t* L_999;
+		L_999 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_998, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_1000;
+		L_1000 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral1AC7969A60D1E58C97B6D20409CC46D822150C82, L_999, NULL);
+		String_t* L_1001;
+		L_1001 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_996, L_1000, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1002 = __this->___GrassManager;
+		float L_1003 = __this->___Grass_GUI_startX;
+		float L_1004 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1005;
+		memset((&L_1005), 0, sizeof(L_1005));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1005), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1003, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1004, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1006 = __this->___GrassManager;
+		NullCheck(L_1006);
+		float L_1007 = L_1006->___Grass_Fade_distance;
+		float L_1008;
+		L_1008 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1005, L_1007, (25.0f), (400.0f), NULL);
+		NullCheck(L_1002);
+		L_1002->___Grass_Fade_distance = L_1008;
+		float L_1009 = __this->___Grass_GUI_startX;
+		float L_1010 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1011;
+		memset((&L_1011), 0, sizeof(L_1011));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1011), L_1009, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1010, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (50.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1012 = __this->___GrassManager;
+		NullCheck(L_1012);
+		float* L_1013 = (float*)(&L_1012->___SpecularPower);
+		String_t* L_1014;
+		L_1014 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_1013, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_1015;
+		L_1015 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral14F71F91E4989486A39163AE76E4AD0C9CDE70EC, L_1014, NULL);
+		String_t* L_1016;
+		L_1016 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_1011, L_1015, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1017 = __this->___GrassManager;
+		float L_1018 = __this->___Grass_GUI_startX;
+		float L_1019 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1020;
+		memset((&L_1020), 0, sizeof(L_1020));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1020), ((float)il2cpp_codegen_add(L_1018, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1019, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (50.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1021 = __this->___GrassManager;
+		NullCheck(L_1021);
+		float L_1022 = L_1021->___SpecularPower;
+		float L_1023;
+		L_1023 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1020, L_1022, (-0.100000001f), (8.5f), NULL);
+		NullCheck(L_1017);
+		L_1017->___SpecularPower = L_1023;
+		float L_1024 = __this->___Grass_GUI_startX;
+		float L_1025 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1026;
+		memset((&L_1026), 0, sizeof(L_1026));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1026), L_1024, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1025, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (50.0f))), (50.0f))), (230.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1027 = __this->___GrassManager;
+		NullCheck(L_1027);
+		float* L_1028 = (float*)(&L_1027->___Stop_Motion_distance);
+		String_t* L_1029;
+		L_1029 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_1028, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_1030;
+		L_1030 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral7A61A19934FDD357D5A5CECEBB2E7E77DD0784CB, L_1029, NULL);
+		String_t* L_1031;
+		L_1031 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_1026, L_1030, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1032 = __this->___GrassManager;
+		float L_1033 = __this->___Grass_GUI_startX;
+		float L_1034 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1035;
+		memset((&L_1035), 0, sizeof(L_1035));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1035), ((float)il2cpp_codegen_add(L_1033, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1034, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (50.0f))), (50.0f))), (230.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1036 = __this->___GrassManager;
+		NullCheck(L_1036);
+		float L_1037 = L_1036->___Stop_Motion_distance;
+		float L_1038;
+		L_1038 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1035, L_1037, (0.0f), (17.0f), NULL);
+		NullCheck(L_1032);
+		L_1032->___Stop_Motion_distance = L_1038;
+		float L_1039 = __this->___Grass_GUI_startX;
+		float L_1040 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1041;
+		memset((&L_1041), 0, sizeof(L_1041));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1041), L_1039, ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1040, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (50.0f))), (50.0f))), (50.0f))), (230.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1042 = __this->___GrassManager;
+		NullCheck(L_1042);
+		float* L_1043 = (float*)(&L_1042->___ShaderBInteractSpeed);
+		String_t* L_1044;
+		L_1044 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_1043, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_1045;
+		L_1045 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral406CD22481DC546A7283309979C6C7519BE2AED5, L_1044, NULL);
+		String_t* L_1046;
+		L_1046 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_1041, L_1045, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1047 = __this->___GrassManager;
+		float L_1048 = __this->___Grass_GUI_startX;
+		float L_1049 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1050;
+		memset((&L_1050), 0, sizeof(L_1050));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1050), ((float)il2cpp_codegen_add(L_1048, (0.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1049, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (50.0f))), (50.0f))), (50.0f))), (230.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1051 = __this->___GrassManager;
+		NullCheck(L_1051);
+		float L_1052 = L_1051->___ShaderBInteractSpeed;
+		float L_1053;
+		L_1053 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1050, L_1052, (0.0f), (7.0f), NULL);
+		NullCheck(L_1047);
+		L_1047->___ShaderBInteractSpeed = L_1053;
+	}
+
+IL_3200:
+	{
+		ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC* L_1054 = __this->___Thrower;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1055;
+		L_1055 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1054, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1055)
+		{
+			goto IL_32e3;
+		}
+	}
+	{
+		V_22 = _stringLiteralCC79D02C02810DB5C3CAC11A420F2FC424A779C4;
+		ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC* L_1056 = __this->___Thrower;
+		NullCheck(L_1056);
+		bool L_1057;
+		L_1057 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_1056, NULL);
+		if (L_1057)
+		{
+			goto IL_322c;
+		}
+	}
+	{
+		V_22 = _stringLiteral6D6B8E94DC4D78B87209FFEA746EC4CC013AC83B;
+	}
+
+IL_322c:
+	{
+		float L_1058 = __this->___Grass_GUI_startX;
+		float L_1059 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1060;
+		memset((&L_1060), 0, sizeof(L_1060));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1060), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1058, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1059, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (110.0f), (22.0f), NULL);
+		String_t* L_1061 = V_22;
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		bool L_1062;
+		L_1062 = GUI_Button_m26D18B144D3116398B9E9BECB0C4014F57DBE44B(L_1060, L_1061, NULL);
+		if (!L_1062)
+		{
+			goto IL_32e3;
+		}
+	}
+	{
+		ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC* L_1063 = __this->___Thrower;
+		NullCheck(L_1063);
+		bool L_1064;
+		L_1064 = Behaviour_get_enabled_mAAC9F15E9EBF552217A5AE2681589CC0BFA300C1(L_1063, NULL);
+		if (!L_1064)
+		{
+			goto IL_32bf;
+		}
+	}
+	{
+		ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC* L_1065 = __this->___Thrower;
+		NullCheck(L_1065);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1065, (bool)0, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1066 = __this->___GrassManager;
+		NullCheck(L_1066);
+		L_1066->___Grass_painting = (bool)1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1067 = __this->___GrassManager;
+		NullCheck(L_1067);
+		L_1067->___Enable_real_time_erase = (bool)1;
+		goto IL_32e3;
+	}
+
+IL_32bf:
+	{
+		ObjectThrowerInfiniGRASS_t41F7AC71375BB50690B803FBD7D0C11E68B9DCAC* L_1068 = __this->___Thrower;
+		NullCheck(L_1068);
+		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(L_1068, (bool)1, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1069 = __this->___GrassManager;
+		NullCheck(L_1069);
+		L_1069->___Grass_painting = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1070 = __this->___GrassManager;
+		NullCheck(L_1070);
+		L_1070->___Enable_real_time_erase = (bool)0;
+	}
+
+IL_32e3:
+	{
+		float L_1071 = __this->___Grass_GUI_startX;
+		float L_1072 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1073;
+		memset((&L_1073), 0, sizeof(L_1073));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1073), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1071, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1072, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (30.0f))), (5.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1074 = __this->___GrassManager;
+		NullCheck(L_1074);
+		float* L_1075 = (float*)(&L_1074->___TintPower);
+		String_t* L_1076;
+		L_1076 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_1075, _stringLiteralC613D4D2FE3F5D74727D376F793286A2BCBB1391, NULL);
+		String_t* L_1077;
+		L_1077 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral85998D8C162D60EAF15D3DC2FD24CE8B9C8005CF, L_1076, NULL);
+		il2cpp_codegen_runtime_class_init_inline(GUI_tA9CDB3D69DB13D51AD83ABDB587EF95947EC2D2A_il2cpp_TypeInfo_var);
+		String_t* L_1078;
+		L_1078 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_1073, L_1077, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1079 = __this->___GrassManager;
+		float L_1080 = __this->___Grass_GUI_startX;
+		float L_1081 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1082;
+		memset((&L_1082), 0, sizeof(L_1082));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1082), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1080, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1081, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (30.0f))), (5.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1083 = __this->___GrassManager;
+		NullCheck(L_1083);
+		float L_1084 = L_1083->___TintPower;
+		float L_1085;
+		L_1085 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1082, L_1084, (0.0f), (3.0f), NULL);
+		NullCheck(L_1079);
+		L_1079->___TintPower = L_1085;
+		float L_1086 = __this->___Grass_GUI_startX;
+		float L_1087 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1088;
+		memset((&L_1088), 0, sizeof(L_1088));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1088), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1086, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1087, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (30.0f))), (35.0f))), (110.0f), (25.0f), NULL);
+		String_t* L_1089;
+		L_1089 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_1088, _stringLiteral338454C4EA466E9EE6637257CB9E997972C6D7D2, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1090 = __this->___GrassManager;
+		NullCheck(L_1090);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1091 = L_1090->___tintColor;
+		V_11 = L_1091;
+		float L_1092 = __this->___Grass_GUI_startX;
+		float L_1093 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1094;
+		memset((&L_1094), 0, sizeof(L_1094));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1094), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1092, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1093, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (30.0f))), (35.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1095 = V_11;
+		float L_1096 = L_1095.___r;
+		float L_1097;
+		L_1097 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1094, L_1096, (0.0f), (1.0f), NULL);
+		(&V_11)->___r = L_1097;
+		float L_1098 = __this->___Grass_GUI_startX;
+		float L_1099 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1100;
+		memset((&L_1100), 0, sizeof(L_1100));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1100), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1098, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1099, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (30.0f))), (35.0f))), (35.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1101 = V_11;
+		float L_1102 = L_1101.___g;
+		float L_1103;
+		L_1103 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1100, L_1102, (0.0f), (1.0f), NULL);
+		(&V_11)->___g = L_1103;
+		float L_1104 = __this->___Grass_GUI_startX;
+		float L_1105 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1106;
+		memset((&L_1106), 0, sizeof(L_1106));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1106), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1104, (125.0f))), (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1105, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (30.0f))), (35.0f))), (35.0f))), (35.0f))), (30.0f))), (110.0f), (25.0f), NULL);
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1107 = V_11;
+		float L_1108 = L_1107.___b;
+		float L_1109;
+		L_1109 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1106, L_1108, (0.0f), (1.0f), NULL);
+		(&V_11)->___b = L_1109;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1110 = __this->___GrassManager;
+		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1111 = V_11;
+		NullCheck(L_1110);
+		L_1110->___tintColor = L_1111;
+		float L_1112 = __this->___Grass_GUI_startX;
+		float L_1113 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1114;
+		memset((&L_1114), 0, sizeof(L_1114));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1114), ((float)il2cpp_codegen_add(L_1112, (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1113, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (5.0f))), (5.0f))), (0.0f))), (110.0f), (22.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1115 = __this->___GrassManager;
+		NullCheck(L_1115);
+		float* L_1116 = (float*)(&L_1115->___TintFrequency);
+		String_t* L_1117;
+		L_1117 = Single_ToString_m3F2C4433B6ADFA5ED8E3F14ED19CD23014E5179D(L_1116, _stringLiteral2409165FB90CD4A8B916FCA75790766B82C91748, NULL);
+		String_t* L_1118;
+		L_1118 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralB71D47FE8F1691BD4C37787168CA0FA7D18E4F55, L_1117, NULL);
+		String_t* L_1119;
+		L_1119 = GUI_TextArea_m19B2D0D05E2C273B5E7781970CEE162002834467(L_1114, L_1118, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1120 = __this->___GrassManager;
+		float L_1121 = __this->___Grass_GUI_startX;
+		float L_1122 = __this->___Grass_GUI_startY;
+		Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D L_1123;
+		memset((&L_1123), 0, sizeof(L_1123));
+		Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline((&L_1123), ((float)il2cpp_codegen_add(L_1121, (125.0f))), ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_subtract(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1122, (60.0f))), (5.0f))), (30.0f))), (40.0f))), (30.0f))), (30.0f))), (30.0f))), (40.0f))), (9.0f))), (5.0f))), (5.0f))), (0.0f))), (110.0f), (25.0f), NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1124 = __this->___GrassManager;
+		NullCheck(L_1124);
+		float L_1125 = L_1124->___TintFrequency;
+		float L_1126;
+		L_1126 = GUI_HorizontalSlider_mEED3CE859B1AF830E1851B3625AE127B4E6C5408(L_1123, L_1125, (0.00999999978f), (0.119999997f), NULL);
+		NullCheck(L_1120);
+		L_1120->___TintFrequency = L_1126;
+	}
+
+IL_3753:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASS_DemoRealTimev19__ctor_m1AC255A9B17A42938E7C21B5FC4885A0B0432782 (InfiniGRASS_DemoRealTimev19_t4B5EFC4CCCB978F407C23EB7449CF4B4748C7CE0* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_0 = (List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D*)il2cpp_codegen_object_new(List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D_il2cpp_TypeInfo_var);
+		List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268(L_0, List_1__ctor_mDC3E95DC5C927A867B9B42EDE1945F909B894268_RuntimeMethod_var);
+		__this->___Cameras = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Cameras), (void*)L_0);
+		__this->___Sun_time_start = (14.4300003f);
+		__this->___HUD_ON = (bool)1;
+		__this->___Grass_GUI_startX = (510.0f);
+		__this->___Grass_GUI_startY = (21.0f);
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_1 = (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4*)il2cpp_codegen_object_new(List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4_il2cpp_TypeInfo_var);
+		List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28(L_1, List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28_RuntimeMethod_var);
+		__this->___IconsGrass = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___IconsGrass), (void*)L_1);
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_2 = (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4*)il2cpp_codegen_object_new(List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4_il2cpp_TypeInfo_var);
+		List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28(L_2, List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28_RuntimeMethod_var);
+		__this->___IconsRocks = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___IconsRocks), (void*)L_2);
+		List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4* L_3 = (List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4*)il2cpp_codegen_object_new(List_1_t0F231C3F13EBA1FF9081BD61489D01AA3CBE59D4_il2cpp_TypeInfo_var);
+		List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28(L_3, List_1__ctor_mD3639440D8DA82147DC9629DE83F253326590E28_RuntimeMethod_var);
+		__this->___IconsFence = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___IconsFence), (void*)L_3);
+		__this->___Toggle_GUI = (bool)1;
+		__this->___quality = 1;
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter_Start_m98F2DE6EC3460EDF03FFED61123DB8EDBF5D69E9 (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_0 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		String_t* L_2 = __this->___GrassManagerObjectName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_2, NULL);
+		V_0 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
+		NullCheck(L_6);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_7;
+		L_7 = GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086(L_6, GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		__this->___Grassmanager = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Grassmanager), (void*)L_7);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter_Update_m88494690CD928D4B30E65DDE3FE297164F40DB87 (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	bool V_1 = false;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* V_3 = NULL;
+	{
+		bool L_0 = __this->___useMouse;
+		if (!L_0)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		int32_t L_3 = __this->___plantButton;
+		bool L_4;
+		L_4 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(L_3, NULL);
+		bool L_5;
+		L_5 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)304), NULL);
+		if (!((int32_t)((int32_t)L_4&((((int32_t)L_5) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
+		V_1 = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_6 = __this->___Grassmanager;
+		NullCheck(L_6);
+		bool L_7 = L_6->___Tag_based_player;
+		if (!L_7)
+		{
+			goto IL_00be;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_8 = __this->___Grassmanager;
+		NullCheck(L_8);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_9 = L_8->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_10;
+		L_10 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_9, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_10)
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_11 = __this->___Grassmanager;
+		NullCheck(L_11);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12 = L_11->___player;
+		NullCheck(L_12);
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_13;
+		L_13 = GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1(L_12, (bool)0, GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1_RuntimeMethod_var);
+		V_3 = L_13;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_14 = V_3;
+		if (!L_14)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_15 = V_3;
+		NullCheck(L_15);
+		if (!(((RuntimeArray*)L_15)->max_length))
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_16 = V_3;
+		NullCheck(L_16);
+		int32_t L_17 = 0;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_18 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_17));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_19;
+		L_19 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_18, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_19)
+		{
+			goto IL_009d;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_20 = V_3;
+		NullCheck(L_20);
+		int32_t L_21 = 0;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_22 = (L_20)->GetAt(static_cast<il2cpp_array_size_t>(L_21));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_23;
+		L_23 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_22);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_24;
+		L_24 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_22, L_23, NULL);
+		V_0 = L_24;
+		V_1 = (bool)1;
+		goto IL_00fe;
+	}
+
+IL_009d:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_25;
+		L_25 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_26;
+		L_26 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_25, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_26)
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_27;
+		L_27 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_27);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_29;
+		L_29 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_27, L_28, NULL);
+		V_0 = L_29;
+		V_1 = (bool)1;
+		goto IL_00fe;
+	}
+
+IL_00be:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_30;
+		L_30 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_31;
+		L_31 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_30, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_31)
+		{
+			goto IL_00df;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_32;
+		L_32 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_32);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_34;
+		L_34 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_32, L_33, NULL);
+		V_0 = L_34;
+		V_1 = (bool)1;
+		goto IL_00fe;
+	}
+
+IL_00df:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_35;
+		L_35 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_36;
+		L_36 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_35, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_36)
+		{
+			goto IL_00fe;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_37;
+		L_37 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
+		L_38 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_37);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_39;
+		L_39 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_37, L_38, NULL);
+		V_0 = L_39;
+		V_1 = (bool)1;
+	}
+
+IL_00fe:
+	{
+		il2cpp_codegen_initobj((&V_2), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		bool L_40 = V_1;
+		if (!L_40)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_41 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_42;
+		L_42 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_41, (&V_2), (std::numeric_limits<float>::infinity()), NULL);
+		if (!L_42)
+		{
+			goto IL_013f;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		L_43 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_2), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_2), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_45;
+		L_45 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_2), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_46;
+		L_46 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_2), NULL);
+		NullCheck(L_46);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_47;
+		L_47 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_46, NULL);
+		InfiniGRASSPlanter_PlantInPosition_m0E0676579BFB14C22E826CCA5FF1C6C1C82E2BD4(__this, L_43, L_44, L_45, L_47, NULL);
+	}
+
+IL_013f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter_PlantInPosition_m0E0676579BFB14C22E826CCA5FF1C6C1C82E2BD4 (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) 
+{
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
+		RaycastHit_set_point_m3B63BEB25A82BFCF9FBB300022D0362BC2CF9E11((&V_0), L_0, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_normal;
+		RaycastHit_set_normal_m97DDF1CBE8ADF1F72AA30BC83870615ABB38C88B((&V_0), L_1, NULL);
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_2 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = ___2_collider1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___3_transform1;
+		int32_t L_5 = __this->___Grass_selector;
+		InfiniGRASSPlanter_PlantGrass_m276EAFF528680F29558D115A83BE98A5122FB967(__this, L_2, L_3, L_4, L_5, (bool)0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter_OnCollisionEnter_m6959D85578D7A87DD11D4CB88F09CF8A65EB1942 (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_info, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		bool L_0 = __this->___useCollisions;
+		if (!L_0)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_3 = ___0_info;
+		NullCheck(L_3);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_4;
+		L_4 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_3, NULL);
+		NullCheck(L_4);
+		if (!(((RuntimeArray*)L_4)->max_length))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_5 = ___0_info;
+		NullCheck(L_5);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_6;
+		L_6 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = ContactPoint_get_point_mCCDFDACC5D8DB469898060A56A3CC45132911208(((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_0 = L_7;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_8 = ___0_info;
+		NullCheck(L_8);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_9;
+		L_9 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_8, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = ContactPoint_get_normal_mD7F0567CA2FD68644F7C6FE318E10C4D15F92AD6(((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_1 = L_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_1;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_13 = ___0_info;
+		NullCheck(L_13);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14;
+		L_14 = Collision_get_collider_mBB5A086C78FE4BE0589E216F899B611673ADD25D(L_13, NULL);
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_15 = ___0_info;
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Collision_get_transform_mA5D135D9F696635EA7A0D2184CEF499427A6D0F6(L_15, NULL);
+		InfiniGRASSPlanter_PlantInPosition_m0E0676579BFB14C22E826CCA5FF1C6C1C82E2BD4(__this, L_11, L_12, L_14, L_16, NULL);
+	}
+
+IL_0057:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter_PlantGrass_m276EAFF528680F29558D115A83BE98A5122FB967 (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_2 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* V_6 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_7 = NULL;
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	bool G_B6_0 = false;
+	bool G_B5_0 = false;
+	int32_t G_B7_0 = 0;
+	bool G_B7_1 = false;
+	{
+		V_0 = (bool)0;
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_0;
+		L_0 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___1_collider1;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___1_collider1;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_7;
+		L_7 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		V_0 = (bool)1;
+	}
+
+IL_0036:
+	{
+		bool L_10 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_11 = ___1_collider1;
+		NullCheck(L_11);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			G_B6_0 = L_10;
+			goto IL_005c;
+		}
+		G_B5_0 = L_10;
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14 = ___1_collider1;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805(L_15, NULL);
+		bool L_17;
+		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, _stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3, NULL);
+		G_B7_0 = ((int32_t)(L_17));
+		G_B7_1 = G_B5_0;
+		goto IL_005d;
+	}
+
+IL_005c:
+	{
+		G_B7_0 = 0;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_005d:
+	{
+		if (!((int32_t)((int32_t)G_B7_1|G_B7_0)))
+		{
+			goto IL_06e5;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_18 = ___1_collider1;
+		NullCheck(L_18);
+		GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* L_19;
+		L_19 = Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B(L_18, Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_20)
+		{
+			goto IL_06e5;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_21 = __this->___Grassmanager;
+		NullCheck(L_21);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_22 = L_21->___GrassPrefabs;
+		int32_t L_23 = ___3_Grass_selector;
+		NullCheck(L_22);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_22, L_23, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_24, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		V_1 = L_25;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_1;
+		NullCheck(L_26);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
+		L_27 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		NullCheck(L_27);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_27, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_1;
+		NullCheck(L_29);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_30;
+		L_30 = GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03(L_29, GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		V_2 = L_30;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_31 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&___0_hit), NULL);
+		NullCheck(L_31);
+		L_31->___Intial_Up_Vector = L_32;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_33)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_34 = V_2;
+		NullCheck(L_34);
+		L_34->___Grow_tree = (bool)1;
+		goto IL_00c9;
+	}
+
+IL_00c2:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_35 = V_2;
+		NullCheck(L_35);
+		L_35->___Grow_in_Editor = (bool)1;
+	}
+
+IL_00c9:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_36 = __this->___Grassmanager;
+		NullCheck(L_36);
+		bool L_37 = L_36->___AdaptOnTerrain;
+		bool L_38 = V_0;
+		if (!((int32_t)((int32_t)L_37&(int32_t)L_38)))
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_40 = L_39.___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_41 = __this->___Grassmanager;
+		NullCheck(L_41);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_42 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_41->___Tpos);
+		float L_43 = L_42->___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_44 = __this->___Grassmanager;
+		NullCheck(L_44);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_45 = L_44->___Tdata;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = TerrainData_get_alphamapWidth_m07E5B04B08E87AC9F66D766B363000F94C8612D4(L_45, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_47 = __this->___Grassmanager;
+		NullCheck(L_47);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_48 = L_47->___Tdata;
+		NullCheck(L_48);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		L_49 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_48, NULL);
+		float L_50 = L_49.___x;
+		V_4 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_40, L_43)), ((float)L_46)))/L_50)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_52 = L_51.___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_53 = __this->___Grassmanager;
+		NullCheck(L_53);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_54 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_53->___Tpos);
+		float L_55 = L_54->___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_56 = __this->___Grassmanager;
+		NullCheck(L_56);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_57 = L_56->___Tdata;
+		NullCheck(L_57);
+		int32_t L_58;
+		L_58 = TerrainData_get_alphamapHeight_m4A8273D6E0E3526A31E2669FBAB240353C086AED(L_57, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_59 = __this->___Grassmanager;
+		NullCheck(L_59);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_60 = L_59->___Tdata;
+		NullCheck(L_60);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
+		L_61 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_60, NULL);
+		float L_62 = L_61.___z;
+		V_5 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_52, L_55)), ((float)L_58)))/L_62)));
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_63 = __this->___Grassmanager;
+		NullCheck(L_63);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_64 = L_63->___Tdata;
+		int32_t L_65 = V_4;
+		int32_t L_66 = V_5;
+		NullCheck(L_64);
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_67;
+		L_67 = TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01(L_64, L_65, L_66, 1, 1, NULL);
+		V_6 = L_67;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_68 = V_6;
+		NullCheck((RuntimeArray*)L_68);
+		int32_t L_69;
+		L_69 = Array_GetUpperBound_m64006116D5244EB8DA52188A9E49929AA7D08E4E((RuntimeArray*)L_68, 2, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_70 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(L_69, 1)));
+		V_7 = L_70;
+		V_9 = 0;
+		goto IL_01af;
+	}
+
+IL_0199:
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_71 = V_7;
+		int32_t L_72 = V_9;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_73 = V_6;
+		int32_t L_74 = V_9;
+		NullCheck(L_73);
+		float L_75;
+		L_75 = (L_73)->GetAt(0, 0, L_74);
+		NullCheck(L_71);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (float)L_75);
+		int32_t L_76 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_01af:
+	{
+		int32_t L_77 = V_9;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_78 = V_7;
+		NullCheck(L_78);
+		if ((((int32_t)L_77) < ((int32_t)((int32_t)(((RuntimeArray*)L_78)->max_length)))))
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		V_8 = (0.0f);
+		V_10 = 0;
+		goto IL_020e;
+	}
+
+IL_01c3:
+	{
+		int32_t L_79 = V_10;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_80 = __this->___Grassmanager;
+		NullCheck(L_80);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_81 = L_80->___ScalePerTexture;
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_81, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		if ((((int32_t)L_79) <= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_82, 1)))))
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		float L_83 = V_8;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_84 = V_7;
+		int32_t L_85 = V_10;
+		NullCheck(L_84);
+		int32_t L_86 = L_85;
+		float L_87 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		V_8 = ((float)il2cpp_codegen_add(L_83, ((float)il2cpp_codegen_multiply((1.0f), L_87))));
+		goto IL_0208;
+	}
+
+IL_01eb:
+	{
+		float L_88 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_89 = __this->___Grassmanager;
+		NullCheck(L_89);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_90 = L_89->___ScalePerTexture;
+		int32_t L_91 = V_10;
+		NullCheck(L_90);
+		float L_92;
+		L_92 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_90, L_91, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_93 = V_7;
+		int32_t L_94 = V_10;
+		NullCheck(L_93);
+		int32_t L_95 = L_94;
+		float L_96 = (L_93)->GetAt(static_cast<il2cpp_array_size_t>(L_95));
+		V_8 = ((float)il2cpp_codegen_add(L_88, ((float)il2cpp_codegen_multiply(L_92, L_96))));
+	}
+
+IL_0208:
+	{
+		int32_t L_97 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_97, 1));
+	}
+
+IL_020e:
+	{
+		int32_t L_98 = V_10;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_99 = V_7;
+		NullCheck(L_99);
+		if ((((int32_t)L_98) < ((int32_t)((int32_t)(((RuntimeArray*)L_99)->max_length)))))
+		{
+			goto IL_01c3;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_100 = V_2;
+		float L_101 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_102 = __this->___Grassmanager;
+		NullCheck(L_102);
+		float L_103 = L_102->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_104 = __this->___Grassmanager;
+		NullCheck(L_104);
+		float L_105 = L_104->___max_scale;
+		float L_106;
+		L_106 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_103, L_105, NULL);
+		NullCheck(L_100);
+		L_100->___End_scale = ((float)il2cpp_codegen_multiply(L_101, L_106));
+		goto IL_025d;
+	}
+
+IL_023c:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_107 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_108 = __this->___Grassmanager;
+		NullCheck(L_108);
+		float L_109 = L_108->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_110 = __this->___Grassmanager;
+		NullCheck(L_110);
+		float L_111 = L_110->___max_scale;
+		float L_112;
+		L_112 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_109, L_111, NULL);
+		NullCheck(L_107);
+		L_107->___End_scale = L_112;
+	}
+
+IL_025d:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_113 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_114 = __this->___Grassmanager;
+		NullCheck(L_114);
+		int32_t L_115 = L_114->___Max_interactive_group_members;
+		NullCheck(L_113);
+		L_113->___Max_interact_holder_items = L_115;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_116 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_117 = __this->___Grassmanager;
+		NullCheck(L_117);
+		int32_t L_118 = L_117->___Max_static_group_members;
+		NullCheck(L_116);
+		L_116->___Max_trees_per_group = L_118;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_119 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_120 = __this->___Grassmanager;
+		NullCheck(L_120);
+		bool L_121 = L_120->___Interactive;
+		NullCheck(L_119);
+		L_119->___Interactive_tree = L_121;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_122;
+		L_122 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_122)
+		{
+			goto IL_02c1;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_123 = V_2;
+		NullCheck(L_123);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_124;
+		L_124 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_123, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_125 = L_124;
+		NullCheck(L_125);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_126;
+		L_126 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_125, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_127 = V_2;
+		NullCheck(L_127);
+		float L_128 = L_127->___End_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_129 = __this->___Grassmanager;
+		NullCheck(L_129);
+		float L_130 = L_129->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131;
+		L_131 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_126, ((float)il2cpp_codegen_multiply(L_128, L_130)), NULL);
+		NullCheck(L_125);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_125, L_131, NULL);
+		goto IL_02dc;
+	}
+
+IL_02c1:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_132 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_133;
+		L_133 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_134 = __this->___Grassmanager;
+		NullCheck(L_134);
+		float L_135 = L_134->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
+		L_136 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_133, L_135, NULL);
+		NullCheck(L_132);
+		L_132->___colliderScale = L_136;
+	}
+
+IL_02dc:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_137 = __this->___Grassmanager;
+		NullCheck(L_137);
+		bool L_138 = L_137->___Override_spread;
+		if (!L_138)
+		{
+			goto IL_032a;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_139 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_140 = __this->___Grassmanager;
+		NullCheck(L_140);
+		float L_141 = L_140->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_142 = __this->___Grassmanager;
+		NullCheck(L_142);
+		float L_143 = L_142->___Max_spread;
+		float L_144;
+		L_144 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_141, L_143, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_145 = __this->___Grassmanager;
+		NullCheck(L_145);
+		float L_146 = L_145->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_147 = __this->___Grassmanager;
+		NullCheck(L_147);
+		float L_148 = L_147->___Max_spread;
+		float L_149;
+		L_149 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_146, L_148, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_150;
+		memset((&L_150), 0, sizeof(L_150));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_150), L_144, L_149, NULL);
+		NullCheck(L_139);
+		L_139->___PosSpread = L_150;
+	}
+
+IL_032a:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_151 = __this->___Grassmanager;
+		NullCheck(L_151);
+		bool L_152 = L_151->___Override_density;
+		if (!L_152)
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_153 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_154 = __this->___Grassmanager;
+		NullCheck(L_154);
+		float L_155 = L_154->___Min_density;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_156 = __this->___Grassmanager;
+		NullCheck(L_156);
+		float L_157 = L_156->___Max_density;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_158;
+		memset((&L_158), 0, sizeof(L_158));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_158), L_155, L_157, NULL);
+		NullCheck(L_153);
+		L_153->___Min_Max_Branching = L_158;
+	}
+
+IL_0358:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_159 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_160 = ___2_transform1;
+		NullCheck(L_160);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_161;
+		L_161 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_160, NULL);
+		NullCheck(L_161);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_162;
+		L_162 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_161, NULL);
+		NullCheck(L_159);
+		L_159->___PaintedOnOBJ = L_162;
+		Il2CppCodeGenWriteBarrier((void**)(&L_159->___PaintedOnOBJ), (void*)L_162);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_163 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_164 = __this->___Grassmanager;
+		NullCheck(L_164);
+		bool L_165 = L_164->___GridOnNormal;
+		NullCheck(L_163);
+		L_163->___GridOnNormal = L_165;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_166 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_167 = __this->___Grassmanager;
+		NullCheck(L_167);
+		float L_168 = L_167->___rayCastDist;
+		NullCheck(L_166);
+		L_166->___max_ray_dist = L_168;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_169 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_170 = __this->___Grassmanager;
+		NullCheck(L_170);
+		float L_171 = L_170->___MinAvoidDist;
+		NullCheck(L_169);
+		L_169->___MinAvoidDist = L_171;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_172 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_173 = __this->___Grassmanager;
+		NullCheck(L_173);
+		float L_174 = L_173->___MinScaleAvoidDist;
+		NullCheck(L_172);
+		L_172->___MinScaleAvoidDist = L_174;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_175 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_176 = __this->___Grassmanager;
+		NullCheck(L_176);
+		float L_177 = L_176->___InteractionSpeed;
+		NullCheck(L_175);
+		L_175->___InteractionSpeed = L_177;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_178 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_179 = __this->___Grassmanager;
+		NullCheck(L_179);
+		float L_180 = L_179->___InteractSpeedThres;
+		NullCheck(L_178);
+		L_178->___InteractSpeedThres = L_180;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_181 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_182 = __this->___Grassmanager;
+		NullCheck(L_182);
+		bool L_183 = L_182->___enableAbove64KMesh;
+		NullCheck(L_181);
+		L_181->___enableAbove64KMesh = L_183;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_184 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_185 = __this->___Grassmanager;
+		NullCheck(L_185);
+		float L_186 = L_185->___Interaction_thres;
+		NullCheck(L_184);
+		L_184->___Interaction_thres = L_186;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_187 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_188 = __this->___Grassmanager;
+		NullCheck(L_188);
+		float L_189 = L_188->___Max_tree_dist;
+		NullCheck(L_187);
+		L_187->___Max_tree_dist = L_189;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_190 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_191 = __this->___Grassmanager;
+		NullCheck(L_191);
+		bool L_192 = L_191->___Disable_after_growth;
+		NullCheck(L_190);
+		L_190->___Disable_after_growth = L_192;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_193 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_194 = __this->___Grassmanager;
+		NullCheck(L_194);
+		bool L_195 = L_194->___WhenCombinerFull;
+		NullCheck(L_193);
+		L_193->___WhenCombinerFull = L_195;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_196 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_197 = __this->___Grassmanager;
+		NullCheck(L_197);
+		bool L_198 = L_197->___Eliminate_original_mesh;
+		NullCheck(L_196);
+		L_196->___Eliminate_original_mesh = L_198;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_199 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_200 = __this->___Grassmanager;
+		NullCheck(L_200);
+		float L_201 = L_200->___Interaction_offset;
+		NullCheck(L_199);
+		L_199->___Interaction_offset = L_201;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_202 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_203 = __this->___Grassmanager;
+		NullCheck(L_203);
+		float L_204 = L_203->___LOD_distance;
+		NullCheck(L_202);
+		L_202->___LOD_distance = L_204;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_205 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_206 = __this->___Grassmanager;
+		NullCheck(L_206);
+		float L_207 = L_206->___LOD_distance1;
+		NullCheck(L_205);
+		L_205->___LOD_distance1 = L_207;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_208 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_209 = __this->___Grassmanager;
+		NullCheck(L_209);
+		float L_210 = L_209->___LOD_distance2;
+		NullCheck(L_208);
+		L_208->___LOD_distance2 = L_210;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_211 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_212 = __this->___Grassmanager;
+		NullCheck(L_212);
+		float L_213 = L_212->___Cutoff_distance;
+		NullCheck(L_211);
+		L_211->___Cutoff_distance = L_213;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_214 = V_2;
+		NullCheck(L_214);
+		L_214->___Tag_based = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_215 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_216 = __this->___Grassmanager;
+		NullCheck(L_215);
+		L_215->___GrassManager = L_216;
+		Il2CppCodeGenWriteBarrier((void**)(&L_215->___GrassManager), (void*)L_216);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_217 = V_2;
+		int32_t L_218 = ___3_Grass_selector;
+		NullCheck(L_217);
+		L_217->___Type = ((int32_t)il2cpp_codegen_add(L_218, 1));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_219 = V_2;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_220 = V_2;
+		NullCheck(L_220);
+		float L_221 = L_220->___End_scale;
+		NullCheck(L_219);
+		L_219->___Start_tree_scale = ((float)(L_221/(4.0f)));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_222 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_223 = __this->___Grassmanager;
+		NullCheck(L_223);
+		bool L_224 = L_223->___RandomRot;
+		NullCheck(L_222);
+		L_222->___RandomRot = L_224;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_225 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_226 = __this->___Grassmanager;
+		NullCheck(L_226);
+		float L_227 = L_226->___RandRotMin;
+		NullCheck(L_225);
+		L_225->___RandRotMin = L_227;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_228 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_229 = __this->___Grassmanager;
+		NullCheck(L_229);
+		float L_230 = L_229->___RandRotMax;
+		NullCheck(L_228);
+		L_228->___RandRotMax = L_230;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_231 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_232 = __this->___Grassmanager;
+		NullCheck(L_232);
+		bool L_233 = L_232->___GroupByObject;
+		NullCheck(L_231);
+		L_231->___GroupByObject = L_233;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_234 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_235 = __this->___Grassmanager;
+		NullCheck(L_235);
+		bool L_236 = L_235->___ParentToObject;
+		NullCheck(L_234);
+		L_234->___ParentToObject = L_236;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_237 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_238 = __this->___Grassmanager;
+		NullCheck(L_238);
+		bool L_239 = L_238->___MoveWithObject;
+		NullCheck(L_237);
+		L_237->___MoveWithObject = L_239;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_240 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_241 = __this->___Grassmanager;
+		NullCheck(L_241);
+		bool L_242 = L_241->___AvoidOwnColl;
+		NullCheck(L_240);
+		L_240->___AvoidOwnColl = L_242;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_243 = V_1;
+		NullCheck(L_243);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_244;
+		L_244 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_243, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_245 = __this->___Grassmanager;
+		NullCheck(L_245);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_246 = L_245->___GrassHolder;
+		NullCheck(L_246);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_247;
+		L_247 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_246, NULL);
+		NullCheck(L_244);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_244, L_247, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_248 = __this->___Grassmanager;
+		NullCheck(L_248);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_249 = L_248->___Grasses;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_250 = V_2;
+		NullCheck(L_249);
+		List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_inline(L_249, L_250, List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_251 = __this->___Grassmanager;
+		NullCheck(L_251);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_252 = L_251->___GrassesType;
+		int32_t L_253 = ___3_Grass_selector;
+		NullCheck(L_252);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_252, L_253, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_254 = V_1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_255 = __this->___Grassmanager;
+		NullCheck(L_255);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_256 = L_255->___Grasses;
+		NullCheck(L_256);
+		int32_t L_257;
+		L_257 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_256, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		V_11 = L_257;
+		String_t* L_258;
+		L_258 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_11), NULL);
+		String_t* L_259;
+		L_259 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE, L_258, NULL);
+		NullCheck(L_254);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_254, L_259, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_260 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_261 = __this->___Grassmanager;
+		NullCheck(L_261);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_262 = L_261->___Grasses;
+		NullCheck(L_262);
+		int32_t L_263;
+		L_263 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_262, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_260);
+		L_260->___Grass_Holder_Index = ((int32_t)il2cpp_codegen_subtract(L_263, 1));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_264 = V_2;
+		NullCheck(L_264);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_265;
+		L_265 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_264, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_266 = __this->___Grassmanager;
+		NullCheck(L_266);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_267 = L_266->___GrassHolder;
+		NullCheck(L_267);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_268;
+		L_268 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_267, NULL);
+		NullCheck(L_265);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_265, L_268, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_269 = __this->___Grassmanager;
+		NullCheck(L_269);
+		L_269->___CleanUp = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_270 = __this->___Grassmanager;
+		NullCheck(L_270);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_271 = L_270->___Grasses;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_272 = __this->___Grassmanager;
+		NullCheck(L_272);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_273 = L_272->___Grasses;
+		NullCheck(L_273);
+		int32_t L_274;
+		L_274 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_273, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_271);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_275;
+		L_275 = List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C(L_271, ((int32_t)il2cpp_codegen_subtract(L_274, 1)), List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		V_3 = L_275;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_276 = V_3;
+		NullCheck(L_276);
+		L_276->___Combiner = (ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_276->___Combiner), (void*)(ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_277 = V_3;
+		NullCheck(L_277);
+		L_277->___Grow_in_Editor = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_278 = V_3;
+		NullCheck(L_278);
+		L_278->___growth_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_279 = V_3;
+		NullCheck(L_279);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_280 = L_279->___Registered_Brances;
+		NullCheck(L_280);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_280, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_281 = V_3;
+		NullCheck(L_281);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_282 = L_281->___Branch_grew;
+		NullCheck(L_282);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_282, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_283 = V_3;
+		NullCheck(L_283);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_284 = L_283->___Registered_Leaves;
+		NullCheck(L_284);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_284, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_285 = V_3;
+		NullCheck(L_285);
+		List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* L_286 = L_285->___Registered_Leaves_Rot;
+		NullCheck(L_286);
+		List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_inline(L_286, List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_287 = V_3;
+		NullCheck(L_287);
+		L_287->___batching_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_288 = V_3;
+		NullCheck(L_288);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_289 = L_288->___Branch_levels;
+		NullCheck(L_289);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_289, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_290 = V_3;
+		NullCheck(L_290);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_291 = L_290->___BranchID_per_level;
+		NullCheck(L_291);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_291, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_292 = V_3;
+		NullCheck(L_292);
+		L_292->___Grow_level = 0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_293 = V_3;
+		NullCheck(L_293);
+		L_293->___Grow_tree_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_294 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_295 = V_3;
+		NullCheck(L_295);
+		float L_296 = L_295->___Max_Health;
+		NullCheck(L_294);
+		L_294->___Health = L_296;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_297 = V_3;
+		NullCheck(L_297);
+		L_297->___is_moving = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_298 = V_3;
+		NullCheck(L_298);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_299 = L_298->___Leaf_belongs_to_branch;
+		NullCheck(L_299);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_299, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_300 = V_3;
+		NullCheck(L_300);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_301 = L_300->___scaleVectors;
+		NullCheck(L_301);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_301, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_302 = V_3;
+		NullCheck(L_302);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_303 = L_302->___Leaves;
+		NullCheck(L_303);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_303, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_304 = V_3;
+		NullCheck(L_304);
+		L_304->___Tree_Holder_Index = 0;
+		bool L_305 = __this->___grow_grass;
+		if (!L_305)
+		{
+			goto IL_06c4;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_306 = V_3;
+		NullCheck(L_306);
+		L_306->___Grow_tree = (bool)1;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_307 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_308 = V_3;
+		NullCheck(L_308);
+		float L_309 = L_308->___End_scale;
+		float L_310 = __this->___start_size_factor;
+		NullCheck(L_307);
+		L_307->___Start_tree_scale = ((float)il2cpp_codegen_multiply(L_309, L_310));
+		goto IL_06d7;
+	}
+
+IL_06c4:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_311 = V_3;
+		NullCheck(L_311);
+		L_311->___Grow_tree = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_312 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_313 = V_3;
+		NullCheck(L_313);
+		float L_314 = L_313->___End_scale;
+		NullCheck(L_312);
+		L_312->___Start_tree_scale = L_314;
+	}
+
+IL_06d7:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_315 = V_3;
+		NullCheck(L_315);
+		L_315->___rotation_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_316 = V_3;
+		NullCheck(L_316);
+		L_316->___Forest_holder = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_316->___Forest_holder), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+	}
+
+IL_06e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanter__ctor_m11C7311825917FE297D6D24D43063DF83110B22F (InfiniGRASSPlanter_t5BA97A5AE843A8527F543FE5CBBC649F47A88ED6* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___GrassManagerObjectName = _stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___GrassManagerObjectName), (void*)_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		__this->___start_size_factor = (0.300000012f);
+		__this->___raycastHeight = (0.100000001f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_Start_m3174C537AA250B609ECE4A5BB39D79BCA0313A2A (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_0 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		String_t* L_2 = __this->___GrassManagerObjectName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_2, NULL);
+		V_0 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
+		NullCheck(L_6);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_7;
+		L_7 = GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086(L_6, GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		__this->___Grassmanager = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Grassmanager), (void*)L_7);
+	}
+
+IL_002f:
+	{
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_8 = __this->___Planets;
+		NullCheck(L_8);
+		int32_t L_9;
+		L_9 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_8, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_9) <= ((int32_t)0)))
+		{
+			goto IL_005f;
+		}
+	}
+	{
+		V_1 = 0;
+		goto IL_0051;
+	}
+
+IL_0041:
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_10 = __this->___PlanetsGrown;
+		NullCheck(L_10);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_10, 0, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		int32_t L_11 = V_1;
+		V_1 = ((int32_t)il2cpp_codegen_add(L_11, 1));
+	}
+
+IL_0051:
+	{
+		int32_t L_12 = V_1;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_13 = __this->___Planets;
+		NullCheck(L_13);
+		int32_t L_14;
+		L_14 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_13, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_12) < ((int32_t)L_14)))
+		{
+			goto IL_0041;
+		}
+	}
+
+IL_005f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* InfiniGRASSPlanterPLANETS_MultiThread_plantPlanet_mBCEAC0D1B76E0F0A0775B39DEBDC93135B04BB92 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_planetPos, float ___1_planetScale, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* L_0 = (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89*)il2cpp_codegen_object_new(U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89_il2cpp_TypeInfo_var);
+		U3CplantPlanetU3Ed__34__ctor_m946914685127D589FF1C612627CA5F88FA126645(L_0, 0, NULL);
+		U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* L_1 = L_0;
+		NullCheck(L_1);
+		L_1->___U3CU3E4__this = __this;
+		Il2CppCodeGenWriteBarrier((void**)(&L_1->___U3CU3E4__this), (void*)__this);
+		U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* L_2 = L_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_planetPos;
+		NullCheck(L_2);
+		L_2->___planetPos = L_3;
+		U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* L_4 = L_2;
+		float L_5 = ___1_planetScale;
+		NullCheck(L_4);
+		L_4->___planetScale = L_5;
+		return L_4;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_Update_m3B80EA267F97DCBA58FB80F3D17B48B1663CD0C0 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InfiniGRASSPlanterPLANETS_MultiThread_U3CUpdateU3Eb__35_0_mB05DBC7937519F6112010946236CBB7C18ADD584_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4FE3DD04EB77E7DCEBC7F68197D88A425B98DF10EC9DFCE8ABD464282F2EC237_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_3;
+	memset((&V_3), 0, sizeof(V_3));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_4 = NULL;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	int32_t V_7 = 0;
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	bool V_9 = false;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* V_11 = NULL;
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
+		NullCheck(L_0);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_0, NULL);
+		__this->___player_pos = L_1;
+		bool L_2 = __this->___playerMoved;
+		if (L_2)
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = __this->___player_pos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = __this->___prevPlayerPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_5;
+		L_5 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_3, L_4, NULL);
+		V_0 = L_5;
+		float L_6;
+		L_6 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_0), NULL);
+		float L_7 = __this->___updatePlayerThreshold;
+		if ((!(((float)L_6) > ((float)L_7))))
+		{
+			goto IL_0052;
+		}
+	}
+	{
+		__this->___playerMoved = (bool)1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8 = __this->___player;
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		__this->___prevPlayerPos = L_9;
+	}
+
+IL_0052:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_10 = __this->___Tile;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_11;
+		L_11 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_10, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_11)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		bool L_12 = __this->___signalPlanting;
+		if (L_12)
+		{
+			goto IL_00a7;
+		}
+	}
+	{
+		bool L_13 = __this->___playerMoved;
+		if (L_13)
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		int32_t L_14;
+		L_14 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(1, ((int32_t)10), NULL);
+		if ((((int32_t)L_14) == ((int32_t)5)))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		float L_15;
+		L_15 = Time_get_fixedTime_mEEDC1E90FA9C17F861872AF08459C04A6BBFCC21(NULL);
+		if ((((float)L_15) < ((float)(5.0f))))
+		{
+			goto IL_008f;
+		}
+	}
+	{
+		bool L_16 = __this->___updateOnPlayerMove;
+		if (L_16)
+		{
+			goto IL_00a7;
+		}
+	}
+
+IL_008f:
+	{
+		__this->___playerMoved = (bool)0;
+		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_17 = (Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07*)il2cpp_codegen_object_new(Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07_il2cpp_TypeInfo_var);
+		Action__ctor_mBDC7B0B4A3F583B64C2896F01BDED360772F67DC(L_17, __this, (intptr_t)((void*)InfiniGRASSPlanterPLANETS_MultiThread_U3CUpdateU3Eb__35_0_mB05DBC7937519F6112010946236CBB7C18ADD584_RuntimeMethod_var), NULL);
+		LoomINfiniDyGRASS_RunAsync_m20543595433D43FB4859A83EC6BB28757BA93BBE(L_17, NULL);
+	}
+
+IL_00a7:
+	{
+		bool L_18 = __this->___signalPlanting;
+		if (!L_18)
+		{
+			goto IL_022f;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = __this->___tilePos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		memset((&L_20), 0, sizeof(L_20));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_20), (-1.0f), (-1.0f), (-1.0f), NULL);
+		bool L_21;
+		L_21 = Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline(L_19, L_20, NULL);
+		if (!L_21)
+		{
+			goto IL_022f;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_22 = __this->___Tile;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_23 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___tilePos);
+		float L_24 = L_23->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_25 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___tilePos);
+		float L_26 = L_25->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_27), L_24, (0.0f), L_26, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_28;
+		L_28 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29;
+		L_29 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_22, L_27, L_28, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		V_1 = L_29;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_30 = __this->___Tiles;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_31 = V_1;
+		NullCheck(L_30);
+		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_30, L_31, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_32 = __this->___TilesPositions;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_33 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___tilePos);
+		float L_34 = L_33->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_35 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___tilePos);
+		float L_36 = L_35->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		memset((&L_37), 0, sizeof(L_37));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_37), L_34, (0.0f), L_36, NULL);
+		NullCheck(L_32);
+		List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_inline(L_32, L_37, List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_RuntimeMethod_var);
+		il2cpp_codegen_initobj((&V_2), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_38 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___tilePos);
+		float L_39 = L_38->___x;
+		float L_40 = __this->___raycastHeight;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_41 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___tilePos);
+		float L_42 = L_41->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_43;
+		memset((&L_43), 0, sizeof(L_43));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_43), L_39, L_40, L_42, NULL);
+		Ray_set_origin_m9B19A7BE86636111E3B16BCE08EAE030F37FE64D_inline((&V_2), L_43, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_44;
+		L_44 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_45;
+		L_45 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_44, NULL);
+		Ray_set_direction_m8A8FF8101045BAE51BE5D5C1B6C21D0D5592DA98_inline((&V_2), L_45, NULL);
+		il2cpp_codegen_initobj((&V_3), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_46 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)7);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = L_46;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_48 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4FE3DD04EB77E7DCEBC7F68197D88A425B98DF10EC9DFCE8ABD464282F2EC237_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_47, L_48, NULL);
+		V_4 = L_47;
+		bool L_49 = __this->___selectRandomGrasses;
+		if (!L_49)
+		{
+			goto IL_01bd;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_50 = __this->___randomGrassesIDs;
+		NullCheck(L_50);
+		int32_t L_51;
+		L_51 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_50, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_51) <= ((int32_t)0)))
+		{
+			goto IL_01bd;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_52 = __this->___randomGrassesIDs;
+		NullCheck(L_52);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53;
+		L_53 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_52, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		V_4 = L_53;
+	}
+
+IL_01bd:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_54 = V_4;
+		NullCheck(L_54);
+		int32_t L_55;
+		L_55 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_54)->max_length)), NULL);
+		V_5 = L_55;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_56 = V_4;
+		int32_t L_57 = V_5;
+		NullCheck(L_56);
+		int32_t L_58 = L_57;
+		int32_t L_59 = (L_56)->GetAt(static_cast<il2cpp_array_size_t>(L_58));
+		V_6 = L_59;
+		int32_t L_60 = V_6;
+		__this->___Grass_selector = L_60;
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_61 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_62;
+		L_62 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_61, (&V_3), (std::numeric_limits<float>::infinity()), NULL);
+		if (!L_62)
+		{
+			goto IL_020e;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_63;
+		L_63 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_3), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_64;
+		L_64 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_3), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_65;
+		L_65 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_3), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_66;
+		L_66 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_3), NULL);
+		NullCheck(L_66);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_67;
+		L_67 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_66, NULL);
+		InfiniGRASSPlanterPLANETS_MultiThread_PlantInPosition_mE9199AD2BA32197A20E25F705793F2900160EE86(__this, L_63, L_64, L_65, L_67, NULL);
+	}
+
+IL_020e:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_68;
+		memset((&L_68), 0, sizeof(L_68));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_68), (-1.0f), (-1.0f), (-1.0f), NULL);
+		__this->___tilePos = L_68;
+		__this->___signalPlanting = (bool)0;
+	}
+
+IL_022f:
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_69 = __this->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_70;
+		L_70 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_69, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_70)
+		{
+			goto IL_024d;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_71;
+		L_71 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_71);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_72;
+		L_72 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_71, NULL);
+		__this->___player = L_72;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)L_72);
+	}
+
+IL_024d:
+	{
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_73 = __this->___Planets;
+		NullCheck(L_73);
+		int32_t L_74;
+		L_74 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_73, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_74) <= ((int32_t)0)))
+		{
+			goto IL_031a;
+		}
+	}
+	{
+		V_7 = 0;
+		goto IL_0308;
+	}
+
+IL_0266:
+	{
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_75 = __this->___Planets;
+		int32_t L_76 = V_7;
+		NullCheck(L_75);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_77;
+		L_77 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_75, L_76, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_77);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_78;
+		L_78 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_77, NULL);
+		NullCheck(L_78);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_79;
+		L_79 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_78, NULL);
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_80;
+		L_80 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_80);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_81;
+		L_81 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_80, NULL);
+		NullCheck(L_81);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_82;
+		L_82 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_81, NULL);
+		float L_83;
+		L_83 = Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline(L_79, L_82, NULL);
+		float L_84 = __this->___plantPlanetDistance;
+		if ((!(((float)L_83) < ((float)L_84))))
+		{
+			goto IL_0302;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_85 = __this->___PlanetsGrown;
+		int32_t L_86 = V_7;
+		NullCheck(L_85);
+		int32_t L_87;
+		L_87 = List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D(L_85, L_86, List_1_get_Item_mD99081BEFA1AB3526715F489192B0F7F596C183D_RuntimeMethod_var);
+		if (L_87)
+		{
+			goto IL_0302;
+		}
+	}
+	{
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_88 = __this->___Planets;
+		int32_t L_89 = V_7;
+		NullCheck(L_88);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_90;
+		L_90 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_88, L_89, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_90);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_91;
+		L_91 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_90, NULL);
+		NullCheck(L_91);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_92;
+		L_92 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_91, NULL);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_93 = __this->___Planets;
+		int32_t L_94 = V_7;
+		NullCheck(L_93);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_95;
+		L_95 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_93, L_94, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_95);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_96;
+		L_96 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_95, NULL);
+		NullCheck(L_96);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_97;
+		L_97 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_96, NULL);
+		float L_98 = L_97.___x;
+		RuntimeObject* L_99;
+		L_99 = InfiniGRASSPlanterPLANETS_MultiThread_plantPlanet_mBCEAC0D1B76E0F0A0775B39DEBDC93135B04BB92(__this, L_92, L_98, NULL);
+		__this->___coroutinePlantPlanets = L_99;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___coroutinePlantPlanets), (void*)L_99);
+		RuntimeObject* L_100 = __this->___coroutinePlantPlanets;
+		Coroutine_t85EA685566A254C23F3FD77AB5BDFFFF8799596B* L_101;
+		L_101 = MonoBehaviour_StartCoroutine_m4CAFF732AA28CD3BDC5363B44A863575530EC812(__this, L_100, NULL);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_102 = __this->___PlanetsGrown;
+		int32_t L_103 = V_7;
+		NullCheck(L_102);
+		List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587(L_102, L_103, 1, List_1_set_Item_m95629806F31CF369D937590912E0B6A53FF7C587_RuntimeMethod_var);
+	}
+
+IL_0302:
+	{
+		int32_t L_104 = V_7;
+		V_7 = ((int32_t)il2cpp_codegen_add(L_104, 1));
+	}
+
+IL_0308:
+	{
+		int32_t L_105 = V_7;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_106 = __this->___Planets;
+		NullCheck(L_106);
+		int32_t L_107;
+		L_107 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_106, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_105) < ((int32_t)L_107)))
+		{
+			goto IL_0266;
+		}
+	}
+
+IL_031a:
+	{
+		bool L_108 = __this->___useMouse;
+		if (!L_108)
+		{
+			goto IL_0469;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_109 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_110;
+		L_110 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_109, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_110)
+		{
+			goto IL_0469;
+		}
+	}
+	{
+		int32_t L_111 = __this->___plantButton;
+		bool L_112;
+		L_112 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(L_111, NULL);
+		bool L_113;
+		L_113 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)304), NULL);
+		if (!((int32_t)((int32_t)L_112&((((int32_t)L_113) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_0469;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_8), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
+		V_9 = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_114 = __this->___Grassmanager;
+		NullCheck(L_114);
+		bool L_115 = L_114->___Tag_based_player;
+		if (!L_115)
+		{
+			goto IL_03e2;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_116 = __this->___Grassmanager;
+		NullCheck(L_116);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_117 = L_116->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_118;
+		L_118 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_117, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_118)
+		{
+			goto IL_0426;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_119 = __this->___Grassmanager;
+		NullCheck(L_119);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_120 = L_119->___player;
+		NullCheck(L_120);
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_121;
+		L_121 = GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1(L_120, (bool)0, GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1_RuntimeMethod_var);
+		V_11 = L_121;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_122 = V_11;
+		if (!L_122)
+		{
+			goto IL_03bf;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_123 = V_11;
+		NullCheck(L_123);
+		if (!(((RuntimeArray*)L_123)->max_length))
+		{
+			goto IL_03bf;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_124 = V_11;
+		NullCheck(L_124);
+		int32_t L_125 = 0;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_126 = (L_124)->GetAt(static_cast<il2cpp_array_size_t>(L_125));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_127;
+		L_127 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_126, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_127)
+		{
+			goto IL_03bf;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_128 = V_11;
+		NullCheck(L_128);
+		int32_t L_129 = 0;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_130 = (L_128)->GetAt(static_cast<il2cpp_array_size_t>(L_129));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131;
+		L_131 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_130);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_132;
+		L_132 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_130, L_131, NULL);
+		V_8 = L_132;
+		V_9 = (bool)1;
+		goto IL_0426;
+	}
+
+IL_03bf:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_133;
+		L_133 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_134;
+		L_134 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_133, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_134)
+		{
+			goto IL_0426;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_135;
+		L_135 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
+		L_136 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_135);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_137;
+		L_137 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_135, L_136, NULL);
+		V_8 = L_137;
+		V_9 = (bool)1;
+		goto IL_0426;
+	}
+
+IL_03e2:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_138;
+		L_138 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_139;
+		L_139 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_138, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_139)
+		{
+			goto IL_0405;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_140;
+		L_140 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_141;
+		L_141 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_140);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_142;
+		L_142 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_140, L_141, NULL);
+		V_8 = L_142;
+		V_9 = (bool)1;
+		goto IL_0426;
+	}
+
+IL_0405:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_143;
+		L_143 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_144;
+		L_144 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_143, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_144)
+		{
+			goto IL_0426;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_145;
+		L_145 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_146;
+		L_146 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_145);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_147;
+		L_147 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_145, L_146, NULL);
+		V_8 = L_147;
+		V_9 = (bool)1;
+	}
+
+IL_0426:
+	{
+		il2cpp_codegen_initobj((&V_10), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		bool L_148 = V_9;
+		if (!L_148)
+		{
+			goto IL_0469;
+		}
+	}
+	{
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_149 = V_8;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_150;
+		L_150 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_149, (&V_10), (std::numeric_limits<float>::infinity()), NULL);
+		if (!L_150)
+		{
+			goto IL_0469;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_151;
+		L_151 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_10), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_152;
+		L_152 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_10), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_153;
+		L_153 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_10), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_154;
+		L_154 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_10), NULL);
+		NullCheck(L_154);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_155;
+		L_155 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_154, NULL);
+		InfiniGRASSPlanterPLANETS_MultiThread_PlantInPosition_mE9199AD2BA32197A20E25F705793F2900160EE86(__this, L_151, L_152, L_153, L_155, NULL);
+	}
+
+IL_0469:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_PlantInPosition_mE9199AD2BA32197A20E25F705793F2900160EE86 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) 
+{
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
+		RaycastHit_set_point_m3B63BEB25A82BFCF9FBB300022D0362BC2CF9E11((&V_0), L_0, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_normal;
+		RaycastHit_set_normal_m97DDF1CBE8ADF1F72AA30BC83870615ABB38C88B((&V_0), L_1, NULL);
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_2 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = ___2_collider1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___3_transform1;
+		int32_t L_5 = __this->___Grass_selector;
+		InfiniGRASSPlanterPLANETS_MultiThread_PlantGrass_mA82E0FEFA7533A419D20726BDC056B5C944D5920(__this, L_2, L_3, L_4, L_5, (bool)0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_OnCollisionEnter_mEF7CFE993F5A5D98B66E3F7134B70907E4198493 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_info, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		bool L_0 = __this->___useCollisions;
+		if (!L_0)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_3 = ___0_info;
+		NullCheck(L_3);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_4;
+		L_4 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_3, NULL);
+		NullCheck(L_4);
+		if (!(((RuntimeArray*)L_4)->max_length))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_5 = ___0_info;
+		NullCheck(L_5);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_6;
+		L_6 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = ContactPoint_get_point_mCCDFDACC5D8DB469898060A56A3CC45132911208(((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_0 = L_7;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_8 = ___0_info;
+		NullCheck(L_8);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_9;
+		L_9 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_8, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = ContactPoint_get_normal_mD7F0567CA2FD68644F7C6FE318E10C4D15F92AD6(((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_1 = L_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_1;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_13 = ___0_info;
+		NullCheck(L_13);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14;
+		L_14 = Collision_get_collider_mBB5A086C78FE4BE0589E216F899B611673ADD25D(L_13, NULL);
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_15 = ___0_info;
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Collision_get_transform_mA5D135D9F696635EA7A0D2184CEF499427A6D0F6(L_15, NULL);
+		InfiniGRASSPlanterPLANETS_MultiThread_PlantInPosition_mE9199AD2BA32197A20E25F705793F2900160EE86(__this, L_11, L_12, L_14, L_16, NULL);
+	}
+
+IL_0057:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_PlantGrass_mA82E0FEFA7533A419D20726BDC056B5C944D5920 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_2 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* V_6 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_7 = NULL;
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	bool G_B6_0 = false;
+	bool G_B5_0 = false;
+	int32_t G_B7_0 = 0;
+	bool G_B7_1 = false;
+	{
+		V_0 = (bool)0;
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_0;
+		L_0 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___1_collider1;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___1_collider1;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_7;
+		L_7 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		V_0 = (bool)1;
+	}
+
+IL_0036:
+	{
+		bool L_10 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_11 = ___1_collider1;
+		NullCheck(L_11);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			G_B6_0 = L_10;
+			goto IL_005c;
+		}
+		G_B5_0 = L_10;
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14 = ___1_collider1;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805(L_15, NULL);
+		bool L_17;
+		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, _stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3, NULL);
+		G_B7_0 = ((int32_t)(L_17));
+		G_B7_1 = G_B5_0;
+		goto IL_005d;
+	}
+
+IL_005c:
+	{
+		G_B7_0 = 0;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_005d:
+	{
+		if (!((int32_t)((int32_t)G_B7_1|G_B7_0)))
+		{
+			goto IL_06fb;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_18 = ___1_collider1;
+		NullCheck(L_18);
+		GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* L_19;
+		L_19 = Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B(L_18, Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_20)
+		{
+			goto IL_06fb;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_21 = __this->___Grassmanager;
+		NullCheck(L_21);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_22 = L_21->___GrassPrefabs;
+		int32_t L_23 = ___3_Grass_selector;
+		NullCheck(L_22);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_22, L_23, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_24, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		V_1 = L_25;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_1;
+		NullCheck(L_26);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
+		L_27 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		NullCheck(L_27);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_27, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_1;
+		NullCheck(L_29);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_30;
+		L_30 = GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03(L_29, GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		V_2 = L_30;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_31 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&___0_hit), NULL);
+		NullCheck(L_31);
+		L_31->___Intial_Up_Vector = L_32;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_33)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_34 = V_2;
+		NullCheck(L_34);
+		L_34->___Grow_tree = (bool)1;
+		goto IL_00c9;
+	}
+
+IL_00c2:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_35 = V_2;
+		NullCheck(L_35);
+		L_35->___Grow_in_Editor = (bool)1;
+	}
+
+IL_00c9:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_36 = __this->___Grassmanager;
+		NullCheck(L_36);
+		bool L_37 = L_36->___AdaptOnTerrain;
+		bool L_38 = V_0;
+		if (!((int32_t)((int32_t)L_37&(int32_t)L_38)))
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_40 = L_39.___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_41 = __this->___Grassmanager;
+		NullCheck(L_41);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_42 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_41->___Tpos);
+		float L_43 = L_42->___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_44 = __this->___Grassmanager;
+		NullCheck(L_44);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_45 = L_44->___Tdata;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = TerrainData_get_alphamapWidth_m07E5B04B08E87AC9F66D766B363000F94C8612D4(L_45, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_47 = __this->___Grassmanager;
+		NullCheck(L_47);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_48 = L_47->___Tdata;
+		NullCheck(L_48);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		L_49 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_48, NULL);
+		float L_50 = L_49.___x;
+		V_4 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_40, L_43)), ((float)L_46)))/L_50)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_52 = L_51.___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_53 = __this->___Grassmanager;
+		NullCheck(L_53);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_54 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_53->___Tpos);
+		float L_55 = L_54->___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_56 = __this->___Grassmanager;
+		NullCheck(L_56);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_57 = L_56->___Tdata;
+		NullCheck(L_57);
+		int32_t L_58;
+		L_58 = TerrainData_get_alphamapHeight_m4A8273D6E0E3526A31E2669FBAB240353C086AED(L_57, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_59 = __this->___Grassmanager;
+		NullCheck(L_59);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_60 = L_59->___Tdata;
+		NullCheck(L_60);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
+		L_61 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_60, NULL);
+		float L_62 = L_61.___z;
+		V_5 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_52, L_55)), ((float)L_58)))/L_62)));
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_63 = __this->___Grassmanager;
+		NullCheck(L_63);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_64 = L_63->___Tdata;
+		int32_t L_65 = V_4;
+		int32_t L_66 = V_5;
+		NullCheck(L_64);
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_67;
+		L_67 = TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01(L_64, L_65, L_66, 1, 1, NULL);
+		V_6 = L_67;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_68 = V_6;
+		NullCheck((RuntimeArray*)L_68);
+		int32_t L_69;
+		L_69 = Array_GetUpperBound_m64006116D5244EB8DA52188A9E49929AA7D08E4E((RuntimeArray*)L_68, 2, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_70 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(L_69, 1)));
+		V_7 = L_70;
+		V_9 = 0;
+		goto IL_01af;
+	}
+
+IL_0199:
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_71 = V_7;
+		int32_t L_72 = V_9;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_73 = V_6;
+		int32_t L_74 = V_9;
+		NullCheck(L_73);
+		float L_75;
+		L_75 = (L_73)->GetAt(0, 0, L_74);
+		NullCheck(L_71);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (float)L_75);
+		int32_t L_76 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_01af:
+	{
+		int32_t L_77 = V_9;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_78 = V_7;
+		NullCheck(L_78);
+		if ((((int32_t)L_77) < ((int32_t)((int32_t)(((RuntimeArray*)L_78)->max_length)))))
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		V_8 = (0.0f);
+		V_10 = 0;
+		goto IL_020e;
+	}
+
+IL_01c3:
+	{
+		int32_t L_79 = V_10;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_80 = __this->___Grassmanager;
+		NullCheck(L_80);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_81 = L_80->___ScalePerTexture;
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_81, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		if ((((int32_t)L_79) <= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_82, 1)))))
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		float L_83 = V_8;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_84 = V_7;
+		int32_t L_85 = V_10;
+		NullCheck(L_84);
+		int32_t L_86 = L_85;
+		float L_87 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		V_8 = ((float)il2cpp_codegen_add(L_83, ((float)il2cpp_codegen_multiply((1.0f), L_87))));
+		goto IL_0208;
+	}
+
+IL_01eb:
+	{
+		float L_88 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_89 = __this->___Grassmanager;
+		NullCheck(L_89);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_90 = L_89->___ScalePerTexture;
+		int32_t L_91 = V_10;
+		NullCheck(L_90);
+		float L_92;
+		L_92 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_90, L_91, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_93 = V_7;
+		int32_t L_94 = V_10;
+		NullCheck(L_93);
+		int32_t L_95 = L_94;
+		float L_96 = (L_93)->GetAt(static_cast<il2cpp_array_size_t>(L_95));
+		V_8 = ((float)il2cpp_codegen_add(L_88, ((float)il2cpp_codegen_multiply(L_92, L_96))));
+	}
+
+IL_0208:
+	{
+		int32_t L_97 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_97, 1));
+	}
+
+IL_020e:
+	{
+		int32_t L_98 = V_10;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_99 = V_7;
+		NullCheck(L_99);
+		if ((((int32_t)L_98) < ((int32_t)((int32_t)(((RuntimeArray*)L_99)->max_length)))))
+		{
+			goto IL_01c3;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_100 = V_2;
+		float L_101 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_102 = __this->___Grassmanager;
+		NullCheck(L_102);
+		float L_103 = L_102->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_104 = __this->___Grassmanager;
+		NullCheck(L_104);
+		float L_105 = L_104->___max_scale;
+		float L_106;
+		L_106 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_103, L_105, NULL);
+		NullCheck(L_100);
+		L_100->___End_scale = ((float)il2cpp_codegen_multiply(L_101, L_106));
+		goto IL_025d;
+	}
+
+IL_023c:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_107 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_108 = __this->___Grassmanager;
+		NullCheck(L_108);
+		float L_109 = L_108->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_110 = __this->___Grassmanager;
+		NullCheck(L_110);
+		float L_111 = L_110->___max_scale;
+		float L_112;
+		L_112 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_109, L_111, NULL);
+		NullCheck(L_107);
+		L_107->___End_scale = L_112;
+	}
+
+IL_025d:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_113 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_114 = __this->___Grassmanager;
+		NullCheck(L_114);
+		int32_t L_115 = L_114->___Max_interactive_group_members;
+		NullCheck(L_113);
+		L_113->___Max_interact_holder_items = L_115;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_116 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_117 = __this->___Grassmanager;
+		NullCheck(L_117);
+		int32_t L_118 = L_117->___Max_static_group_members;
+		NullCheck(L_116);
+		L_116->___Max_trees_per_group = L_118;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_119 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_120 = __this->___Grassmanager;
+		NullCheck(L_120);
+		bool L_121 = L_120->___Interactive;
+		NullCheck(L_119);
+		L_119->___Interactive_tree = L_121;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_122;
+		L_122 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_122)
+		{
+			goto IL_02c1;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_123 = V_2;
+		NullCheck(L_123);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_124;
+		L_124 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_123, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_125 = L_124;
+		NullCheck(L_125);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_126;
+		L_126 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_125, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_127 = V_2;
+		NullCheck(L_127);
+		float L_128 = L_127->___End_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_129 = __this->___Grassmanager;
+		NullCheck(L_129);
+		float L_130 = L_129->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131;
+		L_131 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_126, ((float)il2cpp_codegen_multiply(L_128, L_130)), NULL);
+		NullCheck(L_125);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_125, L_131, NULL);
+		goto IL_02dc;
+	}
+
+IL_02c1:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_132 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_133;
+		L_133 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_134 = __this->___Grassmanager;
+		NullCheck(L_134);
+		float L_135 = L_134->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
+		L_136 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_133, L_135, NULL);
+		NullCheck(L_132);
+		L_132->___colliderScale = L_136;
+	}
+
+IL_02dc:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_137 = __this->___Grassmanager;
+		NullCheck(L_137);
+		bool L_138 = L_137->___Override_spread;
+		if (!L_138)
+		{
+			goto IL_032a;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_139 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_140 = __this->___Grassmanager;
+		NullCheck(L_140);
+		float L_141 = L_140->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_142 = __this->___Grassmanager;
+		NullCheck(L_142);
+		float L_143 = L_142->___Max_spread;
+		float L_144;
+		L_144 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_141, L_143, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_145 = __this->___Grassmanager;
+		NullCheck(L_145);
+		float L_146 = L_145->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_147 = __this->___Grassmanager;
+		NullCheck(L_147);
+		float L_148 = L_147->___Max_spread;
+		float L_149;
+		L_149 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_146, L_148, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_150;
+		memset((&L_150), 0, sizeof(L_150));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_150), L_144, L_149, NULL);
+		NullCheck(L_139);
+		L_139->___PosSpread = L_150;
+	}
+
+IL_032a:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_151 = __this->___Grassmanager;
+		NullCheck(L_151);
+		bool L_152 = L_151->___Override_density;
+		if (!L_152)
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_153 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_154 = __this->___Grassmanager;
+		NullCheck(L_154);
+		float L_155 = L_154->___Min_density;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_156 = __this->___Grassmanager;
+		NullCheck(L_156);
+		float L_157 = L_156->___Max_density;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_158;
+		memset((&L_158), 0, sizeof(L_158));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_158), L_155, L_157, NULL);
+		NullCheck(L_153);
+		L_153->___Min_Max_Branching = L_158;
+	}
+
+IL_0358:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_159 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_160 = ___2_transform1;
+		NullCheck(L_160);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_161;
+		L_161 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_160, NULL);
+		NullCheck(L_161);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_162;
+		L_162 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_161, NULL);
+		NullCheck(L_159);
+		L_159->___PaintedOnOBJ = L_162;
+		Il2CppCodeGenWriteBarrier((void**)(&L_159->___PaintedOnOBJ), (void*)L_162);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_163 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_164 = __this->___Grassmanager;
+		NullCheck(L_164);
+		bool L_165 = L_164->___GridOnNormal;
+		NullCheck(L_163);
+		L_163->___GridOnNormal = L_165;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_166 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_167 = __this->___Grassmanager;
+		NullCheck(L_167);
+		float L_168 = L_167->___rayCastDist;
+		NullCheck(L_166);
+		L_166->___max_ray_dist = L_168;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_169 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_170 = __this->___Grassmanager;
+		NullCheck(L_170);
+		float L_171 = L_170->___MinAvoidDist;
+		NullCheck(L_169);
+		L_169->___MinAvoidDist = L_171;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_172 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_173 = __this->___Grassmanager;
+		NullCheck(L_173);
+		float L_174 = L_173->___MinScaleAvoidDist;
+		NullCheck(L_172);
+		L_172->___MinScaleAvoidDist = L_174;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_175 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_176 = __this->___Grassmanager;
+		NullCheck(L_176);
+		float L_177 = L_176->___InteractionSpeed;
+		NullCheck(L_175);
+		L_175->___InteractionSpeed = L_177;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_178 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_179 = __this->___Grassmanager;
+		NullCheck(L_179);
+		float L_180 = L_179->___InteractSpeedThres;
+		NullCheck(L_178);
+		L_178->___InteractSpeedThres = L_180;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_181 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_182 = __this->___Grassmanager;
+		NullCheck(L_182);
+		bool L_183 = L_182->___enableAbove64KMesh;
+		NullCheck(L_181);
+		L_181->___enableAbove64KMesh = L_183;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_184 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_185 = __this->___Grassmanager;
+		NullCheck(L_185);
+		float L_186 = L_185->___Interaction_thres;
+		NullCheck(L_184);
+		L_184->___Interaction_thres = L_186;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_187 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_188 = __this->___Grassmanager;
+		NullCheck(L_188);
+		float L_189 = L_188->___Max_tree_dist;
+		NullCheck(L_187);
+		L_187->___Max_tree_dist = L_189;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_190 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_191 = __this->___Grassmanager;
+		NullCheck(L_191);
+		bool L_192 = L_191->___Disable_after_growth;
+		NullCheck(L_190);
+		L_190->___Disable_after_growth = L_192;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_193 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_194 = __this->___Grassmanager;
+		NullCheck(L_194);
+		bool L_195 = L_194->___WhenCombinerFull;
+		NullCheck(L_193);
+		L_193->___WhenCombinerFull = L_195;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_196 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_197 = __this->___Grassmanager;
+		NullCheck(L_197);
+		bool L_198 = L_197->___Eliminate_original_mesh;
+		NullCheck(L_196);
+		L_196->___Eliminate_original_mesh = L_198;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_199 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_200 = __this->___Grassmanager;
+		NullCheck(L_200);
+		float L_201 = L_200->___Interaction_offset;
+		NullCheck(L_199);
+		L_199->___Interaction_offset = L_201;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_202 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_203 = __this->___Grassmanager;
+		NullCheck(L_203);
+		float L_204 = L_203->___LOD_distance;
+		NullCheck(L_202);
+		L_202->___LOD_distance = L_204;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_205 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_206 = __this->___Grassmanager;
+		NullCheck(L_206);
+		float L_207 = L_206->___LOD_distance1;
+		NullCheck(L_205);
+		L_205->___LOD_distance1 = L_207;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_208 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_209 = __this->___Grassmanager;
+		NullCheck(L_209);
+		float L_210 = L_209->___LOD_distance2;
+		NullCheck(L_208);
+		L_208->___LOD_distance2 = L_210;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_211 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_212 = __this->___Grassmanager;
+		NullCheck(L_212);
+		float L_213 = L_212->___Cutoff_distance;
+		NullCheck(L_211);
+		L_211->___Cutoff_distance = L_213;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_214 = V_2;
+		NullCheck(L_214);
+		L_214->___Tag_based = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_215 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_216 = __this->___Grassmanager;
+		NullCheck(L_215);
+		L_215->___GrassManager = L_216;
+		Il2CppCodeGenWriteBarrier((void**)(&L_215->___GrassManager), (void*)L_216);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_217 = V_2;
+		int32_t L_218 = ___3_Grass_selector;
+		NullCheck(L_217);
+		L_217->___Type = ((int32_t)il2cpp_codegen_add(L_218, 1));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_219 = V_2;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_220 = V_2;
+		NullCheck(L_220);
+		float L_221 = L_220->___End_scale;
+		NullCheck(L_219);
+		L_219->___Start_tree_scale = ((float)(L_221/(4.0f)));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_222 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_223 = __this->___Grassmanager;
+		NullCheck(L_223);
+		bool L_224 = L_223->___RandomRot;
+		NullCheck(L_222);
+		L_222->___RandomRot = L_224;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_225 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_226 = __this->___Grassmanager;
+		NullCheck(L_226);
+		float L_227 = L_226->___RandRotMin;
+		NullCheck(L_225);
+		L_225->___RandRotMin = L_227;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_228 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_229 = __this->___Grassmanager;
+		NullCheck(L_229);
+		float L_230 = L_229->___RandRotMax;
+		NullCheck(L_228);
+		L_228->___RandRotMax = L_230;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_231 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_232 = __this->___Grassmanager;
+		NullCheck(L_232);
+		bool L_233 = L_232->___GroupByObject;
+		NullCheck(L_231);
+		L_231->___GroupByObject = L_233;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_234 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_235 = __this->___Grassmanager;
+		NullCheck(L_235);
+		bool L_236 = L_235->___ParentToObject;
+		NullCheck(L_234);
+		L_234->___ParentToObject = L_236;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_237 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_238 = __this->___Grassmanager;
+		NullCheck(L_238);
+		bool L_239 = L_238->___MoveWithObject;
+		NullCheck(L_237);
+		L_237->___MoveWithObject = L_239;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_240 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_241 = __this->___Grassmanager;
+		NullCheck(L_241);
+		bool L_242 = L_241->___AvoidOwnColl;
+		NullCheck(L_240);
+		L_240->___AvoidOwnColl = L_242;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_243 = V_1;
+		NullCheck(L_243);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_244;
+		L_244 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_243, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_245 = __this->___Grassmanager;
+		NullCheck(L_245);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_246 = L_245->___GrassHolder;
+		NullCheck(L_246);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_247;
+		L_247 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_246, NULL);
+		NullCheck(L_244);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_244, L_247, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_248 = __this->___Grassmanager;
+		NullCheck(L_248);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_249 = L_248->___Grasses;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_250 = V_2;
+		NullCheck(L_249);
+		List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_inline(L_249, L_250, List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_251 = __this->___Grassmanager;
+		NullCheck(L_251);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_252 = L_251->___GrassesType;
+		int32_t L_253 = ___3_Grass_selector;
+		NullCheck(L_252);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_252, L_253, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_254 = V_1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_255 = __this->___Grassmanager;
+		NullCheck(L_255);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_256 = L_255->___Grasses;
+		NullCheck(L_256);
+		int32_t L_257;
+		L_257 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_256, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		V_11 = L_257;
+		String_t* L_258;
+		L_258 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_11), NULL);
+		String_t* L_259;
+		L_259 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE, L_258, NULL);
+		NullCheck(L_254);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_254, L_259, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_260 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_261 = __this->___Grassmanager;
+		NullCheck(L_261);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_262 = L_261->___Grasses;
+		NullCheck(L_262);
+		int32_t L_263;
+		L_263 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_262, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_260);
+		L_260->___Grass_Holder_Index = ((int32_t)il2cpp_codegen_subtract(L_263, 1));
+		bool L_264 = __this->___forceRadialDirection;
+		if (!L_264)
+		{
+			goto IL_05c5;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_265 = V_2;
+		NullCheck(L_265);
+		L_265->___customRot = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_266 = V_2;
+		NullCheck(L_266);
+		L_266->___RotTowards = (bool)0;
+	}
+
+IL_05c5:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_267 = V_2;
+		NullCheck(L_267);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_268;
+		L_268 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_267, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_269 = __this->___Grassmanager;
+		NullCheck(L_269);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_270 = L_269->___GrassHolder;
+		NullCheck(L_270);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_271;
+		L_271 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_270, NULL);
+		NullCheck(L_268);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_268, L_271, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_272 = __this->___Grassmanager;
+		NullCheck(L_272);
+		L_272->___CleanUp = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_273 = __this->___Grassmanager;
+		NullCheck(L_273);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_274 = L_273->___Grasses;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_275 = __this->___Grassmanager;
+		NullCheck(L_275);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_276 = L_275->___Grasses;
+		NullCheck(L_276);
+		int32_t L_277;
+		L_277 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_276, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_274);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_278;
+		L_278 = List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C(L_274, ((int32_t)il2cpp_codegen_subtract(L_277, 1)), List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		V_3 = L_278;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_279 = V_3;
+		NullCheck(L_279);
+		L_279->___Combiner = (ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_279->___Combiner), (void*)(ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_280 = V_3;
+		NullCheck(L_280);
+		L_280->___Grow_in_Editor = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_281 = V_3;
+		NullCheck(L_281);
+		L_281->___growth_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_282 = V_3;
+		NullCheck(L_282);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_283 = L_282->___Registered_Brances;
+		NullCheck(L_283);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_283, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_284 = V_3;
+		NullCheck(L_284);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_285 = L_284->___Branch_grew;
+		NullCheck(L_285);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_285, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_286 = V_3;
+		NullCheck(L_286);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_287 = L_286->___Registered_Leaves;
+		NullCheck(L_287);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_287, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_288 = V_3;
+		NullCheck(L_288);
+		List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* L_289 = L_288->___Registered_Leaves_Rot;
+		NullCheck(L_289);
+		List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_inline(L_289, List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_290 = V_3;
+		NullCheck(L_290);
+		L_290->___batching_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_291 = V_3;
+		NullCheck(L_291);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_292 = L_291->___Branch_levels;
+		NullCheck(L_292);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_292, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_293 = V_3;
+		NullCheck(L_293);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_294 = L_293->___BranchID_per_level;
+		NullCheck(L_294);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_294, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_295 = V_3;
+		NullCheck(L_295);
+		L_295->___Grow_level = 0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_296 = V_3;
+		NullCheck(L_296);
+		L_296->___Grow_tree_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_297 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_298 = V_3;
+		NullCheck(L_298);
+		float L_299 = L_298->___Max_Health;
+		NullCheck(L_297);
+		L_297->___Health = L_299;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_300 = V_3;
+		NullCheck(L_300);
+		L_300->___is_moving = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_301 = V_3;
+		NullCheck(L_301);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_302 = L_301->___Leaf_belongs_to_branch;
+		NullCheck(L_302);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_302, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_303 = V_3;
+		NullCheck(L_303);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_304 = L_303->___scaleVectors;
+		NullCheck(L_304);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_304, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_305 = V_3;
+		NullCheck(L_305);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_306 = L_305->___Leaves;
+		NullCheck(L_306);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_306, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_307 = V_3;
+		NullCheck(L_307);
+		L_307->___Tree_Holder_Index = 0;
+		bool L_308 = __this->___grow_grass;
+		if (!L_308)
+		{
+			goto IL_06da;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_309 = V_3;
+		NullCheck(L_309);
+		L_309->___Grow_tree = (bool)1;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_310 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_311 = V_3;
+		NullCheck(L_311);
+		float L_312 = L_311->___End_scale;
+		float L_313 = __this->___start_size_factor;
+		NullCheck(L_310);
+		L_310->___Start_tree_scale = ((float)il2cpp_codegen_multiply(L_312, L_313));
+		goto IL_06ed;
+	}
+
+IL_06da:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_314 = V_3;
+		NullCheck(L_314);
+		L_314->___Grow_tree = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_315 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_316 = V_3;
+		NullCheck(L_316);
+		float L_317 = L_316->___End_scale;
+		NullCheck(L_315);
+		L_315->___Start_tree_scale = L_317;
+	}
+
+IL_06ed:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_318 = V_3;
+		NullCheck(L_318);
+		L_318->___rotation_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_319 = V_3;
+		NullCheck(L_319);
+		L_319->___Forest_holder = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_319->___Forest_holder), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+	}
+
+IL_06fb:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread__ctor_m3D6664529BE7713CFCBEE992048F4C7FAC1DD8C0 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_0 = (List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B*)il2cpp_codegen_object_new(List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B_il2cpp_TypeInfo_var);
+		List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC(L_0, List_1__ctor_m447372C1EF7141193B93090A77395B786C72C7BC_RuntimeMethod_var);
+		__this->___Planets = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Planets), (void*)L_0);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_1 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_1, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		__this->___PlanetsGrown = L_1;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___PlanetsGrown), (void*)L_1);
+		__this->___plantPlanetDistance = (500.0f);
+		__this->___plantPlanetStrokes = (20.0f);
+		__this->___GrassManagerObjectName = _stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___GrassManagerObjectName), (void*)_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		__this->___start_size_factor = (0.300000012f);
+		__this->___raycastHeight = (0.100000001f);
+		__this->___gridSize = ((int32_t)50);
+		__this->___tileSize = (2.0f);
+		__this->___distThreshold = (10.0f);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_2 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_2, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		__this->___randomGrassesIDs = L_2;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___randomGrassesIDs), (void*)L_2);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3;
+		memset((&L_3), 0, sizeof(L_3));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_3), (-1.0f), (-1.0f), (-1.0f), NULL);
+		__this->___tilePos = L_3;
+		__this->___updatePlayerThreshold = (0.100000001f);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterPLANETS_MultiThread_U3CUpdateU3Eb__35_0_mB05DBC7937519F6112010946236CBB7C18ADD584 (InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	bool V_4 = false;
+	int32_t V_5 = 0;
+	int32_t V_6 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	float V_8 = 0.0f;
+	bool V_9 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	int32_t V_11 = 0;
+	{
+		V_0 = (0.0f);
+		V_1 = (0.0f);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_0 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___player_pos);
+		float L_1 = L_0->___x;
+		float L_2 = __this->___tileSize;
+		V_2 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_1/L_2)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_3 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___player_pos);
+		float L_4 = L_3->___z;
+		float L_5 = __this->___tileSize;
+		V_3 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(L_4/L_5)));
+		V_4 = (bool)0;
+		bool L_6 = __this->___endlessGrid;
+		if (L_6)
+		{
+			goto IL_0061;
+		}
+	}
+	{
+		bool L_7 = __this->___endlessGrid;
+		if (L_7)
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_8 = V_2;
+		if ((((int32_t)L_8) < ((int32_t)0)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_9 = V_2;
+		int32_t L_10 = __this->___gridSize;
+		if ((((int32_t)L_9) > ((int32_t)L_10)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_11 = V_3;
+		if ((((int32_t)L_11) < ((int32_t)0)))
+		{
+			goto IL_0064;
+		}
+	}
+	{
+		int32_t L_12 = V_3;
+		int32_t L_13 = __this->___gridSize;
+		if ((((int32_t)L_12) > ((int32_t)L_13)))
+		{
+			goto IL_0064;
+		}
+	}
+
+IL_0061:
+	{
+		V_4 = (bool)1;
+	}
+
+IL_0064:
+	{
+		bool L_14 = V_4;
+		if (!L_14)
+		{
+			goto IL_0194;
+		}
+	}
+	{
+		int32_t L_15 = V_2;
+		V_5 = ((int32_t)il2cpp_codegen_subtract(L_15, 5));
+		goto IL_018a;
+	}
+
+IL_0075:
+	{
+		int32_t L_16 = V_3;
+		V_6 = ((int32_t)il2cpp_codegen_subtract(L_16, 5));
+		goto IL_0172;
+	}
+
+IL_007f:
+	{
+		int32_t L_17 = V_5;
+		float L_18 = __this->___tileSize;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)L_17), L_18));
+		int32_t L_19 = V_6;
+		float L_20 = __this->___tileSize;
+		V_1 = ((float)il2cpp_codegen_multiply(((float)L_19), L_20));
+		float L_21 = V_0;
+		float L_22 = V_1;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_7), L_21, (0.0f), L_22, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_23 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___player_pos);
+		float L_24 = L_23->___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_25 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&__this->___player_pos);
+		float L_26 = L_25->___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_27;
+		memset((&L_27), 0, sizeof(L_27));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_27), L_24, (0.0f), L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28 = V_7;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_27, L_28, NULL);
+		V_10 = L_29;
+		float L_30;
+		L_30 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_10), NULL);
+		V_8 = L_30;
+		V_9 = (bool)1;
+		V_11 = 0;
+		goto IL_0129;
+	}
+
+IL_00dd:
+	{
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_31 = __this->___TilesPositions;
+		int32_t L_32 = V_11;
+		NullCheck(L_31);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33;
+		L_33 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_31, L_32, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
+		float L_34 = L_33.___x;
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_35 = __this->___TilesPositions;
+		int32_t L_36 = V_11;
+		NullCheck(L_35);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_37;
+		L_37 = List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810(L_35, L_36, List_1_get_Item_m8F2E15FC96DA75186C51228128A0660709E4E810_RuntimeMethod_var);
+		float L_38 = L_37.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		memset((&L_39), 0, sizeof(L_39));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_39), L_34, (0.0f), L_38, NULL);
+		float L_40 = V_0;
+		float L_41 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_42;
+		memset((&L_42), 0, sizeof(L_42));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_42), L_40, (0.0f), L_41, NULL);
+		bool L_43;
+		L_43 = Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline(L_39, L_42, NULL);
+		if (!L_43)
+		{
+			goto IL_0123;
+		}
+	}
+	{
+		V_9 = (bool)0;
+		goto IL_0138;
+	}
+
+IL_0123:
+	{
+		int32_t L_44 = V_11;
+		V_11 = ((int32_t)il2cpp_codegen_add(L_44, 1));
+	}
+
+IL_0129:
+	{
+		int32_t L_45 = V_11;
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_46 = __this->___TilesPositions;
+		NullCheck(L_46);
+		int32_t L_47;
+		L_47 = List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_inline(L_46, List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_RuntimeMethod_var);
+		if ((((int32_t)L_45) < ((int32_t)L_47)))
+		{
+			goto IL_00dd;
+		}
+	}
+
+IL_0138:
+	{
+		float L_48 = V_8;
+		float L_49 = __this->___distThreshold;
+		bool L_50 = V_9;
+		if (!((int32_t)(((((float)L_48) < ((float)L_49))? 1 : 0)&(int32_t)L_50)))
+		{
+			goto IL_016c;
+		}
+	}
+	{
+		__this->___signalPlanting = (bool)1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51 = V_7;
+		float L_52 = L_51.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_53 = V_7;
+		float L_54 = L_53.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_55;
+		memset((&L_55), 0, sizeof(L_55));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_55), L_52, (0.0f), L_54, NULL);
+		__this->___tilePos = L_55;
+	}
+
+IL_016c:
+	{
+		int32_t L_56 = V_6;
+		V_6 = ((int32_t)il2cpp_codegen_add(L_56, 1));
+	}
+
+IL_0172:
+	{
+		int32_t L_57 = V_6;
+		int32_t L_58 = V_3;
+		if ((((int32_t)L_57) < ((int32_t)((int32_t)il2cpp_codegen_add(L_58, 5)))))
+		{
+			goto IL_007f;
+		}
+	}
+	{
+		bool L_59 = __this->___signalPlanting;
+		if (L_59)
+		{
+			goto IL_0194;
+		}
+	}
+	{
+		int32_t L_60 = V_5;
+		V_5 = ((int32_t)il2cpp_codegen_add(L_60, 1));
+	}
+
+IL_018a:
+	{
+		int32_t L_61 = V_5;
+		int32_t L_62 = V_2;
+		if ((((int32_t)L_61) < ((int32_t)((int32_t)il2cpp_codegen_add(L_62, 5)))))
+		{
+			goto IL_0075;
+		}
+	}
+
+IL_0194:
+	{
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CplantPlanetU3Ed__34__ctor_m946914685127D589FF1C612627CA5F88FA126645 (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* __this, int32_t ___0_U3CU3E1__state, const RuntimeMethod* method) 
+{
+	{
+		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2(__this, NULL);
+		int32_t L_0 = ___0_U3CU3E1__state;
+		__this->___U3CU3E1__state = L_0;
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CplantPlanetU3Ed__34_System_IDisposable_Dispose_mB8BC1BCD81900A6949595671E3710219575A7C0A (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* __this, const RuntimeMethod* method) 
+{
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CplantPlanetU3Ed__34_MoveNext_m11BDB92E8F4625993773ABFD44DC3CFC4F47DD3E (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4FE3DD04EB77E7DCEBC7F68197D88A425B98DF10EC9DFCE8ABD464282F2EC237_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	int32_t V_0 = 0;
+	InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* V_1 = NULL;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	float V_4 = 0.0f;
+	float V_5 = 0.0f;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_6;
+	memset((&V_6), 0, sizeof(V_6));
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_8;
+	memset((&V_8), 0, sizeof(V_8));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_9 = NULL;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	{
+		int32_t L_0 = __this->___U3CU3E1__state;
+		V_0 = L_0;
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_1 = __this->___U3CU3E4__this;
+		V_1 = L_1;
+		int32_t L_2 = V_0;
+		if (!L_2)
+		{
+			goto IL_001a;
+		}
+	}
+	{
+		int32_t L_3 = V_0;
+		if ((((int32_t)L_3) == ((int32_t)1)))
+		{
+			goto IL_019f;
+		}
+	}
+	{
+		return (bool)0;
+	}
+
+IL_001a:
+	{
+		__this->___U3CU3E1__state = (-1);
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_4 = V_1;
+		NullCheck(L_4);
+		float L_5 = L_4->___plantPlanetStrokes;
+		float L_6;
+		L_6 = sqrtf(L_5);
+		V_2 = L_6;
+		float L_7 = V_2;
+		__this->___U3CadderU3E5__2 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)((360.0f)/L_7)));
+		__this->___U3CiU3E5__3 = 0;
+		goto IL_01e9;
+	}
+
+IL_0047:
+	{
+		__this->___U3CjU3E5__4 = 0;
+		goto IL_01b9;
+	}
+
+IL_0053:
+	{
+		V_3 = (0.0174532924f);
+		float L_8 = __this->___planetScale;
+		int32_t L_9 = __this->___U3CiU3E5__3;
+		float L_10 = V_3;
+		float L_11;
+		L_11 = cosf(((float)il2cpp_codegen_multiply(((float)L_9), L_10)));
+		int32_t L_12 = __this->___U3CjU3E5__4;
+		float L_13 = V_3;
+		float L_14;
+		L_14 = sinf(((float)il2cpp_codegen_multiply(((float)L_12), L_13)));
+		float L_15 = __this->___planetScale;
+		int32_t L_16 = __this->___U3CiU3E5__3;
+		float L_17 = V_3;
+		float L_18;
+		L_18 = sinf(((float)il2cpp_codegen_multiply(((float)L_16), L_17)));
+		int32_t L_19 = __this->___U3CjU3E5__4;
+		float L_20 = V_3;
+		float L_21;
+		L_21 = sinf(((float)il2cpp_codegen_multiply(((float)L_19), L_20)));
+		V_4 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_15, L_18)), L_21));
+		float L_22 = __this->___planetScale;
+		int32_t L_23 = __this->___U3CjU3E5__4;
+		float L_24 = V_3;
+		float L_25;
+		L_25 = cosf(((float)il2cpp_codegen_multiply(((float)L_23), L_24)));
+		V_5 = ((float)il2cpp_codegen_multiply(L_22, L_25));
+		float L_26 = V_5;
+		float L_27 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		memset((&L_28), 0, sizeof(L_28));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_28), ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_multiply(L_8, L_11)), L_14)), L_26, L_27, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		L_29 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_28, (1.04999995f), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_30 = __this->___planetPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_31;
+		L_31 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_29, L_30, NULL);
+		V_6 = L_31;
+		il2cpp_codegen_initobj((&V_7), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32 = V_6;
+		Ray_set_origin_m9B19A7BE86636111E3B16BCE08EAE030F37FE64D_inline((&V_7), L_32, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_33 = __this->___planetPos;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_34 = V_6;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_35;
+		L_35 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_33, L_34, NULL);
+		Ray_set_direction_m8A8FF8101045BAE51BE5D5C1B6C21D0D5592DA98_inline((&V_7), L_35, NULL);
+		il2cpp_codegen_initobj((&V_8), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_36 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)7);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_37 = L_36;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_38 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4FE3DD04EB77E7DCEBC7F68197D88A425B98DF10EC9DFCE8ABD464282F2EC237_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_37, L_38, NULL);
+		V_9 = L_37;
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_39 = V_1;
+		NullCheck(L_39);
+		bool L_40 = L_39->___selectRandomGrasses;
+		if (!L_40)
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_41 = V_1;
+		NullCheck(L_41);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_42 = L_41->___randomGrassesIDs;
+		NullCheck(L_42);
+		int32_t L_43;
+		L_43 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_42, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_43) <= ((int32_t)0)))
+		{
+			goto IL_013d;
+		}
+	}
+	{
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_44 = V_1;
+		NullCheck(L_44);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_45 = L_44->___randomGrassesIDs;
+		NullCheck(L_45);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_46;
+		L_46 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_45, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		V_9 = L_46;
+	}
+
+IL_013d:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_47 = V_9;
+		NullCheck(L_47);
+		int32_t L_48;
+		L_48 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_47)->max_length)), NULL);
+		V_10 = L_48;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_49 = V_9;
+		int32_t L_50 = V_10;
+		NullCheck(L_49);
+		int32_t L_51 = L_50;
+		int32_t L_52 = (L_49)->GetAt(static_cast<il2cpp_array_size_t>(L_51));
+		V_11 = L_52;
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_53 = V_1;
+		int32_t L_54 = V_11;
+		NullCheck(L_53);
+		L_53->___Grass_selector = L_54;
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_55 = V_7;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_56;
+		L_56 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_55, (&V_8), (std::numeric_limits<float>::infinity()), NULL);
+		if (!L_56)
+		{
+			goto IL_018f;
+		}
+	}
+	{
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_57 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_58;
+		L_58 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_8), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_59;
+		L_59 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_8), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_60;
+		L_60 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_8), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_61;
+		L_61 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_8), NULL);
+		NullCheck(L_61);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_62;
+		L_62 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_61, NULL);
+		NullCheck(L_57);
+		InfiniGRASSPlanterPLANETS_MultiThread_PlantInPosition_mE9199AD2BA32197A20E25F705793F2900160EE86(L_57, L_58, L_59, L_60, L_62, NULL);
+	}
+
+IL_018f:
+	{
+		__this->___U3CU3E2__current = NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
+		__this->___U3CU3E1__state = 1;
+		return (bool)1;
+	}
+
+IL_019f:
+	{
+		__this->___U3CU3E1__state = (-1);
+		int32_t L_63 = __this->___U3CjU3E5__4;
+		int32_t L_64 = __this->___U3CadderU3E5__2;
+		__this->___U3CjU3E5__4 = ((int32_t)il2cpp_codegen_add(L_63, L_64));
+	}
+
+IL_01b9:
+	{
+		int32_t L_65 = __this->___U3CjU3E5__4;
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_66 = V_1;
+		NullCheck(L_66);
+		float L_67 = L_66->___plantPlanetStrokes;
+		float L_68;
+		L_68 = sqrtf(L_67);
+		if ((((float)((float)L_65)) < ((float)((float)il2cpp_codegen_multiply(L_68, (360.0f))))))
+		{
+			goto IL_0053;
+		}
+	}
+	{
+		int32_t L_69 = __this->___U3CiU3E5__3;
+		int32_t L_70 = __this->___U3CadderU3E5__2;
+		__this->___U3CiU3E5__3 = ((int32_t)il2cpp_codegen_add(L_69, L_70));
+	}
+
+IL_01e9:
+	{
+		int32_t L_71 = __this->___U3CiU3E5__3;
+		InfiniGRASSPlanterPLANETS_MultiThread_tB47663527E7C1B73FEA46D5F99398B89579ECA95* L_72 = V_1;
+		NullCheck(L_72);
+		float L_73 = L_72->___plantPlanetStrokes;
+		float L_74;
+		L_74 = sqrtf(L_73);
+		if ((((float)((float)L_71)) < ((float)((float)il2cpp_codegen_multiply(L_74, (360.0f))))))
+		{
+			goto IL_0047;
+		}
+	}
+	{
+		return (bool)0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CplantPlanetU3Ed__34_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m9A895AC27E8B0AB341D2EE779092EE7F56FD0293 (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CplantPlanetU3Ed__34_System_Collections_IEnumerator_Reset_mF5B5475115760443475274900360ED0B673D7BCA (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* __this, const RuntimeMethod* method) 
+{
+	{
+		NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A* L_0 = (NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&NotSupportedException_t1429765983D409BD2986508963C98D214E4EBF4A_il2cpp_TypeInfo_var)));
+		NotSupportedException__ctor_m1398D0CDE19B36AA3DE9392879738C1EA2439CDF(L_0, NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_0, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&U3CplantPlanetU3Ed__34_System_Collections_IEnumerator_Reset_mF5B5475115760443475274900360ED0B673D7BCA_RuntimeMethod_var)));
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CplantPlanetU3Ed__34_System_Collections_IEnumerator_get_Current_m21D51F91BD2390D4656F36EB51625908C45C3C00 (U3CplantPlanetU3Ed__34_tB3E1E28B52ECB23CD845647CB51BB2B305387C89* __this, const RuntimeMethod* method) 
+{
+	{
+		RuntimeObject* L_0 = __this->___U3CU3E2__current;
+		return L_0;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES_Start_mC1278D82D5A806195BAB146E743EFCDAE7B9F625 (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_0 = NULL;
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_0 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		String_t* L_2 = __this->___GrassManagerObjectName;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = GameObject_Find_m7A669B4EEC2617AB82F6E3FF007CDCD9F21DB300(L_2, NULL);
+		V_0 = L_3;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = V_0;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_002f;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6 = V_0;
+		NullCheck(L_6);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_7;
+		L_7 = GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086(L_6, GameObject_GetComponent_TisInfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677_mBAD0B798A7F168E8CFEC810D32F71ED1531DB086_RuntimeMethod_var);
+		__this->___Grassmanager = L_7;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___Grassmanager), (void*)L_7);
+	}
+
+IL_002f:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES_Update_mA9E826098277D9010493091CEC569C0D80977152 (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4FE3DD04EB77E7DCEBC7F68197D88A425B98DF10EC9DFCE8ABD464282F2EC237_FieldInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	int32_t V_2 = 0;
+	int32_t V_3 = 0;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_4;
+	memset((&V_4), 0, sizeof(V_4));
+	float V_5 = 0.0f;
+	bool V_6 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_7;
+	memset((&V_7), 0, sizeof(V_7));
+	int32_t V_8 = 0;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_9 = NULL;
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_10;
+	memset((&V_10), 0, sizeof(V_10));
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_11;
+	memset((&V_11), 0, sizeof(V_11));
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_12 = NULL;
+	int32_t V_13 = 0;
+	int32_t V_14 = 0;
+	Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 V_15;
+	memset((&V_15), 0, sizeof(V_15));
+	bool V_16 = false;
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_17;
+	memset((&V_17), 0, sizeof(V_17));
+	CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* V_18 = NULL;
+	{
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_2;
+		L_2 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		NullCheck(L_2);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_2, NULL);
+		__this->___player = L_3;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___player), (void*)L_3);
+	}
+
+IL_001e:
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_4 = __this->___Tile;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_5;
+		L_5 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_5)
+		{
+			goto IL_020b;
+		}
+	}
+	{
+		V_0 = (0.0f);
+		V_1 = (0.0f);
+		V_2 = 0;
+		goto IL_01ff;
+	}
+
+IL_0042:
+	{
+		V_3 = 0;
+		goto IL_01ef;
+	}
+
+IL_0049:
+	{
+		int32_t L_6 = V_2;
+		float L_7 = __this->___tileSize;
+		V_0 = ((float)il2cpp_codegen_multiply(((float)L_6), L_7));
+		int32_t L_8 = V_3;
+		float L_9 = __this->___tileSize;
+		V_1 = ((float)il2cpp_codegen_multiply(((float)L_8), L_9));
+		float L_10 = V_0;
+		float L_11 = V_1;
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&V_4), L_10, (0.0f), L_11, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_12 = __this->___player;
+		NullCheck(L_12);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13;
+		L_13 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_12, NULL);
+		float L_14 = L_13.___x;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = __this->___player;
+		NullCheck(L_15);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_16;
+		L_16 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_15, NULL);
+		float L_17 = L_16.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_18;
+		memset((&L_18), 0, sizeof(L_18));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_18), L_14, (0.0f), L_17, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_19 = V_4;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_20;
+		L_20 = Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline(L_18, L_19, NULL);
+		V_7 = L_20;
+		float L_21;
+		L_21 = Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline((&V_7), NULL);
+		V_5 = L_21;
+		V_6 = (bool)1;
+		V_8 = 0;
+		goto IL_00e2;
+	}
+
+IL_00af:
+	{
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_22 = __this->___Tiles;
+		int32_t L_23 = V_8;
+		NullCheck(L_22);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_22, L_23, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		NullCheck(L_24);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_25;
+		L_25 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_24, NULL);
+		NullCheck(L_25);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_26;
+		L_26 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_25, NULL);
+		float L_27 = V_0;
+		float L_28 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_29;
+		memset((&L_29), 0, sizeof(L_29));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_29), L_27, (0.0f), L_28, NULL);
+		bool L_30;
+		L_30 = Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline(L_26, L_29, NULL);
+		if (!L_30)
+		{
+			goto IL_00dc;
+		}
+	}
+	{
+		V_6 = (bool)0;
+	}
+
+IL_00dc:
+	{
+		int32_t L_31 = V_8;
+		V_8 = ((int32_t)il2cpp_codegen_add(L_31, 1));
+	}
+
+IL_00e2:
+	{
+		int32_t L_32 = V_8;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_33 = __this->___Tiles;
+		NullCheck(L_33);
+		int32_t L_34;
+		L_34 = List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_inline(L_33, List_1_get_Count_m4C37ED2D928D63B80F55AF434730C2D64EEB9F22_RuntimeMethod_var);
+		if ((((int32_t)L_32) < ((int32_t)L_34)))
+		{
+			goto IL_00af;
+		}
+	}
+	{
+		float L_35 = V_5;
+		float L_36 = __this->___distThreshold;
+		bool L_37 = V_6;
+		if (!((int32_t)(((((float)L_35) < ((float)L_36))? 1 : 0)&(int32_t)L_37)))
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_38 = __this->___Tile;
+		float L_39 = V_0;
+		float L_40 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_41;
+		memset((&L_41), 0, sizeof(L_41));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_41), L_39, (0.0f), L_40, NULL);
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_42;
+		L_42 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_43;
+		L_43 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4(L_38, L_41, L_42, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m831D2F71DF2AA6C93AFDFEFA04CF2CFC5FBBCDB4_RuntimeMethod_var);
+		V_9 = L_43;
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_44 = __this->___Tiles;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_45 = V_9;
+		NullCheck(L_44);
+		List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_inline(L_44, L_45, List_1_Add_m43FBF207375C6E06B8C45ECE614F9B8008FB686E_RuntimeMethod_var);
+		il2cpp_codegen_initobj((&V_10), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
+		float L_46 = V_0;
+		float L_47 = __this->___raycastHeight;
+		float L_48 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		memset((&L_49), 0, sizeof(L_49));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_49), L_46, L_47, L_48, NULL);
+		Ray_set_origin_m9B19A7BE86636111E3B16BCE08EAE030F37FE64D_inline((&V_10), L_49, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_50;
+		L_50 = Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline(L_50, NULL);
+		Ray_set_direction_m8A8FF8101045BAE51BE5D5C1B6C21D0D5592DA98_inline((&V_10), L_51, NULL);
+		il2cpp_codegen_initobj((&V_11), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_52 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)7);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_53 = L_52;
+		RuntimeFieldHandle_t6E4C45B6D2EA12FC99185805A7E77527899B25C5 L_54 = { reinterpret_cast<intptr_t> (U3CPrivateImplementationDetailsU3E_t0F5473E849A5A5185A9F4C5246F0C32816C49FCA____4FE3DD04EB77E7DCEBC7F68197D88A425B98DF10EC9DFCE8ABD464282F2EC237_FieldInfo_var) };
+		RuntimeHelpers_InitializeArray_m751372AA3F24FBF6DA9B9D687CBFA2DE436CAB9B((RuntimeArray*)L_53, L_54, NULL);
+		V_12 = L_53;
+		bool L_55 = __this->___selectRandomGrasses;
+		if (!L_55)
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_56 = __this->___randomGrassesIDs;
+		NullCheck(L_56);
+		int32_t L_57;
+		L_57 = List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_inline(L_56, List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_RuntimeMethod_var);
+		if ((((int32_t)L_57) <= ((int32_t)0)))
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_58 = __this->___randomGrassesIDs;
+		NullCheck(L_58);
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_59;
+		L_59 = List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA(L_58, List_1_ToArray_m65479FB75A5FE539EA1A0D6681172717D23CEAAA_RuntimeMethod_var);
+		V_12 = L_59;
+	}
+
+IL_0199:
+	{
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_60 = V_12;
+		NullCheck(L_60);
+		int32_t L_61;
+		L_61 = Random_Range_m6763D9767F033357F88B6637F048F4ACA4123B68(0, ((int32_t)(((RuntimeArray*)L_60)->max_length)), NULL);
+		V_13 = L_61;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_62 = V_12;
+		int32_t L_63 = V_13;
+		NullCheck(L_62);
+		int32_t L_64 = L_63;
+		int32_t L_65 = (L_62)->GetAt(static_cast<il2cpp_array_size_t>(L_64));
+		V_14 = L_65;
+		int32_t L_66 = V_14;
+		__this->___Grass_selector = L_66;
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_67 = V_10;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_68;
+		L_68 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_67, (&V_11), (std::numeric_limits<float>::infinity()), NULL);
+		if (!L_68)
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69;
+		L_69 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_11), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70;
+		L_70 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_11), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_71;
+		L_71 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_11), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_72;
+		L_72 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_11), NULL);
+		NullCheck(L_72);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_73;
+		L_73 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_72, NULL);
+		InfiniGRASSPlanterTILES_PlantInPosition_m9DF17D05BD6855D73DE0C28AF1DB38BBBE7AC4E6(__this, L_69, L_70, L_71, L_73, NULL);
+	}
+
+IL_01eb:
+	{
+		int32_t L_74 = V_3;
+		V_3 = ((int32_t)il2cpp_codegen_add(L_74, 1));
+	}
+
+IL_01ef:
+	{
+		int32_t L_75 = V_3;
+		int32_t L_76 = __this->___gridSize;
+		if ((((int32_t)L_75) < ((int32_t)L_76)))
+		{
+			goto IL_0049;
+		}
+	}
+	{
+		int32_t L_77 = V_2;
+		V_2 = ((int32_t)il2cpp_codegen_add(L_77, 1));
+	}
+
+IL_01ff:
+	{
+		int32_t L_78 = V_2;
+		int32_t L_79 = __this->___gridSize;
+		if ((((int32_t)L_78) < ((int32_t)L_79)))
+		{
+			goto IL_0042;
+		}
+	}
+
+IL_020b:
+	{
+		bool L_80 = __this->___useMouse;
+		if (!L_80)
+		{
+			goto IL_035a;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_81 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_82;
+		L_82 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_81, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_82)
+		{
+			goto IL_035a;
+		}
+	}
+	{
+		int32_t L_83 = __this->___plantButton;
+		bool L_84;
+		L_84 = Input_GetMouseButtonDown_m8DFC792D15FFF15D311614D5CC6C5D055E5A1DE3(L_83, NULL);
+		bool L_85;
+		L_85 = Input_GetKeyDown_mB237DEA6244132670D38990BAB77D813FBB028D2(((int32_t)304), NULL);
+		if (!((int32_t)((int32_t)L_84&((((int32_t)L_85) == ((int32_t)0))? 1 : 0))))
+		{
+			goto IL_035a;
+		}
+	}
+	{
+		il2cpp_codegen_initobj((&V_15), sizeof(Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00));
+		V_16 = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_86 = __this->___Grassmanager;
+		NullCheck(L_86);
+		bool L_87 = L_86->___Tag_based_player;
+		if (!L_87)
+		{
+			goto IL_02d3;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_88 = __this->___Grassmanager;
+		NullCheck(L_88);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_89 = L_88->___player;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_90;
+		L_90 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_89, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_90)
+		{
+			goto IL_0317;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_91 = __this->___Grassmanager;
+		NullCheck(L_91);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_92 = L_91->___player;
+		NullCheck(L_92);
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_93;
+		L_93 = GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1(L_92, (bool)0, GameObject_GetComponentsInChildren_TisCamera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184_mDB567070B532F76D55A250B4C436DC209041DED1_RuntimeMethod_var);
+		V_18 = L_93;
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_94 = V_18;
+		if (!L_94)
+		{
+			goto IL_02b0;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_95 = V_18;
+		NullCheck(L_95);
+		if (!(((RuntimeArray*)L_95)->max_length))
+		{
+			goto IL_02b0;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_96 = V_18;
+		NullCheck(L_96);
+		int32_t L_97 = 0;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_98 = (L_96)->GetAt(static_cast<il2cpp_array_size_t>(L_97));
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_99;
+		L_99 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_98, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_99)
+		{
+			goto IL_02b0;
+		}
+	}
+	{
+		CameraU5BU5D_t1506EBA524A07AD1066D6DD4D7DFC6721F1AC26B* L_100 = V_18;
+		NullCheck(L_100);
+		int32_t L_101 = 0;
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_102 = (L_100)->GetAt(static_cast<il2cpp_array_size_t>(L_101));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_103;
+		L_103 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_102);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_104;
+		L_104 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_102, L_103, NULL);
+		V_15 = L_104;
+		V_16 = (bool)1;
+		goto IL_0317;
+	}
+
+IL_02b0:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_105;
+		L_105 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_106;
+		L_106 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_105, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_106)
+		{
+			goto IL_0317;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_107;
+		L_107 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_108;
+		L_108 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_107);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_109;
+		L_109 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_107, L_108, NULL);
+		V_15 = L_109;
+		V_16 = (bool)1;
+		goto IL_0317;
+	}
+
+IL_02d3:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_110;
+		L_110 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_111;
+		L_111 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_110, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_111)
+		{
+			goto IL_02f6;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_112;
+		L_112 = Camera_get_main_m52C992F18E05355ABB9EEB64A4BF2215E12762DF(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_113;
+		L_113 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_112);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_114;
+		L_114 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_112, L_113, NULL);
+		V_15 = L_114;
+		V_16 = (bool)1;
+		goto IL_0317;
+	}
+
+IL_02f6:
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_115;
+		L_115 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_116;
+		L_116 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_115, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_116)
+		{
+			goto IL_0317;
+		}
+	}
+	{
+		Camera_tA92CC927D7439999BC82DBEDC0AA45B470F9E184* L_117;
+		L_117 = Camera_get_current_m25217A02CB09E3BD50E3E0327879E870AD58C6C3(NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_118;
+		L_118 = Input_get_mousePosition_mFF21FBD2647DAE2A23BD4C45571CA95D05A0A42C(NULL);
+		NullCheck(L_117);
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_119;
+		L_119 = Camera_ScreenPointToRay_m2887B9A49880B7AB670C57D66B67D6A6689FE315(L_117, L_118, NULL);
+		V_15 = L_119;
+		V_16 = (bool)1;
+	}
+
+IL_0317:
+	{
+		il2cpp_codegen_initobj((&V_17), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		bool L_120 = V_16;
+		if (!L_120)
+		{
+			goto IL_035a;
+		}
+	}
+	{
+		Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00 L_121 = V_15;
+		il2cpp_codegen_runtime_class_init_inline(Physics_t1244C2983AEAFA149425AFFC3DF53BC91C18ED56_il2cpp_TypeInfo_var);
+		bool L_122;
+		L_122 = Physics_Raycast_m839BA104A76B928A03F075C622923C6FCD2F8685(L_121, (&V_17), (std::numeric_limits<float>::infinity()), NULL);
+		if (!L_122)
+		{
+			goto IL_035a;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_123;
+		L_123 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&V_17), NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_124;
+		L_124 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&V_17), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_125;
+		L_125 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_17), NULL);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_126;
+		L_126 = RaycastHit_get_collider_m84B160439BBEAB6D9E94B799F720E25C9E2D444D((&V_17), NULL);
+		NullCheck(L_126);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_127;
+		L_127 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_126, NULL);
+		InfiniGRASSPlanterTILES_PlantInPosition_m9DF17D05BD6855D73DE0C28AF1DB38BBBE7AC4E6(__this, L_123, L_124, L_125, L_127, NULL);
+	}
+
+IL_035a:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES_PlantInPosition_m9DF17D05BD6855D73DE0C28AF1DB38BBBE7AC4E6 (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_position, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_normal, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___2_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___3_transform1, const RuntimeMethod* method) 
+{
+	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		il2cpp_codegen_initobj((&V_0), sizeof(RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_position;
+		RaycastHit_set_point_m3B63BEB25A82BFCF9FBB300022D0362BC2CF9E11((&V_0), L_0, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_normal;
+		RaycastHit_set_normal_m97DDF1CBE8ADF1F72AA30BC83870615ABB38C88B((&V_0), L_1, NULL);
+		RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 L_2 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_3 = ___2_collider1;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = ___3_transform1;
+		int32_t L_5 = __this->___Grass_selector;
+		InfiniGRASSPlanterTILES_PlantGrass_m40DC4C16106FECE49D1B0CE245C878BFFD2E5C3E(__this, L_2, L_3, L_4, L_5, (bool)0, (bool)1, NULL);
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES_OnCollisionEnter_m3E23B004B2AE020EB2F6A29D79DA199D7338A636 (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* ___0_info, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_1;
+	memset((&V_1), 0, sizeof(V_1));
+	{
+		bool L_0 = __this->___useCollisions;
+		if (!L_0)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_1 = __this->___Grassmanager;
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_2;
+		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_2)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_3 = ___0_info;
+		NullCheck(L_3);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_4;
+		L_4 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_3, NULL);
+		NullCheck(L_4);
+		if (!(((RuntimeArray*)L_4)->max_length))
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_5 = ___0_info;
+		NullCheck(L_5);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_6;
+		L_6 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_5, NULL);
+		NullCheck(L_6);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = ContactPoint_get_point_mCCDFDACC5D8DB469898060A56A3CC45132911208(((L_6)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_0 = L_7;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_8 = ___0_info;
+		NullCheck(L_8);
+		ContactPointU5BU5D_t3570603E8D0685B71B3D8BA07031674B00C5E411* L_9;
+		L_9 = Collision_get_contacts_m2E8E27E0399230DFA4303A4F4D81C1BD55CBC473(L_8, NULL);
+		NullCheck(L_9);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10;
+		L_10 = ContactPoint_get_normal_mD7F0567CA2FD68644F7C6FE318E10C4D15F92AD6(((L_9)->GetAddressAt(static_cast<il2cpp_array_size_t>(0))), NULL);
+		V_1 = L_10;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_11 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12 = V_1;
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_13 = ___0_info;
+		NullCheck(L_13);
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14;
+		L_14 = Collision_get_collider_mBB5A086C78FE4BE0589E216F899B611673ADD25D(L_13, NULL);
+		Collision_tBCC6AEBD9A63E6DA2E50660DAC03CDCB1FF7A9B0* L_15 = ___0_info;
+		NullCheck(L_15);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_16;
+		L_16 = Collision_get_transform_mA5D135D9F696635EA7A0D2184CEF499427A6D0F6(L_15, NULL);
+		InfiniGRASSPlanterTILES_PlantInPosition_m9DF17D05BD6855D73DE0C28AF1DB38BBBE7AC4E6(__this, L_11, L_12, L_14, L_16, NULL);
+	}
+
+IL_0057:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES_PlantGrass_m40DC4C16106FECE49D1B0CE245C878BFFD2E5C3E (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 ___0_hit, Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* ___1_collider1, Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* ___2_transform1, int32_t ___3_Grass_selector, bool ___4_growInEditor, bool ___5_registerToManager, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3);
+		s_Il2CppMethodInitialized = true;
+	}
+	bool V_0 = false;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* V_1 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_2 = NULL;
+	INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* V_3 = NULL;
+	int32_t V_4 = 0;
+	int32_t V_5 = 0;
+	SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* V_6 = NULL;
+	SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* V_7 = NULL;
+	float V_8 = 0.0f;
+	int32_t V_9 = 0;
+	int32_t V_10 = 0;
+	int32_t V_11 = 0;
+	bool G_B6_0 = false;
+	bool G_B5_0 = false;
+	int32_t G_B7_0 = 0;
+	bool G_B7_1 = false;
+	{
+		V_0 = (bool)0;
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_0;
+		L_0 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_1;
+		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_1)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_2 = ___1_collider1;
+		NullCheck(L_2);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3;
+		L_3 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_2, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_4;
+		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_4)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_5 = ___1_collider1;
+		NullCheck(L_5);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_6;
+		L_6 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_5, NULL);
+		Terrain_t7F309492F67238DBFBC4566F47385B2A665CF667* L_7;
+		L_7 = Terrain_get_activeTerrain_mAE5A7FE933C2C1A57FC9542E9BFA315A413F224E(NULL);
+		NullCheck(L_7);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8;
+		L_8 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_7, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_9;
+		L_9 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_6, L_8, NULL);
+		if (!L_9)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		V_0 = (bool)1;
+	}
+
+IL_0036:
+	{
+		bool L_10 = V_0;
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_11 = ___1_collider1;
+		NullCheck(L_11);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_12;
+		L_12 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_11, NULL);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_13;
+		L_13 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_12, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (!L_13)
+		{
+			G_B6_0 = L_10;
+			goto IL_005c;
+		}
+		G_B5_0 = L_10;
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_14 = ___1_collider1;
+		NullCheck(L_14);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_15;
+		L_15 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_14, NULL);
+		NullCheck(L_15);
+		String_t* L_16;
+		L_16 = GameObject_get_tag_mEDD27BF795072834D656B286CBE51B2C99747805(L_15, NULL);
+		bool L_17;
+		L_17 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_16, _stringLiteralED64E2F4B60A8E31BE141CCD0F9475E662D531B3, NULL);
+		G_B7_0 = ((int32_t)(L_17));
+		G_B7_1 = G_B5_0;
+		goto IL_005d;
+	}
+
+IL_005c:
+	{
+		G_B7_0 = 0;
+		G_B7_1 = G_B6_0;
+	}
+
+IL_005d:
+	{
+		if (!((int32_t)((int32_t)G_B7_1|G_B7_0)))
+		{
+			goto IL_06e5;
+		}
+	}
+	{
+		Collider_t1CC3163924FCD6C4CC2E816373A929C1E3D55E76* L_18 = ___1_collider1;
+		NullCheck(L_18);
+		GrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A* L_19;
+		L_19 = Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B(L_18, Component_GetComponent_TisGrassChopCollider_t96EDC7B1D7A288E6825077C9F731D6563880494A_mC74617C28F46E8C0843A9B282DE1E95D09D9D87B_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		bool L_20;
+		L_20 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_19, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		if (L_20)
+		{
+			goto IL_06e5;
+		}
+	}
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_21 = __this->___Grassmanager;
+		NullCheck(L_21);
+		List_1_tB951CE80B58D1BF9650862451D8DAD8C231F207B* L_22 = L_21->___GrassPrefabs;
+		int32_t L_23 = ___3_Grass_selector;
+		NullCheck(L_22);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_24;
+		L_24 = List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979(L_22, L_23, List_1_get_Item_mE8DBE527F24D9CFED839C34216C475B716169979_RuntimeMethod_var);
+		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_25;
+		L_25 = Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3(L_24, Object_Instantiate_TisGameObject_t76FEDD663AB33C991A9C9A23129337651094216F_m10D87C6E0708CA912BBB02555BF7D0FBC5D7A2B3_RuntimeMethod_var);
+		V_1 = L_25;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_26 = V_1;
+		NullCheck(L_26);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_27;
+		L_27 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_26, NULL);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_28;
+		L_28 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		NullCheck(L_27);
+		Transform_set_position_mA1A817124BB41B685043DED2A9BA48CDF37C4156(L_27, L_28, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_29 = V_1;
+		NullCheck(L_29);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_30;
+		L_30 = GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03(L_29, GameObject_GetComponent_TisINfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A_mAEA637C9BDC65BF011E24F577601B7B7E8E50A03_RuntimeMethod_var);
+		V_2 = L_30;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_31 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_32;
+		L_32 = RaycastHit_get_normal_mD8741B70D2039C5CAFC4368D4CE59D89562040B5((&___0_hit), NULL);
+		NullCheck(L_31);
+		L_31->___Intial_Up_Vector = L_32;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_33;
+		L_33 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_33)
+		{
+			goto IL_00c2;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_34 = V_2;
+		NullCheck(L_34);
+		L_34->___Grow_tree = (bool)1;
+		goto IL_00c9;
+	}
+
+IL_00c2:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_35 = V_2;
+		NullCheck(L_35);
+		L_35->___Grow_in_Editor = (bool)1;
+	}
+
+IL_00c9:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_36 = __this->___Grassmanager;
+		NullCheck(L_36);
+		bool L_37 = L_36->___AdaptOnTerrain;
+		bool L_38 = V_0;
+		if (!((int32_t)((int32_t)L_37&(int32_t)L_38)))
+		{
+			goto IL_023c;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_39;
+		L_39 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_40 = L_39.___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_41 = __this->___Grassmanager;
+		NullCheck(L_41);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_42 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_41->___Tpos);
+		float L_43 = L_42->___x;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_44 = __this->___Grassmanager;
+		NullCheck(L_44);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_45 = L_44->___Tdata;
+		NullCheck(L_45);
+		int32_t L_46;
+		L_46 = TerrainData_get_alphamapWidth_m07E5B04B08E87AC9F66D766B363000F94C8612D4(L_45, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_47 = __this->___Grassmanager;
+		NullCheck(L_47);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_48 = L_47->___Tdata;
+		NullCheck(L_48);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_49;
+		L_49 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_48, NULL);
+		float L_50 = L_49.___x;
+		V_4 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_40, L_43)), ((float)L_46)))/L_50)));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_51;
+		L_51 = RaycastHit_get_point_m02B764612562AFE0F998CC7CFB2EEDE41BA47F39((&___0_hit), NULL);
+		float L_52 = L_51.___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_53 = __this->___Grassmanager;
+		NullCheck(L_53);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* L_54 = (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)(&L_53->___Tpos);
+		float L_55 = L_54->___z;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_56 = __this->___Grassmanager;
+		NullCheck(L_56);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_57 = L_56->___Tdata;
+		NullCheck(L_57);
+		int32_t L_58;
+		L_58 = TerrainData_get_alphamapHeight_m4A8273D6E0E3526A31E2669FBAB240353C086AED(L_57, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_59 = __this->___Grassmanager;
+		NullCheck(L_59);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_60 = L_59->___Tdata;
+		NullCheck(L_60);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_61;
+		L_61 = TerrainData_get_size_mCD3977F344B9DEBFF61DD537D03FEB9473838DA5(L_60, NULL);
+		float L_62 = L_61.___z;
+		V_5 = il2cpp_codegen_cast_double_to_int<int32_t>(((float)(((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_52, L_55)), ((float)L_58)))/L_62)));
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_63 = __this->___Grassmanager;
+		NullCheck(L_63);
+		TerrainData_t615A68EAC648066681875D47FC641496D12F2E24* L_64 = L_63->___Tdata;
+		int32_t L_65 = V_4;
+		int32_t L_66 = V_5;
+		NullCheck(L_64);
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_67;
+		L_67 = TerrainData_GetAlphamaps_m2DEF5D2068D54BDAE78661483C1FC4936B06EA01(L_64, L_65, L_66, 1, 1, NULL);
+		V_6 = L_67;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_68 = V_6;
+		NullCheck((RuntimeArray*)L_68);
+		int32_t L_69;
+		L_69 = Array_GetUpperBound_m64006116D5244EB8DA52188A9E49929AA7D08E4E((RuntimeArray*)L_68, 2, NULL);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_70 = (SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C*)SZArrayNew(SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_add(L_69, 1)));
+		V_7 = L_70;
+		V_9 = 0;
+		goto IL_01af;
+	}
+
+IL_0199:
+	{
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_71 = V_7;
+		int32_t L_72 = V_9;
+		SingleU5BU2CU2CU5D_tE902E5192C7283A470AAADB477117789A9682488* L_73 = V_6;
+		int32_t L_74 = V_9;
+		NullCheck(L_73);
+		float L_75;
+		L_75 = (L_73)->GetAt(0, 0, L_74);
+		NullCheck(L_71);
+		(L_71)->SetAt(static_cast<il2cpp_array_size_t>(L_72), (float)L_75);
+		int32_t L_76 = V_9;
+		V_9 = ((int32_t)il2cpp_codegen_add(L_76, 1));
+	}
+
+IL_01af:
+	{
+		int32_t L_77 = V_9;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_78 = V_7;
+		NullCheck(L_78);
+		if ((((int32_t)L_77) < ((int32_t)((int32_t)(((RuntimeArray*)L_78)->max_length)))))
+		{
+			goto IL_0199;
+		}
+	}
+	{
+		V_8 = (0.0f);
+		V_10 = 0;
+		goto IL_020e;
+	}
+
+IL_01c3:
+	{
+		int32_t L_79 = V_10;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_80 = __this->___Grassmanager;
+		NullCheck(L_80);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_81 = L_80->___ScalePerTexture;
+		NullCheck(L_81);
+		int32_t L_82;
+		L_82 = List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_inline(L_81, List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_RuntimeMethod_var);
+		if ((((int32_t)L_79) <= ((int32_t)((int32_t)il2cpp_codegen_subtract(L_82, 1)))))
+		{
+			goto IL_01eb;
+		}
+	}
+	{
+		float L_83 = V_8;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_84 = V_7;
+		int32_t L_85 = V_10;
+		NullCheck(L_84);
+		int32_t L_86 = L_85;
+		float L_87 = (L_84)->GetAt(static_cast<il2cpp_array_size_t>(L_86));
+		V_8 = ((float)il2cpp_codegen_add(L_83, ((float)il2cpp_codegen_multiply((1.0f), L_87))));
+		goto IL_0208;
+	}
+
+IL_01eb:
+	{
+		float L_88 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_89 = __this->___Grassmanager;
+		NullCheck(L_89);
+		List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* L_90 = L_89->___ScalePerTexture;
+		int32_t L_91 = V_10;
+		NullCheck(L_90);
+		float L_92;
+		L_92 = List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50(L_90, L_91, List_1_get_Item_mFE556F47C4CD09EAC6C898EF39D4A8EC112CFC50_RuntimeMethod_var);
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_93 = V_7;
+		int32_t L_94 = V_10;
+		NullCheck(L_93);
+		int32_t L_95 = L_94;
+		float L_96 = (L_93)->GetAt(static_cast<il2cpp_array_size_t>(L_95));
+		V_8 = ((float)il2cpp_codegen_add(L_88, ((float)il2cpp_codegen_multiply(L_92, L_96))));
+	}
+
+IL_0208:
+	{
+		int32_t L_97 = V_10;
+		V_10 = ((int32_t)il2cpp_codegen_add(L_97, 1));
+	}
+
+IL_020e:
+	{
+		int32_t L_98 = V_10;
+		SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* L_99 = V_7;
+		NullCheck(L_99);
+		if ((((int32_t)L_98) < ((int32_t)((int32_t)(((RuntimeArray*)L_99)->max_length)))))
+		{
+			goto IL_01c3;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_100 = V_2;
+		float L_101 = V_8;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_102 = __this->___Grassmanager;
+		NullCheck(L_102);
+		float L_103 = L_102->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_104 = __this->___Grassmanager;
+		NullCheck(L_104);
+		float L_105 = L_104->___max_scale;
+		float L_106;
+		L_106 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_103, L_105, NULL);
+		NullCheck(L_100);
+		L_100->___End_scale = ((float)il2cpp_codegen_multiply(L_101, L_106));
+		goto IL_025d;
+	}
+
+IL_023c:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_107 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_108 = __this->___Grassmanager;
+		NullCheck(L_108);
+		float L_109 = L_108->___min_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_110 = __this->___Grassmanager;
+		NullCheck(L_110);
+		float L_111 = L_110->___max_scale;
+		float L_112;
+		L_112 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_109, L_111, NULL);
+		NullCheck(L_107);
+		L_107->___End_scale = L_112;
+	}
+
+IL_025d:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_113 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_114 = __this->___Grassmanager;
+		NullCheck(L_114);
+		int32_t L_115 = L_114->___Max_interactive_group_members;
+		NullCheck(L_113);
+		L_113->___Max_interact_holder_items = L_115;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_116 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_117 = __this->___Grassmanager;
+		NullCheck(L_117);
+		int32_t L_118 = L_117->___Max_static_group_members;
+		NullCheck(L_116);
+		L_116->___Max_trees_per_group = L_118;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_119 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_120 = __this->___Grassmanager;
+		NullCheck(L_120);
+		bool L_121 = L_120->___Interactive;
+		NullCheck(L_119);
+		L_119->___Interactive_tree = L_121;
+		il2cpp_codegen_runtime_class_init_inline(Application_tDB03BE91CDF0ACA614A5E0B67CFB77C44EB19B21_il2cpp_TypeInfo_var);
+		bool L_122;
+		L_122 = Application_get_isPlaying_m25B0ABDFEF54F5370CD3F263A813540843D00F34(NULL);
+		if (!L_122)
+		{
+			goto IL_02c1;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_123 = V_2;
+		NullCheck(L_123);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_124;
+		L_124 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_123, NULL);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_125 = L_124;
+		NullCheck(L_125);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_126;
+		L_126 = Transform_get_localScale_m804A002A53A645CDFCD15BB0F37209162720363F(L_125, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_127 = V_2;
+		NullCheck(L_127);
+		float L_128 = L_127->___End_scale;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_129 = __this->___Grassmanager;
+		NullCheck(L_129);
+		float L_130 = L_129->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_131;
+		L_131 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_126, ((float)il2cpp_codegen_multiply(L_128, L_130)), NULL);
+		NullCheck(L_125);
+		Transform_set_localScale_mBA79E811BAF6C47B80FF76414C12B47B3CD03633(L_125, L_131, NULL);
+		goto IL_02dc;
+	}
+
+IL_02c1:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_132 = V_2;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_133;
+		L_133 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_134 = __this->___Grassmanager;
+		NullCheck(L_134);
+		float L_135 = L_134->___Collider_scale;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_136;
+		L_136 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_133, L_135, NULL);
+		NullCheck(L_132);
+		L_132->___colliderScale = L_136;
+	}
+
+IL_02dc:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_137 = __this->___Grassmanager;
+		NullCheck(L_137);
+		bool L_138 = L_137->___Override_spread;
+		if (!L_138)
+		{
+			goto IL_032a;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_139 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_140 = __this->___Grassmanager;
+		NullCheck(L_140);
+		float L_141 = L_140->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_142 = __this->___Grassmanager;
+		NullCheck(L_142);
+		float L_143 = L_142->___Max_spread;
+		float L_144;
+		L_144 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_141, L_143, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_145 = __this->___Grassmanager;
+		NullCheck(L_145);
+		float L_146 = L_145->___Min_spread;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_147 = __this->___Grassmanager;
+		NullCheck(L_147);
+		float L_148 = L_147->___Max_spread;
+		float L_149;
+		L_149 = Random_Range_m5236C99A7D8AE6AC9190592DC66016652A2D2494(L_146, L_148, NULL);
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_150;
+		memset((&L_150), 0, sizeof(L_150));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_150), L_144, L_149, NULL);
+		NullCheck(L_139);
+		L_139->___PosSpread = L_150;
+	}
+
+IL_032a:
+	{
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_151 = __this->___Grassmanager;
+		NullCheck(L_151);
+		bool L_152 = L_151->___Override_density;
+		if (!L_152)
+		{
+			goto IL_0358;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_153 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_154 = __this->___Grassmanager;
+		NullCheck(L_154);
+		float L_155 = L_154->___Min_density;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_156 = __this->___Grassmanager;
+		NullCheck(L_156);
+		float L_157 = L_156->___Max_density;
+		Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 L_158;
+		memset((&L_158), 0, sizeof(L_158));
+		Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline((&L_158), L_155, L_157, NULL);
+		NullCheck(L_153);
+		L_153->___Min_Max_Branching = L_158;
+	}
+
+IL_0358:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_159 = V_2;
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_160 = ___2_transform1;
+		NullCheck(L_160);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_161;
+		L_161 = Component_get_gameObject_m57AEFBB14DB39EC476F740BA000E170355DE691B(L_160, NULL);
+		NullCheck(L_161);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_162;
+		L_162 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_161, NULL);
+		NullCheck(L_159);
+		L_159->___PaintedOnOBJ = L_162;
+		Il2CppCodeGenWriteBarrier((void**)(&L_159->___PaintedOnOBJ), (void*)L_162);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_163 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_164 = __this->___Grassmanager;
+		NullCheck(L_164);
+		bool L_165 = L_164->___GridOnNormal;
+		NullCheck(L_163);
+		L_163->___GridOnNormal = L_165;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_166 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_167 = __this->___Grassmanager;
+		NullCheck(L_167);
+		float L_168 = L_167->___rayCastDist;
+		NullCheck(L_166);
+		L_166->___max_ray_dist = L_168;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_169 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_170 = __this->___Grassmanager;
+		NullCheck(L_170);
+		float L_171 = L_170->___MinAvoidDist;
+		NullCheck(L_169);
+		L_169->___MinAvoidDist = L_171;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_172 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_173 = __this->___Grassmanager;
+		NullCheck(L_173);
+		float L_174 = L_173->___MinScaleAvoidDist;
+		NullCheck(L_172);
+		L_172->___MinScaleAvoidDist = L_174;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_175 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_176 = __this->___Grassmanager;
+		NullCheck(L_176);
+		float L_177 = L_176->___InteractionSpeed;
+		NullCheck(L_175);
+		L_175->___InteractionSpeed = L_177;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_178 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_179 = __this->___Grassmanager;
+		NullCheck(L_179);
+		float L_180 = L_179->___InteractSpeedThres;
+		NullCheck(L_178);
+		L_178->___InteractSpeedThres = L_180;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_181 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_182 = __this->___Grassmanager;
+		NullCheck(L_182);
+		bool L_183 = L_182->___enableAbove64KMesh;
+		NullCheck(L_181);
+		L_181->___enableAbove64KMesh = L_183;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_184 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_185 = __this->___Grassmanager;
+		NullCheck(L_185);
+		float L_186 = L_185->___Interaction_thres;
+		NullCheck(L_184);
+		L_184->___Interaction_thres = L_186;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_187 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_188 = __this->___Grassmanager;
+		NullCheck(L_188);
+		float L_189 = L_188->___Max_tree_dist;
+		NullCheck(L_187);
+		L_187->___Max_tree_dist = L_189;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_190 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_191 = __this->___Grassmanager;
+		NullCheck(L_191);
+		bool L_192 = L_191->___Disable_after_growth;
+		NullCheck(L_190);
+		L_190->___Disable_after_growth = L_192;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_193 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_194 = __this->___Grassmanager;
+		NullCheck(L_194);
+		bool L_195 = L_194->___WhenCombinerFull;
+		NullCheck(L_193);
+		L_193->___WhenCombinerFull = L_195;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_196 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_197 = __this->___Grassmanager;
+		NullCheck(L_197);
+		bool L_198 = L_197->___Eliminate_original_mesh;
+		NullCheck(L_196);
+		L_196->___Eliminate_original_mesh = L_198;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_199 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_200 = __this->___Grassmanager;
+		NullCheck(L_200);
+		float L_201 = L_200->___Interaction_offset;
+		NullCheck(L_199);
+		L_199->___Interaction_offset = L_201;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_202 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_203 = __this->___Grassmanager;
+		NullCheck(L_203);
+		float L_204 = L_203->___LOD_distance;
+		NullCheck(L_202);
+		L_202->___LOD_distance = L_204;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_205 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_206 = __this->___Grassmanager;
+		NullCheck(L_206);
+		float L_207 = L_206->___LOD_distance1;
+		NullCheck(L_205);
+		L_205->___LOD_distance1 = L_207;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_208 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_209 = __this->___Grassmanager;
+		NullCheck(L_209);
+		float L_210 = L_209->___LOD_distance2;
+		NullCheck(L_208);
+		L_208->___LOD_distance2 = L_210;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_211 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_212 = __this->___Grassmanager;
+		NullCheck(L_212);
+		float L_213 = L_212->___Cutoff_distance;
+		NullCheck(L_211);
+		L_211->___Cutoff_distance = L_213;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_214 = V_2;
+		NullCheck(L_214);
+		L_214->___Tag_based = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_215 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_216 = __this->___Grassmanager;
+		NullCheck(L_215);
+		L_215->___GrassManager = L_216;
+		Il2CppCodeGenWriteBarrier((void**)(&L_215->___GrassManager), (void*)L_216);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_217 = V_2;
+		int32_t L_218 = ___3_Grass_selector;
+		NullCheck(L_217);
+		L_217->___Type = ((int32_t)il2cpp_codegen_add(L_218, 1));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_219 = V_2;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_220 = V_2;
+		NullCheck(L_220);
+		float L_221 = L_220->___End_scale;
+		NullCheck(L_219);
+		L_219->___Start_tree_scale = ((float)(L_221/(4.0f)));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_222 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_223 = __this->___Grassmanager;
+		NullCheck(L_223);
+		bool L_224 = L_223->___RandomRot;
+		NullCheck(L_222);
+		L_222->___RandomRot = L_224;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_225 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_226 = __this->___Grassmanager;
+		NullCheck(L_226);
+		float L_227 = L_226->___RandRotMin;
+		NullCheck(L_225);
+		L_225->___RandRotMin = L_227;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_228 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_229 = __this->___Grassmanager;
+		NullCheck(L_229);
+		float L_230 = L_229->___RandRotMax;
+		NullCheck(L_228);
+		L_228->___RandRotMax = L_230;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_231 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_232 = __this->___Grassmanager;
+		NullCheck(L_232);
+		bool L_233 = L_232->___GroupByObject;
+		NullCheck(L_231);
+		L_231->___GroupByObject = L_233;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_234 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_235 = __this->___Grassmanager;
+		NullCheck(L_235);
+		bool L_236 = L_235->___ParentToObject;
+		NullCheck(L_234);
+		L_234->___ParentToObject = L_236;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_237 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_238 = __this->___Grassmanager;
+		NullCheck(L_238);
+		bool L_239 = L_238->___MoveWithObject;
+		NullCheck(L_237);
+		L_237->___MoveWithObject = L_239;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_240 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_241 = __this->___Grassmanager;
+		NullCheck(L_241);
+		bool L_242 = L_241->___AvoidOwnColl;
+		NullCheck(L_240);
+		L_240->___AvoidOwnColl = L_242;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_243 = V_1;
+		NullCheck(L_243);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_244;
+		L_244 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_243, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_245 = __this->___Grassmanager;
+		NullCheck(L_245);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_246 = L_245->___GrassHolder;
+		NullCheck(L_246);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_247;
+		L_247 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_246, NULL);
+		NullCheck(L_244);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_244, L_247, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_248 = __this->___Grassmanager;
+		NullCheck(L_248);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_249 = L_248->___Grasses;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_250 = V_2;
+		NullCheck(L_249);
+		List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_inline(L_249, L_250, List_1_Add_mDEBF4509E158FC38899AFCC6AD17E1816D4EEE33_RuntimeMethod_var);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_251 = __this->___Grassmanager;
+		NullCheck(L_251);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_252 = L_251->___GrassesType;
+		int32_t L_253 = ___3_Grass_selector;
+		NullCheck(L_252);
+		List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_inline(L_252, L_253, List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_RuntimeMethod_var);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_254 = V_1;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_255 = __this->___Grassmanager;
+		NullCheck(L_255);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_256 = L_255->___Grasses;
+		NullCheck(L_256);
+		int32_t L_257;
+		L_257 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_256, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		V_11 = L_257;
+		String_t* L_258;
+		L_258 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_11), NULL);
+		String_t* L_259;
+		L_259 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral91B1BF54E8654493BDDEAFE2866569D34C783FFE, L_258, NULL);
+		NullCheck(L_254);
+		Object_set_name_mC79E6DC8FFD72479C90F0C4CC7F42A0FEAF5AE47(L_254, L_259, NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_260 = V_2;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_261 = __this->___Grassmanager;
+		NullCheck(L_261);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_262 = L_261->___Grasses;
+		NullCheck(L_262);
+		int32_t L_263;
+		L_263 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_262, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_260);
+		L_260->___Grass_Holder_Index = ((int32_t)il2cpp_codegen_subtract(L_263, 1));
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_264 = V_2;
+		NullCheck(L_264);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_265;
+		L_265 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(L_264, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_266 = __this->___Grassmanager;
+		NullCheck(L_266);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_267 = L_266->___GrassHolder;
+		NullCheck(L_267);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_268;
+		L_268 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_267, NULL);
+		NullCheck(L_265);
+		Transform_set_parent_m9BD5E563B539DD5BEC342736B03F97B38A243234(L_265, L_268, NULL);
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_269 = __this->___Grassmanager;
+		NullCheck(L_269);
+		L_269->___CleanUp = (bool)0;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_270 = __this->___Grassmanager;
+		NullCheck(L_270);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_271 = L_270->___Grasses;
+		InfiniGRASSManager_t04B4D731DFCD80C371261EE27D2EF1035467E677* L_272 = __this->___Grassmanager;
+		NullCheck(L_272);
+		List_1_t4272827AC68A0B1585C76BBA0E4B38DF73B9E126* L_273 = L_272->___Grasses;
+		NullCheck(L_273);
+		int32_t L_274;
+		L_274 = List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_inline(L_273, List_1_get_Count_m2FFCCEEA6843519436D1C17B16938DAD0D9B5A35_RuntimeMethod_var);
+		NullCheck(L_271);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_275;
+		L_275 = List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C(L_271, ((int32_t)il2cpp_codegen_subtract(L_274, 1)), List_1_get_Item_m9B7F918C88D87299F094C7EC6D7EB09C264ED68C_RuntimeMethod_var);
+		V_3 = L_275;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_276 = V_3;
+		NullCheck(L_276);
+		L_276->___Combiner = (ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_276->___Combiner), (void*)(ControlCombineChildrenINfiniDyGrass_tE29D4D0BC1570029B9880ED54FCF17F8462F0686*)NULL);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_277 = V_3;
+		NullCheck(L_277);
+		L_277->___Grow_in_Editor = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_278 = V_3;
+		NullCheck(L_278);
+		L_278->___growth_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_279 = V_3;
+		NullCheck(L_279);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_280 = L_279->___Registered_Brances;
+		NullCheck(L_280);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_280, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_281 = V_3;
+		NullCheck(L_281);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_282 = L_281->___Branch_grew;
+		NullCheck(L_282);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_282, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_283 = V_3;
+		NullCheck(L_283);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_284 = L_283->___Registered_Leaves;
+		NullCheck(L_284);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_284, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_285 = V_3;
+		NullCheck(L_285);
+		List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* L_286 = L_285->___Registered_Leaves_Rot;
+		NullCheck(L_286);
+		List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_inline(L_286, List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_287 = V_3;
+		NullCheck(L_287);
+		L_287->___batching_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_288 = V_3;
+		NullCheck(L_288);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_289 = L_288->___Branch_levels;
+		NullCheck(L_289);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_289, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_290 = V_3;
+		NullCheck(L_290);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_291 = L_290->___BranchID_per_level;
+		NullCheck(L_291);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_291, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_292 = V_3;
+		NullCheck(L_292);
+		L_292->___Grow_level = 0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_293 = V_3;
+		NullCheck(L_293);
+		L_293->___Grow_tree_ended = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_294 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_295 = V_3;
+		NullCheck(L_295);
+		float L_296 = L_295->___Max_Health;
+		NullCheck(L_294);
+		L_294->___Health = L_296;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_297 = V_3;
+		NullCheck(L_297);
+		L_297->___is_moving = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_298 = V_3;
+		NullCheck(L_298);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_299 = L_298->___Leaf_belongs_to_branch;
+		NullCheck(L_299);
+		List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_inline(L_299, List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_300 = V_3;
+		NullCheck(L_300);
+		List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* L_301 = L_300->___scaleVectors;
+		NullCheck(L_301);
+		List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_inline(L_301, List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_302 = V_3;
+		NullCheck(L_302);
+		List_1_t991BBC5A1D51F59A450367DF944DAA207F22D06D* L_303 = L_302->___Leaves;
+		NullCheck(L_303);
+		List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_inline(L_303, List_1_Clear_m62240D3AFAD9D2125A87C35D5324B9451929FDF1_RuntimeMethod_var);
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_304 = V_3;
+		NullCheck(L_304);
+		L_304->___Tree_Holder_Index = 0;
+		bool L_305 = __this->___grow_grass;
+		if (!L_305)
+		{
+			goto IL_06c4;
+		}
+	}
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_306 = V_3;
+		NullCheck(L_306);
+		L_306->___Grow_tree = (bool)1;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_307 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_308 = V_3;
+		NullCheck(L_308);
+		float L_309 = L_308->___End_scale;
+		float L_310 = __this->___start_size_factor;
+		NullCheck(L_307);
+		L_307->___Start_tree_scale = ((float)il2cpp_codegen_multiply(L_309, L_310));
+		goto IL_06d7;
+	}
+
+IL_06c4:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_311 = V_3;
+		NullCheck(L_311);
+		L_311->___Grow_tree = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_312 = V_3;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_313 = V_3;
+		NullCheck(L_313);
+		float L_314 = L_313->___End_scale;
+		NullCheck(L_312);
+		L_312->___Start_tree_scale = L_314;
+	}
+
+IL_06d7:
+	{
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_315 = V_3;
+		NullCheck(L_315);
+		L_315->___rotation_over = (bool)0;
+		INfiniDyGrassField_t5A21213B058EC5F7147777AA5BFD1EAA30AA419A* L_316 = V_3;
+		NullCheck(L_316);
+		L_316->___Forest_holder = (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL;
+		Il2CppCodeGenWriteBarrier((void**)(&L_316->___Forest_holder), (void*)(GameObject_t76FEDD663AB33C991A9C9A23129337651094216F*)NULL);
+	}
+
+IL_06e5:
+	{
+		return;
+	}
+}
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InfiniGRASSPlanterTILES__ctor_mD4DD596D9C9DEE260801F4473A7735C16BC660E6 (InfiniGRASSPlanterTILES_t0A433B8C8DC6D491A0AD1A6CACCB678737E7E14F* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		s_Il2CppMethodInitialized = true;
+	}
+	{
+		__this->___GrassManagerObjectName = _stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___GrassManagerObjectName), (void*)_stringLiteral4E8DA81866F4B4637E2E808512A4D37915720306);
+		__this->___start_size_factor = (0.300000012f);
+		__this->___raycastHeight = (0.100000001f);
+		__this->___gridSize = ((int32_t)50);
+		__this->___tileSize = (2.0f);
+		__this->___distThreshold = (10.0f);
+		List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* L_0 = (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73*)il2cpp_codegen_object_new(List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73_il2cpp_TypeInfo_var);
+		List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8(L_0, List_1__ctor_m17F501B5A5C289ECE1B4F3D6EBF05DFA421433F8_RuntimeMethod_var);
+		__this->___randomGrassesIDs = L_0;
+		Il2CppCodeGenWriteBarrier((void**)(&__this->___randomGrassesIDs), (void*)L_0);
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Subtraction_mE42023FF80067CB44A1D4A27EB7CF2B24CABB828_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_subtract(L_1, L_3)), ((float)il2cpp_codegen_subtract(L_5, L_7)), ((float)il2cpp_codegen_subtract(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_get_magnitude_mF0D6017E90B345F1F52D1CC564C640F1A847AF2D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		float L_0 = __this->___x;
+		float L_1 = __this->___x;
+		float L_2 = __this->___y;
+		float L_3 = __this->___y;
+		float L_4 = __this->___z;
+		float L_5 = __this->___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_6;
+		L_6 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_0, L_1)), ((float)il2cpp_codegen_multiply(L_2, L_3)))), ((float)il2cpp_codegen_multiply(L_4, L_5))))));
+		V_0 = ((float)L_6);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_7 = V_0;
+		return L_7;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_up_m128AF3FDC820BF59D5DE86D973E7DE3F20C3AEBA_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___upVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
+		memset((&L_12), 0, sizeof(L_12));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_12), ((float)il2cpp_codegen_add(L_1, L_3)), ((float)il2cpp_codegen_add(L_5, L_7)), ((float)il2cpp_codegen_add(L_9, L_11)), NULL);
+		V_0 = L_12;
+		goto IL_0030;
+	}
+
+IL_0030:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_13 = V_0;
+		return L_13;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_UnaryNegation_m5450829F333BD2A88AF9A592C4EE331661225915_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_a;
+		float L_3 = L_2.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		memset((&L_6), 0, sizeof(L_6));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_6), ((-L_1)), ((-L_3)), ((-L_5)), NULL);
+		V_0 = L_6;
+		goto IL_001e;
+	}
+
+IL_001e:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7 = V_0;
+		return L_7;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray__ctor_mE298992FD10A3894C38373198385F345C58BD64C_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_origin, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_direction, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_origin;
+		__this->___m_Origin = L_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&___1_direction), NULL);
+		__this->___m_Direction = L_1;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray_set_direction_m8A8FF8101045BAE51BE5D5C1B6C21D0D5592DA98_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
+		L_0 = Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline((&___0_value), NULL);
+		__this->___m_Direction = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Ray_set_origin_m9B19A7BE86636111E3B16BCE08EAE030F37FE64D_inline (Ray_t2B1742D7958DC05BDC3EFC7461D3593E1430DC00* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
+{
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
+		__this->___m_Origin = L_0;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___oneVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector2__ctor_m9525B79969AFFE3254B303A40997A56DEEB6F548_inline (Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7* __this, float ___0_x, float ___1_y, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Rect__ctor_m18C3033D135097BEE424AAA68D91C706D2647F23_inline (Rect_tA04E0F8A1830E767F40FB27ECD8D309303571F0D* __this, float ___0_x, float ___1_y, float ___2_width, float ___3_height, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___m_XMin = L_0;
+		float L_1 = ___1_y;
+		__this->___m_YMin = L_1;
+		float L_2 = ___2_width;
+		__this->___m_Width = L_2;
+		float L_3 = ___3_height;
+		__this->___m_Height = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Lerp_m47EF2FFB7647BD0A1FDC26DC03E28B19812139B5_inline (float ___0_a, float ___1_b, float ___2_t, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	{
+		float L_0 = ___0_a;
+		float L_1 = ___1_b;
+		float L_2 = ___0_a;
+		float L_3 = ___2_t;
+		float L_4;
+		L_4 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(L_3, NULL);
+		V_0 = ((float)il2cpp_codegen_add(L_0, ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_1, L_2)), L_4))));
+		goto IL_0010;
+	}
+
+IL_0010:
+	{
+		float L_5 = V_0;
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
+{
+	{
+		float L_0 = ___0_x;
+		__this->___x = L_0;
+		float L_1 = ___1_y;
+		__this->___y = L_1;
+		float L_2 = ___2_z;
+		__this->___z = L_2;
+		float L_3 = ___3_w;
+		__this->___w = L_3;
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Inequality_m9F170CDFBF1E490E559DA5D06D6547501A402BBF_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = ___1_rhs;
+		bool L_2;
+		L_2 = Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline(L_0, L_1, NULL);
+		V_0 = (bool)((((int32_t)L_2) == ((int32_t)0))? 1 : 0);
+		goto IL_000e;
+	}
+
+IL_000e:
+	{
+		bool L_3 = V_0;
+		return L_3;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ((Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_StaticFields*)il2cpp_codegen_static_fields_for(Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974_il2cpp_TypeInfo_var))->___identityQuaternion;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1 = V_0;
+		return L_1;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Distance_m2314DB9B8BD01157E013DF87BEA557375C7F9FF9_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_18;
+		L_18 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))))));
+		V_3 = ((float)L_18);
+		goto IL_0040;
+	}
+
+IL_0040:
+	{
+		float L_19 = V_3;
+		return L_19;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool Vector3_op_Equality_mCDCBB8D2EDC3D3BF20F31A25ACB34705D352B479_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_lhs, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_rhs, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	float V_1 = 0.0f;
+	float V_2 = 0.0f;
+	float V_3 = 0.0f;
+	bool V_4 = false;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_lhs;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_rhs;
+		float L_3 = L_2.___x;
+		V_0 = ((float)il2cpp_codegen_subtract(L_1, L_3));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_lhs;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_rhs;
+		float L_7 = L_6.___y;
+		V_1 = ((float)il2cpp_codegen_subtract(L_5, L_7));
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_lhs;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_rhs;
+		float L_11 = L_10.___z;
+		V_2 = ((float)il2cpp_codegen_subtract(L_9, L_11));
+		float L_12 = V_0;
+		float L_13 = V_0;
+		float L_14 = V_1;
+		float L_15 = V_1;
+		float L_16 = V_2;
+		float L_17 = V_2;
+		V_3 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_12, L_13)), ((float)il2cpp_codegen_multiply(L_14, L_15)))), ((float)il2cpp_codegen_multiply(L_16, L_17))));
+		float L_18 = V_3;
+		V_4 = (bool)((((float)L_18) < ((float)(9.99999944E-11f)))? 1 : 0);
+		goto IL_0043;
+	}
+
+IL_0043:
+	{
+		bool L_19 = V_4;
+		return L_19;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m4407E4C389F22B8CEC282C15D56516658746C383_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m545762F67009314D9C63DD209B42FFF950569B05_gshared_inline (List_1_t0D1C46FD8DDDE974D93CA4F3474EEC05AF950918* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
+{
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
+		int32_t L_7 = V_1;
+		RuntimeObject* L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		RuntimeObject* L_9 = ___0_item;
+		List_1_AddWithResize_m79A9BF770BEF9C06BE40D5401E55E375F2726CC4(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m0248A96C5334E9A93E6994B7780478BCD994EA3D_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, int32_t ___0_item, const RuntimeMethod* method) 
+{
+	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		int32_t L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (int32_t)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		int32_t L_9 = ___0_item;
+		List_1_AddWithResize_m378B392086AAB6F400944FA9839516326B3F7BB8(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m16C1F2C61FED5955F10EB36BC1CB2DF34B128994_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+	}
+	{
+		int32_t L_1 = __this->____size;
+		V_0 = L_1;
+		__this->____size = 0;
+		int32_t L_2 = V_0;
+		if ((((int32_t)L_2) <= ((int32_t)0)))
+		{
+			goto IL_003c;
+		}
+	}
+	{
+		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_3 = __this->____items;
+		int32_t L_4 = V_0;
+		Array_Clear_m50BAA3751899858B097D3FF2ED31F284703FE5CB((RuntimeArray*)L_3, 0, L_4, NULL);
+		return;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_mF6795DE5F49C1D0B91D6A0955F448B22970D67A9_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m455780C5A45049F9BDC25EAD3BA10A681D16385D_gshared_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Clear_m7353542AA0B0F93BC099CF4148694650E0EE242B_gshared_inline (List_1_t02F6DB0D5CBC3565E948E9992A99540913F98523* __this, const RuntimeMethod* method) 
+{
+	int32_t V_0 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		goto IL_0035;
+	}
+
+IL_0035:
+	{
+		__this->____size = 0;
+	}
+
+IL_003c:
+	{
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_m79E50C4F592B1703F4B76A8BE7B4855515460CA1_gshared_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_item, const RuntimeMethod* method) 
+{
+	Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* V_0 = NULL;
+	int32_t V_1 = 0;
+	{
+		int32_t L_0 = __this->____version;
+		__this->____version = ((int32_t)il2cpp_codegen_add(L_0, 1));
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_1 = __this->____items;
+		V_0 = L_1;
+		int32_t L_2 = __this->____size;
+		V_1 = L_2;
+		int32_t L_3 = V_1;
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_4 = V_0;
+		NullCheck(L_4);
+		if ((!(((uint32_t)L_3) < ((uint32_t)((int32_t)(((RuntimeArray*)L_4)->max_length))))))
+		{
+			goto IL_0034;
+		}
+	}
+	{
+		int32_t L_5 = V_1;
+		__this->____size = ((int32_t)il2cpp_codegen_add(L_5, 1));
+		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_6 = V_0;
+		int32_t L_7 = V_1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_item;
+		NullCheck(L_6);
+		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2)L_8);
+		return;
+	}
+
+IL_0034:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9 = ___0_item;
+		List_1_AddWithResize_mCDB189127FC2EE67B5EED9DE34F837DFC6EDC212(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
+		return;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_mF590592E32D421DE2C6E2F0D5C2F62FB14CCEFDF_gshared_inline (List_1_t05915E9237850A58106982B7FE4BC5DA4E872E73* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t List_1_get_Count_m46EEFFA770BE665EA0CB3A5332E941DA4B3C1D37_gshared_inline (List_1_t77B94703E05C519A9010DD0614F757F974E1CD8B* __this, const RuntimeMethod* method) 
+{
+	{
+		int32_t L_0 = __this->____size;
+		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_normalized_m736BBF65D5CDA7A18414370D15B4DFCC1E466F07_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)__this);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1;
+		L_1 = Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline(L_0, NULL);
+		V_0 = L_1;
+		goto IL_000f;
+	}
+
+IL_000f:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = V_0;
+		return L_2;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline (float ___0_value, const RuntimeMethod* method) 
+{
+	bool V_0 = false;
+	float V_1 = 0.0f;
+	bool V_2 = false;
+	{
+		float L_0 = ___0_value;
+		V_0 = (bool)((((float)L_0) < ((float)(0.0f)))? 1 : 0);
+		bool L_1 = V_0;
+		if (!L_1)
+		{
+			goto IL_0015;
+		}
+	}
+	{
+		V_1 = (0.0f);
+		goto IL_002d;
+	}
+
+IL_0015:
+	{
+		float L_2 = ___0_value;
+		V_2 = (bool)((((float)L_2) > ((float)(1.0f)))? 1 : 0);
+		bool L_3 = V_2;
+		if (!L_3)
+		{
+			goto IL_0029;
+		}
+	}
+	{
+		V_1 = (1.0f);
+		goto IL_002d;
+	}
+
+IL_0029:
+	{
+		float L_4 = ___0_value;
+		V_1 = L_4;
+		goto IL_002d;
+	}
+
+IL_002d:
+	{
+		float L_5 = V_1;
+		return L_5;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_Normalize_mEF8349CC39674236CFC694189AFD36E31F89AC8F_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_value, const RuntimeMethod* method) 
+{
+	float V_0 = 0.0f;
+	bool V_1 = false;
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_2;
+	memset((&V_2), 0, sizeof(V_2));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_value;
+		float L_1;
+		L_1 = Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline(L_0, NULL);
+		V_0 = L_1;
+		float L_2 = V_0;
+		V_1 = (bool)((((float)L_2) > ((float)(9.99999975E-06f)))? 1 : 0);
+		bool L_3 = V_1;
+		if (!L_3)
+		{
+			goto IL_001e;
+		}
+	}
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_value;
+		float L_5 = V_0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6;
+		L_6 = Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline(L_4, L_5, NULL);
+		V_2 = L_6;
+		goto IL_0026;
+	}
+
+IL_001e:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_7;
+		L_7 = Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline(NULL);
+		V_2 = L_7;
+		goto IL_0026;
+	}
+
+IL_0026:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = V_2;
+		return L_8;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float Vector3_Magnitude_m21652D951393A3D7CE92CE40049A0E7F76544D1B_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_vector, const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	float V_0 = 0.0f;
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_vector;
+		float L_1 = L_0.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___0_vector;
+		float L_3 = L_2.___x;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_vector;
+		float L_5 = L_4.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_vector;
+		float L_7 = L_6.___y;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_vector;
+		float L_9 = L_8.___z;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___0_vector;
+		float L_11 = L_10.___z;
+		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
+		double L_12;
+		L_12 = sqrt(((double)((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_multiply(L_1, L_3)), ((float)il2cpp_codegen_multiply(L_5, L_7)))), ((float)il2cpp_codegen_multiply(L_9, L_11))))));
+		V_0 = ((float)L_12);
+		goto IL_0034;
+	}
+
+IL_0034:
+	{
+		float L_13 = V_0;
+		return L_13;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Division_mCC6BB24E372AB96B8380D1678446EF6A8BAE13BB_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
+{
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
+		float L_1 = L_0.___x;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
+		float L_4 = L_3.___y;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
+		float L_7 = L_6.___z;
+		float L_8 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		memset((&L_9), 0, sizeof(L_9));
+		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)(L_1/L_2)), ((float)(L_4/L_5)), ((float)(L_7/L_8)), NULL);
+		V_0 = L_9;
+		goto IL_0021;
+	}
+
+IL_0021:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = V_0;
+		return L_10;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_get_zero_m0C1249C3F25B1C70EAD3CC8B31259975A457AE39_inline (const RuntimeMethod* method) 
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
+	memset((&V_0), 0, sizeof(V_0));
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ((Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields*)il2cpp_codegen_static_fields_for(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_il2cpp_TypeInfo_var))->___zeroVector;
+		V_0 = L_0;
+		goto IL_0009;
+	}
+
+IL_0009:
+	{
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_1 = V_0;
+		return L_1;
+	}
+}
